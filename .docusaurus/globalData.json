@@ -16,6 +16,41 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "linear-algebra/abc",
+              "path": "/docs/linear-algebra/abc",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "linear-algebra/congratulations",
+              "path": "/docs/linear-algebra/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "linear-algebra/create-a-blog-post",
+              "path": "/docs/linear-algebra/create-a-blog-post",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "linear-algebra/create-a-document",
+              "path": "/docs/linear-algebra/create-a-document",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "linear-algebra/create-a-page",
+              "path": "/docs/linear-algebra/create-a-page",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "linear-algebra/deploy-your-site",
+              "path": "/docs/linear-algebra/deploy-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "linear-algebra/markdown-features",
+              "path": "/docs/linear-algebra/markdown-features",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "tutorial-basics/abc",
               "path": "/docs/tutorial-basics/abc",
               "sidebar": "tutorialSidebar"
@@ -58,6 +93,11 @@
             {
               "id": "tutorial-extras/translate-your-site",
               "path": "/docs/tutorial-extras/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/linear-algebra",
+              "path": "/docs/category/linear-algebra",
               "sidebar": "tutorialSidebar"
             },
             {

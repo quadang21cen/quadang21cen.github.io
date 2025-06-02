@@ -15,7 +15,14 @@ const config = {
   title: 'Quach Dang Blog',
   tagline: 'Writing is not only how you express yourself, but also how you learn about yourself.',
   favicon: 'img/favicon.ico',
-
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css', // Hoặc phiên bản KaTeX bạn muốn
+      type: 'text/css',
+      integrity: 'sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV', // Mã integrity tương ứng với phiên bản
+      crossorigin: 'anonymous',
+    },
+  ],
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4

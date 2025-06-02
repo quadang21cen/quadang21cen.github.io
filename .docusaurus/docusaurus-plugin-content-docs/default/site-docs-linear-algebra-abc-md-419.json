@@ -1,0 +1,24 @@
+{
+  "id": "linear-algebra/abc",
+  "title": "ABC",
+  "description": "This is a abc page",
+  "source": "@site/docs/linear-algebra/abc.md",
+  "sourceDirName": "linear-algebra",
+  "slug": "/linear-algebra/abc",
+  "permalink": "/docs/linear-algebra/abc",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/linear-algebra/abc.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Congratulations!",
+    "permalink": "/docs/linear-algebra/congratulations"
+  },
+  "next": {
+    "title": "Tutorial - Basics",
+    "permalink": "/docs/category/tutorial---basics"
+  }
+}

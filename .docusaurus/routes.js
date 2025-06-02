@@ -119,16 +119,22 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '199'),
+    component: ComponentCreator('/docs', '0ce'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '1ba'),
+        component: ComponentCreator('/docs', '9fa'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'e7e'),
+            component: ComponentCreator('/docs', '047'),
             routes: [
+              {
+                path: '/docs/category/linear-algebra',
+                component: ComponentCreator('/docs/category/linear-algebra', '3bb'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
               {
                 path: '/docs/category/tutorial---basics',
                 component: ComponentCreator('/docs/category/tutorial---basics', '20e'),
@@ -144,6 +150,48 @@ export default [
               {
                 path: '/docs/intro',
                 component: ComponentCreator('/docs/intro', '61d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/linear-algebra/abc',
+                component: ComponentCreator('/docs/linear-algebra/abc', '57e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/linear-algebra/congratulations',
+                component: ComponentCreator('/docs/linear-algebra/congratulations', '6c1'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/linear-algebra/create-a-blog-post',
+                component: ComponentCreator('/docs/linear-algebra/create-a-blog-post', '665'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/linear-algebra/create-a-document',
+                component: ComponentCreator('/docs/linear-algebra/create-a-document', '901'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/linear-algebra/create-a-page',
+                component: ComponentCreator('/docs/linear-algebra/create-a-page', '846'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/linear-algebra/deploy-your-site',
+                component: ComponentCreator('/docs/linear-algebra/deploy-your-site', '14a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/linear-algebra/markdown-features',
+                component: ComponentCreator('/docs/linear-algebra/markdown-features', '2b4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
