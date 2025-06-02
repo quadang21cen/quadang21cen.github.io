@@ -2,46 +2,30 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Mối liên hệ mật thiết giữa Trí tuệ Nhân tạo (AI) và Toán học 💡
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Chắc hẳn nhiều người trong chúng ta đã nghe nói về AI, về những khả năng phi thường của nó, từ xe tự lái, trợ lý ảo thông minh, cho đến những mô hình ngôn ngữ lớn (LLM) như GPT có khả năng trò chuyện, sáng tạo nội dung một cách đáng kinh ngạc. Nhưng ít ai biết rằng, ẩn sau những "phép màu" công nghệ ấy là vô vàn những khái niệm toán học phức tạp, là ngôn ngữ chung để con người có thể "dạy" cho máy móc cách suy nghĩ và học hỏi.
 
-## Getting Started
+## Giải tích: "Trái tim" của quá trình học máy ❤️
+Khi chúng ta nói về "học" trong AI, đặc biệt là trong học máy (Machine Learning), chúng ta đang nói về quá trình tối ưu hóa. Máy tính cần tìm ra các tham số tốt nhất cho mô hình của mình để có thể đưa ra dự đoán chính xác nhất. Và Giải tích chính là công cụ không thể thiếu cho việc này.
 
-Get started by **creating a new site**.
+- Đạo hàm và Gradient Descent: Hãy tưởng tượng bạn đang ở trên một ngọn núi và muốn đi xuống thung lũng (điểm thấp nhất). Bạn sẽ nhìn xung quanh xem hướng nào dốc nhất và đi theo hướng đó. Trong học máy, "ngọn núi" đó chính là hàm mất mát (loss function) – một hàm số đo lường mức độ sai lệch giữa dự đoán của mô hình và thực tế. "Thung lũng" là điểm mà hàm mất mát đạt giá trị nhỏ nhất, tức là mô hình dự đoán chính xác nhất. Đạo hàm cho chúng ta biết độ dốc (gradient) của hàm mất mát, và thuật toán Gradient Descent (và các biến thể của nó) sử dụng thông tin này để từ từ điều chỉnh các tham số của mô hình, từng bước "đi xuống" đến điểm tối ưu. Nếu không có giải tích, việc "học" của máy móc sẽ trở nên mò mẫm và kém hiệu quả.
+- Chuỗi Taylor và Xấp xỉ hàm: Trong nhiều trường hợp, các hàm số mà AI phải làm việc rất phức tạp. Giải tích cung cấp các công cụ như khai triển Taylor để xấp xỉ các hàm phức tạp bằng những đa thức đơn giản hơn, giúp việc tính toán và phân tích trở nên dễ dàng hơn.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Có thể nói, giải tích chính là "trái tim" bơm máu cho quá trình học của các mô hình AI, giúp chúng tự điều chỉnh và cải thiện hiệu suất qua từng dữ liệu được nạp vào.
 
-### What you'll need
+## Đại số Tuyến tính: "Bộ khung" cho dữ liệu và tính toán
+Nếu giải tích là trái tim, thì Đại số Tuyến tính chính là "bộ khung" vững chắc, là ngôn ngữ để biểu diễn và thao tác với dữ liệu trong AI.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- Vector và Ma trận: Dữ liệu trong AI – dù là hình ảnh, âm thanh, văn bản hay các con số thống kê – đều thường được biểu diễn dưới dạng vector (một dãy số) hoặc ma trận (một bảng số). Ví dụ, một bức ảnh có thể được xem như một ma trận các pixel, mỗi pixel có giá trị màu riêng. Các từ trong một câu có thể được "vector hóa" thành các vector số học thể hiện ý nghĩa ngữ nghĩa của chúng (word embeddings) – một kỹ thuật cốt lõi trong xử lý ngôn ngữ tự nhiên và LLM.
+- Phép toán trên Ma trận: Các phép toán như nhân ma trận, chuyển vị, tìm trị riêng, vector riêng đóng vai trò cực kỳ quan trọng. Trong các mạng nơ-ron nhân tạo (neural networks) – kiến trúc nền tảng của nhiều mô hình AI hiện đại và LLM – thông tin được truyền qua các lớp của mạng dưới dạng các phép nhân ma trận giữa dữ liệu đầu vào và các ma trận trọng số của mạng. Việc huấn luyện mạng nơ-ron thực chất là quá trình tìm ra các ma trận trọng số tối ưu này.
+- Giảm chiều dữ liệu (Dimensionality Reduction): Dữ liệu trong thực tế thường có rất nhiều chiều, gây khó khăn cho việc xử lý và dễ dẫn đến hiện tượng "lời nguyền của số chiều" (curse of dimensionality). Các kỹ thuật của đại số tuyến tính như Phân tích thành phần chính (PCA) giúp giảm số chiều của dữ liệu mà vẫn giữ lại được những thông tin quan trọng nhất, giúp mô hình hoạt động hiệu quả hơn.
 
-## Generate a new site
+Không có đại số tuyến tính, việc biểu diễn dữ liệu một cách có cấu trúc và thực hiện các phép biến đổi phức tạp trên đó để AI có thể "hiểu" và xử lý sẽ là điều không tưởng. Đặc biệt với LLM, hàng tỷ tham số của mô hình được tổ chức và tính toán dựa trên các nguyên lý của đại số tuyến tính.
 
-Generate a new Docusaurus site using the **classic template**.
+## Các "trụ cột" Toán học khác 📊🎲
 
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Ngoài giải tích và đại số tuyến tính, AI còn dựa vào nhiều nhánh toán học quan trọng khác:
+- Xác suất và Thống kê: AI hoạt động trong một thế giới đầy rẫy sự không chắc chắn. Lý thuyết xác suất cung cấp khuôn khổ để mô hình hóa sự không chắc chắn này. Thống kê giúp chúng ta thu thập, phân tích, diễn giải dữ liệu và đưa ra các kết luận có ý nghĩa, cũng như đánh giá hiệu suất của các mô hình AI. Từ các mô hình Bayes, đến việc tính toán độ tin cậy của dự đoán, hay các hàm kích hoạt (activation functions) trong mạng nơ-ron dựa trên phân phối xác suất, tất cả đều cho thấy vai trò không thể thiếu của lĩnh vực này. Đối với LLM, xác suất là nền tảng để dự đoán từ tiếp theo trong một chuỗi văn bản.
+- Lý thuyết Thông tin (Information Theory): Các khái niệm như entropy hay KL divergence từ lý thuyết thông tin được sử dụng để đo lường sự không chắc chắn, lượng thông tin trong dữ liệu, và sự khác biệt giữa các phân phối xác suất – rất hữu ích trong việc huấn luyện và đánh giá mô hình.
+- Tối ưu hóa (Optimization): Mặc dù đã đề cập trong phần giải tích (Gradient Descent), tối ưu hóa là một lĩnh vực rộng lớn hơn, bao gồm nhiều thuật toán và phương pháp khác nhau để tìm kiếm giải pháp tốt nhất cho một vấn đề với các ràng buộc cho trước. Đây là cốt lõi của việc huấn luyện hầu hết các mô hình AI.

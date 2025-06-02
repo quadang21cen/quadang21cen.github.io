@@ -23,3 +23,19 @@ slorber:
     linkedin: sebastienlorber
     github: slorber
     newsletter: https://thisweekinreact.com
+
+
+
+dangquach:
+  name: Dang Quach
+  title: AI Researcher
+  url: https://sebastienlorber.com
+  image_url: https://avatars.githubusercontent.com/u/85343056?v=4
+  page:
+    # customize the url of the author page at /blog/authors/<permalink>
+    permalink: '/all-dang-quach-articles'
+  socials:
+    x: quachdang
+    linkedin: quachdang
+    github: quachdang
+    newsletter: https://thisweekinreact.com
