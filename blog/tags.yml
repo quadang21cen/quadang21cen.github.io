@@ -17,3 +17,18 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+math: 
+  label: Math
+  permalink: /math
+  description: Math tag description
+
+computer-science: 
+  label: Computer Science
+  permalink: /computer-science
+  description: Computer Science tag description
+
+motivation: 
+  label: Motivation
+  permalink: /motivation
+  description: Motivation tag description

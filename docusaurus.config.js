@@ -87,7 +87,26 @@ const config = {
       }),
     ],
   ],
-
+  // THÊM MẢNG PLUGINS NẾU CHƯA CÓ, VÀ THÊM CẤU HÌNH CHO "PAPERS"
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      /** @type {import('@docusaurus/plugin-content-docs').Options} */
+      ({
+        id: 'papers', // ID duy nhất cho instance này
+        path: 'papers', // Thư mục chứa nội dung markdown cho "Paper"
+        routeBasePath: 'papers', // Đường dẫn URL (ví dụ: yoursite.com/papers)
+        sidebarPath: './sidebarsPapers.js', // File sidebar riêng cho "Paper"
+        editUrl:
+          'https://github.com/quadang21cen/quadang21cen.github.io/tree/main/', // Thay bằng link repo của bạn
+        remarkPlugins: [remarkMath],
+        rehypePlugins: [rehypeKatex],
+        // Bạn có thể thêm các tùy chọn khác như versioning nếu cần
+        // showLastUpdateTime: true,
+        // showLastUpdateAuthor: true,
+      }),
+    ],
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -104,11 +123,16 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Học Toán',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            to: '/papers/intro',
+            label: 'Paper',
+            position: 'left',
+          },
+          {
+            href: 'https://github.com/quadang21cen',
             label: 'GitHub',
             position: 'right',
           },

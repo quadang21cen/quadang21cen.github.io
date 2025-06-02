@@ -7,9 +7,10 @@
   "date": "2019-05-28T00:00:00.000Z",
   "tags": [
     {
-      "inline": true,
-      "label": "motivation",
-      "permalink": "/blog/tags/motivation"
+      "inline": false,
+      "label": "Motivation",
+      "permalink": "/blog/tags/motivation",
+      "description": "Motivation tag description"
     }
   ],
   "readingTime": 7.74,

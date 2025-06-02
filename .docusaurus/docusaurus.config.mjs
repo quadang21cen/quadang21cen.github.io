@@ -91,6 +91,24 @@ export default {
       }
     ]
   ],
+  "plugins": [
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        "id": "papers",
+        "path": "papers",
+        "routeBasePath": "papers",
+        "sidebarPath": "./sidebarsPapers.js",
+        "editUrl": "https://github.com/quadang21cen/quadang21cen.github.io/tree/main/",
+        "remarkPlugins": [
+          null
+        ],
+        "rehypePlugins": [
+          null
+        ]
+      }
+    ]
+  ],
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
@@ -104,7 +122,7 @@ export default {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "Tutorial"
+          "label": "Học Toán"
         },
         {
           "to": "/blog",
@@ -112,7 +130,12 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "to": "/papers/intro",
+          "label": "Paper",
+          "position": "left"
+        },
+        {
+          "href": "https://github.com/quadang21cen",
           "label": "GitHub",
           "position": "right"
         }
@@ -398,7 +421,6 @@ export default {
     "static"
   ],
   "customFields": {},
-  "plugins": [],
   "themes": [],
   "scripts": [],
   "headTags": [],

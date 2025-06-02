@@ -1,0 +1,27 @@
+{
+  "id": "linear-algebra/markdown-features",
+  "title": "Markdown Features",
+  "description": "Docusaurus supports Markdown and a few additional features.",
+  "source": "@site/papers/linear-algebra/markdown-features.mdx",
+  "sourceDirName": "linear-algebra",
+  "slug": "/linear-algebra/markdown-features",
+  "permalink": "/papers/linear-algebra/markdown-features",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/quadang21cen/quadang21cen.github.io/tree/main/papers/linear-algebra/markdown-features.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "paperSidebar",
+  "previous": {
+    "title": "Create a Blog Post",
+    "permalink": "/papers/linear-algebra/create-a-blog-post"
+  },
+  "next": {
+    "title": "Deploy your site",
+    "permalink": "/papers/linear-algebra/deploy-your-site"
+  }
+}

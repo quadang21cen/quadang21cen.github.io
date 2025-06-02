@@ -1,0 +1,27 @@
+{
+  "id": "others/create-a-document",
+  "title": "Create a Document",
+  "description": "Documents are groups of pages connected through:",
+  "source": "@site/docs/others/create-a-document.md",
+  "sourceDirName": "others",
+  "slug": "/others/create-a-document",
+  "permalink": "/docs/others/create-a-document",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/create-a-document.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Phần 1: Các khái niệm cơ bản của đại số tuyến tính",
+    "permalink": "/docs/others/create-a-page"
+  },
+  "next": {
+    "title": "Create a Blog Post",
+    "permalink": "/docs/others/create-a-blog-post"
+  }
+}

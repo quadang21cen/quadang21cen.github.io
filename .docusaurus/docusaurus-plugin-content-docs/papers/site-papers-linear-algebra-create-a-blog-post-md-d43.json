@@ -1,0 +1,27 @@
+{
+  "id": "linear-algebra/create-a-blog-post",
+  "title": "Create a Blog Post",
+  "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
+  "source": "@site/papers/linear-algebra/create-a-blog-post.md",
+  "sourceDirName": "linear-algebra",
+  "slug": "/linear-algebra/create-a-blog-post",
+  "permalink": "/papers/linear-algebra/create-a-blog-post",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/quadang21cen/quadang21cen.github.io/tree/main/papers/linear-algebra/create-a-blog-post.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "paperSidebar",
+  "previous": {
+    "title": "Create a Document",
+    "permalink": "/papers/linear-algebra/create-a-document"
+  },
+  "next": {
+    "title": "Markdown Features",
+    "permalink": "/papers/linear-algebra/markdown-features"
+  }
+}
