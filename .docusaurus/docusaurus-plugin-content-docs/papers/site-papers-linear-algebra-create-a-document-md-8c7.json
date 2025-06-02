@@ -1,0 +1,27 @@
+{
+  "id": "linear-algebra/create-a-document",
+  "title": "Create a Document",
+  "description": "Documents are groups of pages connected through:",
+  "source": "@site/papers/linear-algebra/create-a-document.md",
+  "sourceDirName": "linear-algebra",
+  "slug": "/linear-algebra/create-a-document",
+  "permalink": "/papers/linear-algebra/create-a-document",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/quadang21cen/quadang21cen.github.io/tree/main/papers/linear-algebra/create-a-document.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "paperSidebar",
+  "previous": {
+    "title": "Phần 1: Các khái niệm cơ bản của đại số tuyến tính",
+    "permalink": "/papers/linear-algebra/create-a-page"
+  },
+  "next": {
+    "title": "Create a Blog Post",
+    "permalink": "/papers/linear-algebra/create-a-blog-post"
+  }
+}

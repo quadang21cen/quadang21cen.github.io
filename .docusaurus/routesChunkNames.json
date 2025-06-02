@@ -256,22 +256,26 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-0ce": {
+  "/docs-991": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-9fa": {
+  "/docs-a11": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-047": {
+  "/docs-69e": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/category/linear-algebra-3bb": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-linear-algebraa-01-677"
+  },
+  "/docs/category/others-6b5": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-others-8-ae-1b0"
   },
   "/docs/category/tutorial---basics-20e": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -313,6 +317,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-linear-algebra-markdown-features-511-95f"
   },
+  "/docs/others/newton-method-cac": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-others-newton-methodfb-2-9c2"
+  },
   "/docs/tutorial-basics/abc-2c9": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-tutorial-basics-abca-5-f-0ac"
@@ -348,6 +356,55 @@
   "/docs/tutorial-extras/translate-your-site-f9a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-tutorial-extras-translate-your-sitee-44-ddf"
+  },
+  "/papers-5e6": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---papersf-7-c-a1d"
+    }
+  },
+  "/papers-fe9": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---papers-315-023"
+  },
+  "/papers-b97": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/papers/category/linear-algebra-e18": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---papers-category-linear-algebra-4-e-4-86d"
+  },
+  "/papers/intro-21c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---papers-intro-6-b-8-2d1"
+  },
+  "/papers/linear-algebra/abc-eca": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---papers-linear-algebra-abcfc-9-34b"
+  },
+  "/papers/linear-algebra/congratulations-c55": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---papers-linear-algebra-congratulations-717-fd5"
+  },
+  "/papers/linear-algebra/create-a-blog-post-74d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---papers-linear-algebra-create-a-blog-postd-43-ef7"
+  },
+  "/papers/linear-algebra/create-a-document-496": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---papers-linear-algebra-create-a-document-8-c-7-1b5"
+  },
+  "/papers/linear-algebra/create-a-page-285": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---papers-linear-algebra-create-a-page-7-f-3-8ca"
+  },
+  "/papers/linear-algebra/deploy-your-site-5c1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---papers-linear-algebra-deploy-your-sitefb-8-ac5"
+  },
+  "/papers/linear-algebra/markdown-features-153": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---papers-linear-algebra-markdown-features-181-34f"
   },
   "/-2e1": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",

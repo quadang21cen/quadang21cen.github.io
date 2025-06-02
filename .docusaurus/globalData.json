@@ -51,6 +51,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "others/newton-method",
+              "path": "/docs/others/newton-method",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "tutorial-basics/abc",
               "path": "/docs/tutorial-basics/abc",
               "sidebar": "tutorialSidebar"
@@ -101,6 +106,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/others",
+              "path": "/docs/category/others",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/tutorial---basics",
               "path": "/docs/category/tutorial---basics",
               "sidebar": "tutorialSidebar"
@@ -116,6 +126,75 @@
             "tutorialSidebar": {
               "link": {
                 "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "papers": {
+      "path": "/papers",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/papers",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "intro",
+              "path": "/papers/intro",
+              "sidebar": "paperSidebar"
+            },
+            {
+              "id": "linear-algebra/abc",
+              "path": "/papers/linear-algebra/abc",
+              "sidebar": "paperSidebar"
+            },
+            {
+              "id": "linear-algebra/congratulations",
+              "path": "/papers/linear-algebra/congratulations",
+              "sidebar": "paperSidebar"
+            },
+            {
+              "id": "linear-algebra/create-a-blog-post",
+              "path": "/papers/linear-algebra/create-a-blog-post",
+              "sidebar": "paperSidebar"
+            },
+            {
+              "id": "linear-algebra/create-a-document",
+              "path": "/papers/linear-algebra/create-a-document",
+              "sidebar": "paperSidebar"
+            },
+            {
+              "id": "linear-algebra/create-a-page",
+              "path": "/papers/linear-algebra/create-a-page",
+              "sidebar": "paperSidebar"
+            },
+            {
+              "id": "linear-algebra/deploy-your-site",
+              "path": "/papers/linear-algebra/deploy-your-site",
+              "sidebar": "paperSidebar"
+            },
+            {
+              "id": "linear-algebra/markdown-features",
+              "path": "/papers/linear-algebra/markdown-features",
+              "sidebar": "paperSidebar"
+            },
+            {
+              "id": "/category/linear-algebra",
+              "path": "/papers/category/linear-algebra",
+              "sidebar": "paperSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "paperSidebar": {
+              "link": {
+                "path": "/papers/intro",
                 "label": "intro"
               }
             }
