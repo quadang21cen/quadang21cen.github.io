@@ -155,36 +155,6 @@
               "sidebar": "paperSidebar"
             },
             {
-              "id": "linear-algebra/congratulations",
-              "path": "/papers/linear-algebra/congratulations",
-              "sidebar": "paperSidebar"
-            },
-            {
-              "id": "linear-algebra/create-a-blog-post",
-              "path": "/papers/linear-algebra/create-a-blog-post",
-              "sidebar": "paperSidebar"
-            },
-            {
-              "id": "linear-algebra/create-a-document",
-              "path": "/papers/linear-algebra/create-a-document",
-              "sidebar": "paperSidebar"
-            },
-            {
-              "id": "linear-algebra/create-a-page",
-              "path": "/papers/linear-algebra/create-a-page",
-              "sidebar": "paperSidebar"
-            },
-            {
-              "id": "linear-algebra/deploy-your-site",
-              "path": "/papers/linear-algebra/deploy-your-site",
-              "sidebar": "paperSidebar"
-            },
-            {
-              "id": "linear-algebra/markdown-features",
-              "path": "/papers/linear-algebra/markdown-features",
-              "sidebar": "paperSidebar"
-            },
-            {
               "id": "/category/linear-algebra",
               "path": "/papers/category/linear-algebra",
               "sidebar": "paperSidebar"

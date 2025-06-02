@@ -269,15 +269,15 @@ export default [
   },
   {
     path: '/papers',
-    component: ComponentCreator('/papers', '5e6'),
+    component: ComponentCreator('/papers', '714'),
     routes: [
       {
         path: '/papers',
-        component: ComponentCreator('/papers', 'fe9'),
+        component: ComponentCreator('/papers', '918'),
         routes: [
           {
             path: '/papers',
-            component: ComponentCreator('/papers', 'b97'),
+            component: ComponentCreator('/papers', '3cb'),
             routes: [
               {
                 path: '/papers/category/linear-algebra',
@@ -294,42 +294,6 @@ export default [
               {
                 path: '/papers/linear-algebra/abc',
                 component: ComponentCreator('/papers/linear-algebra/abc', 'eca'),
-                exact: true,
-                sidebar: "paperSidebar"
-              },
-              {
-                path: '/papers/linear-algebra/congratulations',
-                component: ComponentCreator('/papers/linear-algebra/congratulations', 'c55'),
-                exact: true,
-                sidebar: "paperSidebar"
-              },
-              {
-                path: '/papers/linear-algebra/create-a-blog-post',
-                component: ComponentCreator('/papers/linear-algebra/create-a-blog-post', '74d'),
-                exact: true,
-                sidebar: "paperSidebar"
-              },
-              {
-                path: '/papers/linear-algebra/create-a-document',
-                component: ComponentCreator('/papers/linear-algebra/create-a-document', '496'),
-                exact: true,
-                sidebar: "paperSidebar"
-              },
-              {
-                path: '/papers/linear-algebra/create-a-page',
-                component: ComponentCreator('/papers/linear-algebra/create-a-page', '285'),
-                exact: true,
-                sidebar: "paperSidebar"
-              },
-              {
-                path: '/papers/linear-algebra/deploy-your-site',
-                component: ComponentCreator('/papers/linear-algebra/deploy-your-site', '5c1'),
-                exact: true,
-                sidebar: "paperSidebar"
-              },
-              {
-                path: '/papers/linear-algebra/markdown-features',
-                component: ComponentCreator('/papers/linear-algebra/markdown-features', '153'),
                 exact: true,
                 sidebar: "paperSidebar"
               }
