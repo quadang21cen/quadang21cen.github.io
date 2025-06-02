@@ -256,18 +256,22 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-199": {
+  "/docs-0ce": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-1ba": {
+  "/docs-9fa": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-e7e": {
+  "/docs-047": {
     "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/category/linear-algebra-3bb": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-linear-algebraa-01-677"
   },
   "/docs/category/tutorial---basics-20e": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -280,6 +284,34 @@
   "/docs/intro-61d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
+  },
+  "/docs/linear-algebra/abc-57e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-linear-algebra-abc-419-791"
+  },
+  "/docs/linear-algebra/congratulations-6c1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-linear-algebra-congratulationse-40-109"
+  },
+  "/docs/linear-algebra/create-a-blog-post-665": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-linear-algebra-create-a-blog-postee-0-466"
+  },
+  "/docs/linear-algebra/create-a-document-901": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-linear-algebra-create-a-documenta-69-30c"
+  },
+  "/docs/linear-algebra/create-a-page-846": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-linear-algebra-create-a-page-0-b-0-262"
+  },
+  "/docs/linear-algebra/deploy-your-site-14a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-linear-algebra-deploy-your-site-9-f-0-cd7"
+  },
+  "/docs/linear-algebra/markdown-features-2b4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-linear-algebra-markdown-features-511-95f"
   },
   "/docs/tutorial-basics/abc-2c9": {
     "__comp": "__comp---theme-doc-item-178-a40",

@@ -7,6 +7,14 @@ export default {
   "title": "Quach Dang Blog",
   "tagline": "Writing is not only how you express yourself, but also how you learn about yourself.",
   "favicon": "img/favicon.ico",
+  "stylesheets": [
+    {
+      "href": "https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css",
+      "type": "text/css",
+      "integrity": "sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV",
+      "crossorigin": "anonymous"
+    }
+  ],
   "future": {
     "v4": {
       "removeLegacyPostBuildHeadAttribute": true,
@@ -394,7 +402,6 @@ export default {
   "themes": [],
   "scripts": [],
   "headTags": [],
-  "stylesheets": [],
   "clientModules": [],
   "titleDelimiter": "|",
   "noIndex": false,
