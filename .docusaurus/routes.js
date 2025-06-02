@@ -53,18 +53,23 @@ export default [
     exact: true
   },
   {
+    path: '/blog/authors/all-dang-quach-articles',
+    component: ComponentCreator('/blog/authors/all-dang-quach-articles', 'ea6'),
+    exact: true
+  },
+  {
     path: '/blog/authors/all-sebastien-lorber-articles',
-    component: ComponentCreator('/blog/authors/all-sebastien-lorber-articles', '4a6'),
+    component: ComponentCreator('/blog/authors/all-sebastien-lorber-articles', '5be'),
     exact: true
   },
   {
     path: '/blog/authors/yangshun',
-    component: ComponentCreator('/blog/authors/yangshun', '6dc'),
+    component: ComponentCreator('/blog/authors/yangshun', 'f79'),
     exact: true
   },
   {
-    path: '/blog/first-blog-post',
-    component: ComponentCreator('/blog/first-blog-post', '81b'),
+    path: '/blog/fukuzawa-yukichi',
+    component: ComponentCreator('/blog/fukuzawa-yukichi', '06f'),
     exact: true
   },
   {
@@ -84,7 +89,7 @@ export default [
   },
   {
     path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus', 'e41'),
+    component: ComponentCreator('/blog/tags/docusaurus', 'b5c'),
     exact: true
   },
   {
@@ -98,8 +103,8 @@ export default [
     exact: true
   },
   {
-    path: '/blog/tags/hola',
-    component: ComponentCreator('/blog/tags/hola', 'f72'),
+    path: '/blog/tags/motivation',
+    component: ComponentCreator('/blog/tags/motivation', 'ff5'),
     exact: true
   },
   {

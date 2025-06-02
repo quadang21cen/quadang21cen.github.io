@@ -1,7 +1,7 @@
 {
   "id": "intro",
-  "title": "Tutorial Intro",
-  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "title": "Mối liên hệ mật thiết giữa Trí tuệ Nhân tạo (AI) và Toán học 💡",
+  "description": "Chắc hẳn nhiều người trong chúng ta đã nghe nói về AI, về những khả năng phi thường của nó, từ xe tự lái, trợ lý ảo thông minh, cho đến những mô hình ngôn ngữ lớn (LLM) như GPT có khả năng trò chuyện, sáng tạo nội dung một cách đáng kinh ngạc. Nhưng ít ai biết rằng, ẩn sau những \"phép màu\" công nghệ ấy là vô vàn những khái niệm toán học phức tạp, là ngôn ngữ chung để con người có thể \"dạy\" cho máy móc cách suy nghĩ và học hỏi.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
