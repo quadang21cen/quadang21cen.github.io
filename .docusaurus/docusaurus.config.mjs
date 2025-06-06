@@ -122,7 +122,7 @@ export default {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "Học Toán"
+          "label": "Linear Algebra"
         },
         {
           "to": "/blog",

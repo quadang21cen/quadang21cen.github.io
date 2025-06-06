@@ -75,8 +75,12 @@
     ]
   },
   "unlisted": false,
+  "prevItem": {
+    "title": "Long Blog Post",
+    "permalink": "/blog/long-blog-post"
+  },
   "nextItem": {
-    "title": "MDX Blog Post",
+    "title": "Cuộc cách mạng công nghiệp",
     "permalink": "/blog/mdx-blog-post"
   }
 }

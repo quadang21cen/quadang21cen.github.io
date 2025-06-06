@@ -2,45 +2,44 @@
   "permalink": "/blog/mdx-blog-post",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-01-mdx-blog-post.mdx",
   "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
-  "title": "MDX Blog Post",
-  "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
+  "title": "Cuộc cách mạng công nghiệp",
+  "description": "Cuộc cách mạng công nghiệp là một quá trình chuyển đổi sâu rộng trong nền kinh tế và xã hội, diễn ra chủ yếu trong thế kỷ 18 và 19, khi mà các quốc gia bắt đầu chuyển từ nền kinh tế nông nghiệp, thủ công sang nền kinh tế công nghiệp và cơ khí hóa sản xuất. Quá trình này bao gồm sự phát triển mạnh mẽ của các công nghệ mới, đặc biệt là trong các lĩnh vực sản xuất, giao thông, năng lượng, và sau này là thông tin, dẫn đến việc tăng năng suất lao động, thay đổi cách thức sản xuất, cũng như tạo ra những thay đổi sâu sắc trong các cơ cấu xã hội và chính trị.",
   "date": "2021-08-01T00:00:00.000Z",
   "tags": [
     {
-      "inline": false,
-      "label": "Docusaurus",
-      "permalink": "/blog/tags/docusaurus",
-      "description": "Docusaurus tag description"
+      "inline": true,
+      "label": "science",
+      "permalink": "/blog/tags/science"
     }
   ],
-  "readingTime": 0.27,
-  "hasTruncateMarker": true,
+  "readingTime": 19.76,
+  "hasTruncateMarker": false,
   "authors": [
     {
-      "name": "Sébastien Lorber",
-      "title": "Docusaurus maintainer",
+      "name": "Dang Quach",
+      "title": "AI Researcher",
       "url": "https://sebastienlorber.com",
       "page": {
-        "permalink": "/blog/authors/all-sebastien-lorber-articles"
+        "permalink": "/blog/authors/all-dang-quach-articles"
       },
       "socials": {
-        "x": "https://x.com/sebastienlorber",
-        "linkedin": "https://www.linkedin.com/in/sebastienlorber/",
-        "github": "https://github.com/slorber",
+        "x": "https://x.com/quachdang",
+        "linkedin": "https://www.linkedin.com/in/quachdang/",
+        "github": "https://github.com/quachdang",
         "newsletter": "https://thisweekinreact.com"
       },
-      "imageURL": "https://github.com/slorber.png",
-      "key": "slorber"
+      "imageURL": "https://avatars.githubusercontent.com/u/85343056?v=4",
+      "key": "dangquach"
     }
   ],
   "frontMatter": {
     "slug": "mdx-blog-post",
-    "title": "MDX Blog Post",
+    "title": "Cuộc cách mạng công nghiệp",
     "authors": [
-      "slorber"
+      "dangquach"
     ],
     "tags": [
-      "docusaurus"
+      "science"
     ]
   },
   "unlisted": false,
@@ -49,7 +48,7 @@
     "permalink": "/blog/welcome"
   },
   "nextItem": {
-    "title": "Long Blog Post",
-    "permalink": "/blog/long-blog-post"
+    "title": "Fukuzawa Yukichi và suy nghĩ về việc Học của người Nhật",
+    "permalink": "/blog/fukuzawa-yukichi"
   }
 }

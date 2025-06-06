@@ -42,7 +42,7 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/blog-ba5": {
+  "/blog-d77": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -50,13 +50,13 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
+        "content": "content---blog-3-cb-10d"
+      },
+      {
         "content": "content---blog-766-e3c"
       },
       {
         "content": "content---blogf-4-f-cd7"
-      },
-      {
-        "content": "content---blog-871-381"
       },
       {
         "content": "content---blog-413-7c1"
@@ -82,7 +82,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "__props": "__props---blog-authorsef-8-44f"
   },
-  "/blog/authors/all-dang-quach-articles-ea6": {
+  "/blog/authors/all-dang-quach-articles-fdc": {
     "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
     "__context": {
       "data": {
@@ -91,6 +91,12 @@
       "plugin": "plugin---blog-369-22e"
     },
     "items": [
+      {
+        "content": "content---blog-3-cb-10d"
+      },
+      {
+        "content": "content---blogf-4-f-cd7"
+      },
       {
         "content": "content---blog-413-7c1"
       }
@@ -98,7 +104,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "__props": "__props---blog-authors-all-dang-quach-articles-15-b-ca5"
   },
-  "/blog/authors/all-sebastien-lorber-articles-5be": {
+  "/blog/authors/all-sebastien-lorber-articles-0a8": {
     "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
     "__context": {
       "data": {
@@ -109,15 +115,12 @@
     "items": [
       {
         "content": "content---blog-766-e3c"
-      },
-      {
-        "content": "content---blogf-4-f-cd7"
       }
     ],
     "sidebar": "sidebar---blog-814-8ac",
     "__props": "__props---blog-authors-all-sebastien-lorber-articlesc-9-c-639"
   },
-  "/blog/authors/yangshun-f79": {
+  "/blog/authors/yangshun-db6": {
     "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
     "__context": {
       "data": {
@@ -128,9 +131,6 @@
     "items": [
       {
         "content": "content---blog-766-e3c"
-      },
-      {
-        "content": "content---blog-871-381"
       }
     ],
     "sidebar": "sidebar---blog-814-8ac",
@@ -147,7 +147,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-fukuzawa-yukichib-1-b-3c1"
   },
-  "/blog/long-blog-post-9ad": {
+  "/blog/long-blog-post-aea": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
@@ -156,7 +156,7 @@
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-long-blog-post-736-bc7"
+    "content": "content---blog-long-blog-post-517-40f"
   },
   "/blog/mdx-blog-post-e9f": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
@@ -177,7 +177,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "__props": "__props---blog-tags-3-a-2-fa2"
   },
-  "/blog/tags/docusaurus-b5c": {
+  "/blog/tags/docusaurus-fcd": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -186,12 +186,6 @@
     "items": [
       {
         "content": "content---blog-766-e3c"
-      },
-      {
-        "content": "content---blogf-4-f-cd7"
-      },
-      {
-        "content": "content---blog-871-381"
       }
     ],
     "__props": "__props---blog-tags-docusaurus-321-832"
@@ -209,7 +203,7 @@
     ],
     "__props": "__props---blog-tags-facebooke-5-a-514"
   },
-  "/blog/tags/hello-299": {
+  "/blog/tags/hello-4ad": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -218,12 +212,22 @@
     "items": [
       {
         "content": "content---blog-766-e3c"
-      },
-      {
-        "content": "content---blog-871-381"
       }
     ],
     "__props": "__props---blog-tags-hellof-82-2fd"
+  },
+  "/blog/tags/history-edc": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-3-cb-10d"
+      }
+    ],
+    "__props": "__props---blog-tags-history-92-f-48c"
   },
   "/blog/tags/motivation-ff5": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
@@ -237,6 +241,22 @@
       }
     ],
     "__props": "__props---blog-tags-motivationca-2-72a"
+  },
+  "/blog/tags/science-204": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-3-cb-10d"
+      },
+      {
+        "content": "content---blogf-4-f-cd7"
+      }
+    ],
+    "__props": "__props---blog-tags-sciencee-88-41c"
   },
   "/blog/welcome-d2b": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",

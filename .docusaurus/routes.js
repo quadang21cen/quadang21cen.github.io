@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'ba5'),
+    component: ComponentCreator('/blog', 'd77'),
     exact: true
   },
   {
@@ -54,17 +54,17 @@ export default [
   },
   {
     path: '/blog/authors/all-dang-quach-articles',
-    component: ComponentCreator('/blog/authors/all-dang-quach-articles', 'ea6'),
+    component: ComponentCreator('/blog/authors/all-dang-quach-articles', 'fdc'),
     exact: true
   },
   {
     path: '/blog/authors/all-sebastien-lorber-articles',
-    component: ComponentCreator('/blog/authors/all-sebastien-lorber-articles', '5be'),
+    component: ComponentCreator('/blog/authors/all-sebastien-lorber-articles', '0a8'),
     exact: true
   },
   {
     path: '/blog/authors/yangshun',
-    component: ComponentCreator('/blog/authors/yangshun', 'f79'),
+    component: ComponentCreator('/blog/authors/yangshun', 'db6'),
     exact: true
   },
   {
@@ -74,7 +74,7 @@ export default [
   },
   {
     path: '/blog/long-blog-post',
-    component: ComponentCreator('/blog/long-blog-post', '9ad'),
+    component: ComponentCreator('/blog/long-blog-post', 'aea'),
     exact: true
   },
   {
@@ -89,7 +89,7 @@ export default [
   },
   {
     path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus', 'b5c'),
+    component: ComponentCreator('/blog/tags/docusaurus', 'fcd'),
     exact: true
   },
   {
@@ -99,12 +99,22 @@ export default [
   },
   {
     path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', '299'),
+    component: ComponentCreator('/blog/tags/hello', '4ad'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/history',
+    component: ComponentCreator('/blog/tags/history', 'edc'),
     exact: true
   },
   {
     path: '/blog/tags/motivation',
     component: ComponentCreator('/blog/tags/motivation', 'ff5'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/science',
+    component: ComponentCreator('/blog/tags/science', '204'),
     exact: true
   },
   {
