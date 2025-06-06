@@ -2,22 +2,22 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "Long Blog Post",
+      "permalink": "/blog/long-blog-post",
+      "unlisted": false,
+      "date": "2023-12-04T00:00:00.000Z"
+    },
+    {
       "title": "Welcome",
       "permalink": "/blog/welcome",
       "unlisted": false,
       "date": "2021-08-26T00:00:00.000Z"
     },
     {
-      "title": "MDX Blog Post",
+      "title": "Cuộc cách mạng công nghiệp",
       "permalink": "/blog/mdx-blog-post",
       "unlisted": false,
       "date": "2021-08-01T00:00:00.000Z"
-    },
-    {
-      "title": "Long Blog Post",
-      "permalink": "/blog/long-blog-post",
-      "unlisted": false,
-      "date": "2019-05-29T00:00:00.000Z"
     },
     {
       "title": "Fukuzawa Yukichi và suy nghĩ về việc Học của người Nhật",

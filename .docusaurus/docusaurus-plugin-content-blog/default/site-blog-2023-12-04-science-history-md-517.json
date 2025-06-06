@@ -1,0 +1,54 @@
+{
+  "permalink": "/blog/long-blog-post",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-12-04-Science-History.md",
+  "source": "@site/blog/2023-12-04-Science-History.md",
+  "title": "Long Blog Post",
+  "description": "Lịch Sử Của khoa học",
+  "date": "2023-12-04T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "science",
+      "permalink": "/blog/tags/science"
+    },
+    {
+      "inline": true,
+      "label": "history",
+      "permalink": "/blog/tags/history"
+    }
+  ],
+  "readingTime": 6.25,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Dang Quach",
+      "title": "AI Researcher",
+      "url": "https://sebastienlorber.com",
+      "page": {
+        "permalink": "/blog/authors/all-dang-quach-articles"
+      },
+      "socials": {
+        "x": "https://x.com/quachdang",
+        "linkedin": "https://www.linkedin.com/in/quachdang/",
+        "github": "https://github.com/quachdang",
+        "newsletter": "https://thisweekinreact.com"
+      },
+      "imageURL": "https://avatars.githubusercontent.com/u/85343056?v=4",
+      "key": "dangquach"
+    }
+  ],
+  "frontMatter": {
+    "slug": "long-blog-post",
+    "title": "Long Blog Post",
+    "authors": "dangquach",
+    "tags": [
+      "science",
+      "history"
+    ]
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "Welcome",
+    "permalink": "/blog/welcome"
+  }
+}

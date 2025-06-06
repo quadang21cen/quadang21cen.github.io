@@ -13,7 +13,7 @@
       "description": "Motivation tag description"
     }
   ],
-  "readingTime": 7.74,
+  "readingTime": 7.82,
   "hasTruncateMarker": true,
   "authors": [
     {
@@ -45,7 +45,7 @@
   },
   "unlisted": false,
   "prevItem": {
-    "title": "Long Blog Post",
-    "permalink": "/blog/long-blog-post"
+    "title": "Cuộc cách mạng công nghiệp",
+    "permalink": "/blog/mdx-blog-post"
   }
 }
