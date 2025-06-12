@@ -12,6 +12,7 @@ const rehypeKatex = require('rehype-katex');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+  
   title: 'Quach Dang Blog',
   tagline: 'Writing is not only how you express yourself, but also how you learn about yourself.',
   favicon: 'img/favicon.ico',
@@ -110,6 +111,9 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        {name: 'google-site-verification', content: 'hw5c3N5_0S6J1g9F8wwlILr9NCi7nFdRCWw9gVSTHRw'},
+      ],
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
