@@ -2,6 +2,12 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "Simple Explanation - Phương pháp trực quan hóa dữ liệu nhiều chiều t-SNE visualization",
+      "permalink": "/blog/simple-exp-tnse",
+      "unlisted": false,
+      "date": "2025-06-22T00:00:00.000Z"
+    },
+    {
       "title": "Long Blog Post",
       "permalink": "/blog/long-blog-post",
       "unlisted": false,

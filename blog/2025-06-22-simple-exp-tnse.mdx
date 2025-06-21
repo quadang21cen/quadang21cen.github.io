@@ -1,0 +1,72 @@
+---
+slug: simple-exp-tnse
+title: Simple Explanation - Phương pháp trực quan hóa dữ liệu nhiều chiều t-SNE visualization 
+authors: [dangquach]
+tags: [science, history]
+---
+
+Khi thực hiện các dự án Data Science, Visualized dữ liệu là một phần quan trọng để hiểu rõ hơn về dữ liệu và tìm ra các xu hướng, mối quan hệ giữa các biến, tuy nhiên việc visualized dữ liệu nhiều chiều là một thách thức lớn hơn nữa 99% dữ liệu chúng ta là dữ liệu nhiều chiều, khi con người bị giới hạn bởi không gian 3 chiều, việc visualized dữ liệu cao hơn 3 chiều là một thách thức lớn hơn nữa, và đây là nơi t-SNE ra đời.
+
+Hãy tưởng tượng bạn có một bộ dữ liệu về khách hàng với hàng trăm đặc điểm (tuổi, thu nhập, số lần mua hàng, thời gian xem trang, v.v.). Đây là dữ liệu "nhiều chiều" và chúng ta không thể nào vẽ nó trên một biểu đồ 2D hay 3D thông thường để xem các nhóm khách hàng tương tự nhau trông như thế nào.
+
+**t-SNE (t-Distributed Stochastic Neighbor Embedding)** ra đời để giải quyết chính xác vấn đề này.
+
+**Mục tiêu cốt lõi của t-SNE:** Tạo ra một "bản đồ" 2D (hoặc 3D) từ dữ liệu nhiều chiều của bạn, sao cho các điểm dữ liệu **gần nhau trong không gian nhiều chiều** cũng sẽ được đặt **gần nhau trên bản đồ 2D**.
+
+Hãy coi nó như một người vẽ bản đồ thiên văn. Thay vì nhìn lên bầu trời 3D bao la, họ vẽ các ngôi sao lên một bản đồ 2D phẳng. Mục tiêu của họ là các ngôi sao thuộc cùng một chòm sao (ví dụ: chòm Thần Nông) phải được gom lại gần nhau trên bản đồ để chúng ta có thể dễ dàng nhận ra chúng.
+<center>
+![Intro](https://media.datacamp.com/legacy/v1718119884/image_bf48957586.gif)
+</center>
+
+## Cách hoạt động của t-SNE (Step-by-Step)
+### Bước 1: Đo lường sự "thân thiết" trong không gian nhiều chiều (Thế giới gốc)
+
+Đầu tiên, t-SNE xem xét từng điểm dữ liệu và đo lường sự tương đồng của nó với tất cả các điểm khác. Nhưng nó không dùng khoảng cách Euclid thông thường. Thay vào đó, nó suy nghĩ theo kiểu **xác suất**.
+
+- Với mỗi điểm dữ liệu `A`, t-SNE sẽ tính toán một xác suất `P(B|A)` - tức là xác suất mà `A` sẽ "chọn" `B` làm hàng xóm của nó.
+- Xác suất này được tính dựa trên một **phân phối Gaussian (phân phối chuẩn)**. Nếu điểm `B` ở rất gần `A`, xác suất `A` chọn `B` làm hàng xóm sẽ rất cao. Ngược lại, nếu `B` ở xa, xác suất sẽ rất thấp.
+- **Tham số Perplexity (Độ phức tạp):** Khi thực hiện bước này, bạn phải cung cấp một tham số gọi là `perplexity`. Bạn có thể hiểu nôm na nó là "số lượng hàng xóm gần mà mỗi điểm cần quan tâm".
+    - `Perplexity` thấp (ví dụ: 5): Mỗi điểm chỉ quan tâm đến vài "người bạn thân" ở ngay sát nó.
+    - `Perplexity` cao (ví dụ: 50): Mỗi điểm sẽ nhìn ra một "vòng tròn quan hệ" rộng hơn.
+    - Việc chọn `perplexity` phù hợp (thường từ 5 đến 50) là rất quan trọng để có được kết quả tốt.
+
+Sau bước này, chúng ta có một ma trận xác suất thể hiện mức độ "thân thiết" của tất cả các cặp điểm trong không gian nhiều chiều ban đầu.
+
+### Bước 2: Tạo một "bản đồ" ngẫu nhiên ở không gian 2D (Thế giới mới)
+
+Ban đầu, t-SNE sẽ sắp xếp toàn bộ các điểm dữ liệu của bạn một cách **hoàn toàn ngẫu nhiên** lên một biểu đồ 2D. Lúc này, biểu đồ trông rất lộn xộn và chưa có ý nghĩa gì.
+
+### Bước 3: Đo lường sự "thân thiết" trên bản đồ 2D
+
+Tương tự như Bước 1, t-SNE lại tính toán một ma trận xác suất mới cho các điểm trên bản đồ 2D này.
+
+Tuy nhiên, có một sự khác biệt **cực kỳ quan trọng**:
+
+- Thay vì dùng phân phối Gaussian, ở đây t-SNE dùng **phân phối Student's t-distribution** (đây chính là chữ **"t"** trong t-SNE).
+- **Tại sao lại dùng t-distribution?** Phân phối này có một đặc điểm là "đuôi dày" (heavy tails). Điều này có nghĩa là nó cho phép các điểm ở khoảng cách tương đối xa nhau trên bản đồ 2D vẫn có một xác suất nhỏ là hàng xóm của nhau. Việc này giúp tạo ra "khoảng trống" giữa các cụm dữ liệu, làm cho chúng được tách biệt và rõ ràng hơn trên biểu đồ cuối cùng, thay vì bị dồn cục vào giữa.
+
+### Bước 4: Điều chỉnh bản đồ 2D cho đến khi nó "giống" với thế giới gốc
+
+Đây là bước cuối cùng và kỳ diệu nhất. Bây giờ chúng ta có hai bản đồ xác suất:
+
+1. Bản đồ xác suất `P` từ không gian nhiều chiều gốc (rất chính xác).
+2. Bản đồ xác suất `Q` từ bản đồ 2D ngẫu nhiên (hoàn toàn sai).
+
+Mục tiêu của t-SNE là **di chuyển các điểm trên bản đồ 2D** sao cho bản đồ xác suất `Q` trở nên **giống nhất có thể** với bản đồ xác suất `P`.
+
+- Nó sử dụng một thuật toán tối ưu (gradient descent) để giảm thiểu sự khác biệt giữa hai phân phối xác suất này (sử dụng một thước đo gọi là **KL-divergence**).
+- Hãy tưởng tượng nó như một trò chơi "nóng-lạnh". Thuật toán sẽ khẽ "xê dịch" một điểm trên bản đồ 2D.
+    - Nếu hành động đó làm cho `Q` giống `P` hơn (nóng lên), nó sẽ giữ lại sự thay đổi đó.
+    - Nếu không, nó sẽ thử dịch chuyển theo hướng khác.
+- Quá trình này được lặp lại hàng trăm hoặc hàng ngàn lần. Dần dần, các điểm có xác suất là hàng xóm cao trong không gian gốc sẽ bị "kéo" lại gần nhau trên bản đồ 2D, và các điểm không liên quan sẽ bị "đẩy" ra xa nhau.
+$$
+D_{KL}(P \parallel Q) = \sum_{x} P(x) \log \frac{P(x)}{Q(x)}
+$$
+Cuối cùng, các điểm sẽ ổn định tại một vị trí mà ở đó, cấu trúc "hàng xóm" trên bản đồ 2D phản ánh tốt nhất cấu trúc "hàng xóm" trong thế giới dữ liệu nhiều chiều ban đầu. Kết quả là một biểu đồ đẹp mắt nơi các cụm dữ liệu hiện ra rất rõ ràng.
+
+### Những lưu ý quan trọng khi sử dụng t-SNE
+
+1. **Chỉ quan tâm đến các cụm (Clusters):** t-SNE làm rất tốt việc gom nhóm các điểm tương tự lại với nhau. Đây là sức mạnh lớn nhất của nó.
+2. **Không diễn giải khoảng cách giữa các cụm:** Khoảng trống giữa cụm A và cụm B trên biểu đồ t-SNE **không có ý nghĩa** về mặt khoảng cách thực tế. Đừng kết luận rằng "cụm A xa cụm B gấp đôi cụm C".
+3. **Không diễn giải kích thước của các cụm:** t-SNE có xu hướng làm cho kích thước của các cụm trở nên tương đương nhau trên biểu đồ. Một cụm dày đặc trong thực tế có thể có diện tích bằng một cụm thưa thớt trên biểu đồ t-SNE.
+4. **Đây là công cụ trực quan hóa, không phải thuật toán phân cụm:** Bạn dùng t-SNE để *nhìn xem* dữ liệu có khả năng được chia thành bao nhiêu cụm, sau đó bạn nên dùng các thuật toán khác như K-Means hoặc DBSCAN để thực sự gán nhãn cho các cụm đó.
