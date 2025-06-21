@@ -42,13 +42,16 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/blog-d77": {
+  "/blog-bdf": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-592-1ef"
+      },
       {
         "content": "content---blog-3-cb-10d"
       },
@@ -82,7 +85,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "__props": "__props---blog-authorsef-8-44f"
   },
-  "/blog/authors/all-dang-quach-articles-fdc": {
+  "/blog/authors/all-dang-quach-articles-55d": {
     "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
     "__context": {
       "data": {
@@ -91,6 +94,9 @@
       "plugin": "plugin---blog-369-22e"
     },
     "items": [
+      {
+        "content": "content---blog-592-1ef"
+      },
       {
         "content": "content---blog-3-cb-10d"
       },
@@ -169,6 +175,17 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-mdx-blog-post-593-37b"
   },
+  "/blog/simple-exp-tnse-0e5": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-simple-exp-tnse-619-070"
+  },
   "/blog/tags-287": {
     "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
     "__context": {
@@ -216,13 +233,16 @@
     ],
     "__props": "__props---blog-tags-hellof-82-2fd"
   },
-  "/blog/tags/history-edc": {
+  "/blog/tags/history-900": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-592-1ef"
+      },
       {
         "content": "content---blog-3-cb-10d"
       }
@@ -242,13 +262,16 @@
     ],
     "__props": "__props---blog-tags-motivationca-2-72a"
   },
-  "/blog/tags/science-204": {
+  "/blog/tags/science-92d": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-592-1ef"
+      },
       {
         "content": "content---blog-3-cb-10d"
       },

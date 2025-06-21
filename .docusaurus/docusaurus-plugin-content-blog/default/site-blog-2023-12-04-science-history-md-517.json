@@ -47,6 +47,10 @@
     ]
   },
   "unlisted": false,
+  "prevItem": {
+    "title": "Simple Explanation - Phương pháp trực quan hóa dữ liệu nhiều chiều t-SNE visualization",
+    "permalink": "/blog/simple-exp-tnse"
+  },
   "nextItem": {
     "title": "Welcome",
     "permalink": "/blog/welcome"

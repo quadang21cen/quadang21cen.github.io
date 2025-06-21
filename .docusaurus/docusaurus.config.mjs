@@ -110,6 +110,12 @@ export default {
     ]
   ],
   "themeConfig": {
+    "metadata": [
+      {
+        "name": "google-site-verification",
+        "content": "hw5c3N5_0S6J1g9F8wwlILr9NCi7nFdRCWw9gVSTHRw"
+      }
+    ],
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
       "title": "Quadang21cen",
@@ -408,7 +414,6 @@ export default {
         "groupByYear": true
       }
     },
-    "metadata": [],
     "tableOfContents": {
       "minHeadingLevel": 2,
       "maxHeadingLevel": 3

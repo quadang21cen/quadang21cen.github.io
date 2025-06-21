@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'd77'),
+    component: ComponentCreator('/blog', 'bdf'),
     exact: true
   },
   {
@@ -54,7 +54,7 @@ export default [
   },
   {
     path: '/blog/authors/all-dang-quach-articles',
-    component: ComponentCreator('/blog/authors/all-dang-quach-articles', 'fdc'),
+    component: ComponentCreator('/blog/authors/all-dang-quach-articles', '55d'),
     exact: true
   },
   {
@@ -83,6 +83,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/simple-exp-tnse',
+    component: ComponentCreator('/blog/simple-exp-tnse', '0e5'),
+    exact: true
+  },
+  {
     path: '/blog/tags',
     component: ComponentCreator('/blog/tags', '287'),
     exact: true
@@ -104,7 +109,7 @@ export default [
   },
   {
     path: '/blog/tags/history',
-    component: ComponentCreator('/blog/tags/history', 'edc'),
+    component: ComponentCreator('/blog/tags/history', '900'),
     exact: true
   },
   {
@@ -114,7 +119,7 @@ export default [
   },
   {
     path: '/blog/tags/science',
-    component: ComponentCreator('/blog/tags/science', '204'),
+    component: ComponentCreator('/blog/tags/science', '92d'),
     exact: true
   },
   {
