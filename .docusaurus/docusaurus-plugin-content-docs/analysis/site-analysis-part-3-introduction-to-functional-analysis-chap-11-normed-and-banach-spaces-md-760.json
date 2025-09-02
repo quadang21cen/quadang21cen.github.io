@@ -1,7 +1,7 @@
 {
   "id": "part3-introduction-to-functional-analysis/chap11-normed-and-banach-spaces",
-  "title": "chap11-normed-and-banach-spaces",
-  "description": "---",
+  "title": "Chương 11: Không gian định chuẩn và không gian Banach (Normed and Banach Spaces)",
+  "description": "Phần này là bước tổng hợp đầu tiên, kết hợp cấu trúc đại số của không gian vector (từ Đại số tuyến tính) với cấu trúc topo của không gian metric (từ Giải tích thực/Không gian Metric). Kết quả là chúng ta có được những \"sân khấu\" mạnh mẽ nhất để nghiên cứu các không gian hàm và các toán tử trên chúng.",
   "source": "@site/analysis/part3-introduction-to-functional-analysis/chap11-normed-and-banach-spaces.md",
   "sourceDirName": "part3-introduction-to-functional-analysis",
   "slug": "/part3-introduction-to-functional-analysis/chap11-normed-and-banach-spaces",
@@ -13,10 +13,17 @@
   "version": "current",
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055000,
-  "frontMatter": {},
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
   "sidebar": "analysisSidebar",
   "previous": {
-    "title": "Chương 15: Nhập môn Lý thuyết phổ (Introduction to Spectral Theory)",
-    "permalink": "/analysis/part3-introduction-to-functional-analysis/chap15-introduction-to-spectral-theory"
+    "title": "Phần III: Tổng hợp – Nhập môn Giải tích hàm (Introduction to Functional Analysis)",
+    "permalink": "/analysis/category/phần-iii-tổng-hợp--nhập-môn-giải-tích-hàm-introduction-to-functional-analysis"
+  },
+  "next": {
+    "title": "Chương 12: Không gian Hilbert (Hilbert Spaces)",
+    "permalink": "/analysis/part3-introduction-to-functional-analysis/chap12-hilbert-spaces"
   }
 }

@@ -1,6 +1,5 @@
-
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # Chương 11: Không gian định chuẩn và không gian Banach (Normed and Banach Spaces)
