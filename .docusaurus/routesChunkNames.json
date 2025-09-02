@@ -42,14 +42,39 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/archive-51a": {
+  "/blog-bdf": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---archive-369-3bf"
+    },
+    "sidebar": "sidebar---authors-814-ac0",
+    "items": [
+      {
+        "content": "content---authors-all-dang-quach-articles-592-1af"
+      },
+      {
+        "content": "content---authors-all-dang-quach-articles-3-cb-b12"
+      },
+      {
+        "content": "content---authors-all-sebastien-lorber-articles-766-ef3"
+      },
+      {
+        "content": "content---authors-all-dang-quach-articlesf-4-f-d18"
+      },
+      {
+        "content": "content---authors-all-dang-quach-articles-413-7c1"
+      }
+    ],
+    "__props": "__props---blogc-15-573"
+  },
+  "/blog/archive-182": {
     "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
     "__context": {
       "plugin": "plugin---archive-369-3bf"
     },
-    "__props": "__props---archiveb-26-52e"
+    "__props": "__props---blog-archivef-81-229"
   },
-  "/authors-498": {
+  "/blog/authors-0b7": {
     "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
     "__context": {
       "data": {
@@ -58,9 +83,9 @@
       "plugin": "plugin---archive-369-3bf"
     },
     "sidebar": "sidebar---authors-814-ac0",
-    "__props": "__props---authors-3-f-9-914"
+    "__props": "__props---blog-authorsef-8-44f"
   },
-  "/authors/all-dang-quach-articles-0bf": {
+  "/blog/authors/all-dang-quach-articles-55d": {
     "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
     "__context": {
       "data": {
@@ -83,9 +108,9 @@
       }
     ],
     "sidebar": "sidebar---authors-814-ac0",
-    "__props": "__props---authors-all-dang-quach-articles-4-f-7-874"
+    "__props": "__props---blog-authors-all-dang-quach-articles-15-b-ca5"
   },
-  "/authors/all-sebastien-lorber-articles-8b6": {
+  "/blog/authors/all-sebastien-lorber-articles-0a8": {
     "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
     "__context": {
       "data": {
@@ -99,9 +124,9 @@
       }
     ],
     "sidebar": "sidebar---authors-814-ac0",
-    "__props": "__props---authors-all-sebastien-lorber-articles-70-c-136"
+    "__props": "__props---blog-authors-all-sebastien-lorber-articlesc-9-c-639"
   },
-  "/authors/yangshun-47f": {
+  "/blog/authors/yangshun-db6": {
     "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
     "__context": {
       "data": {
@@ -115,9 +140,9 @@
       }
     ],
     "sidebar": "sidebar---authors-814-ac0",
-    "__props": "__props---authors-yangshun-662-f7b"
+    "__props": "__props---blog-authors-yangshun-1-de-d0c"
   },
-  "/fukuzawa-yukichi-b95": {
+  "/blog/fukuzawa-yukichi-06f": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
@@ -128,14 +153,7 @@
     "sidebar": "sidebar---authors-814-ac0",
     "content": "content---fukuzawa-yukichib-1-b-c9a"
   },
-  "/index_-7ec": {
-    "__comp": "__comp---site-src-pages-index-js-487-438",
-    "__context": {
-      "plugin": "plugin---markdown-pagea-74-7b5"
-    },
-    "config": "config---5-e-9-4f3"
-  },
-  "/long-blog-post-f6f": {
+  "/blog/long-blog-post-aea": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
@@ -146,14 +164,7 @@
     "sidebar": "sidebar---authors-814-ac0",
     "content": "content---long-blog-post-517-ebb"
   },
-  "/markdown-page-3d7": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
-    "__context": {
-      "plugin": "plugin---markdown-pagea-74-7b5"
-    },
-    "content": "content---markdown-page-393-028"
-  },
-  "/mdx-blog-post-886": {
+  "/blog/mdx-blog-post-e9f": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
@@ -164,7 +175,7 @@
     "sidebar": "sidebar---authors-814-ac0",
     "content": "content---mdx-blog-post-593-22d"
   },
-  "/simple-exp-tnse-648": {
+  "/blog/simple-exp-tnse-0e5": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
@@ -175,15 +186,15 @@
     "sidebar": "sidebar---authors-814-ac0",
     "content": "content---simple-exp-tnse-619-4be"
   },
-  "/tags-626": {
+  "/blog/tags-287": {
     "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
     "__context": {
       "plugin": "plugin---archive-369-3bf"
     },
     "sidebar": "sidebar---authors-814-ac0",
-    "__props": "__props---tagsc-2-a-bff"
+    "__props": "__props---blog-tags-3-a-2-fa2"
   },
-  "/tags/docusaurus-555": {
+  "/blog/tags/docusaurus-fcd": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---archive-369-3bf"
@@ -194,9 +205,9 @@
         "content": "content---authors-all-sebastien-lorber-articles-766-ef3"
       }
     ],
-    "__props": "__props---tags-docusaurusaca-278"
+    "__props": "__props---blog-tags-docusaurus-321-832"
   },
-  "/tags/facebook-03e": {
+  "/blog/tags/facebook-858": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---archive-369-3bf"
@@ -207,9 +218,9 @@
         "content": "content---authors-all-sebastien-lorber-articles-766-ef3"
       }
     ],
-    "__props": "__props---tags-facebookd-2-e-f65"
+    "__props": "__props---blog-tags-facebooke-5-a-514"
   },
-  "/tags/hello-ca7": {
+  "/blog/tags/hello-4ad": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---archive-369-3bf"
@@ -220,9 +231,9 @@
         "content": "content---authors-all-sebastien-lorber-articles-766-ef3"
       }
     ],
-    "__props": "__props---tags-hellod-22-513"
+    "__props": "__props---blog-tags-hellof-82-2fd"
   },
-  "/tags/history-68e": {
+  "/blog/tags/history-900": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---archive-369-3bf"
@@ -236,9 +247,9 @@
         "content": "content---authors-all-dang-quach-articles-3-cb-b12"
       }
     ],
-    "__props": "__props---tags-historyf-33-18e"
+    "__props": "__props---blog-tags-history-92-f-48c"
   },
-  "/tags/motivation-a43": {
+  "/blog/tags/motivation-ff5": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---archive-369-3bf"
@@ -249,9 +260,9 @@
         "content": "content---authors-all-dang-quach-articles-413-7c1"
       }
     ],
-    "__props": "__props---tags-motivatione-90-361"
+    "__props": "__props---blog-tags-motivationca-2-72a"
   },
-  "/tags/science-011": {
+  "/blog/tags/science-92d": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---archive-369-3bf"
@@ -268,9 +279,9 @@
         "content": "content---authors-all-dang-quach-articlesf-4-f-d18"
       }
     ],
-    "__props": "__props---tags-science-9-ef-6fe"
+    "__props": "__props---blog-tags-sciencee-88-41c"
   },
-  "/welcome-9e2": {
+  "/blog/welcome-d2b": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
@@ -280,6 +291,20 @@
     },
     "sidebar": "sidebar---authors-814-ac0",
     "content": "content---welcomed-9-f-552"
+  },
+  "/index_-7ec": {
+    "__comp": "__comp---site-src-pages-index-js-487-438",
+    "__context": {
+      "plugin": "plugin---markdown-pagea-74-7b5"
+    },
+    "config": "config---5-e-9-4f3"
+  },
+  "/markdown-page-3d7": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---markdown-pagea-74-7b5"
+    },
+    "content": "content---markdown-page-393-028"
   },
   "/analysis-5ed": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
@@ -394,30 +419,5 @@
   "/docs/intro-61d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
-  },
-  "/-3ca": {
-    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
-    "__context": {
-      "plugin": "plugin---archive-369-3bf"
-    },
-    "sidebar": "sidebar---authors-814-ac0",
-    "items": [
-      {
-        "content": "content---authors-all-dang-quach-articles-592-1af"
-      },
-      {
-        "content": "content---authors-all-dang-quach-articles-3-cb-b12"
-      },
-      {
-        "content": "content---authors-all-sebastien-lorber-articles-766-ef3"
-      },
-      {
-        "content": "content---authors-all-dang-quach-articlesf-4-f-d18"
-      },
-      {
-        "content": "content---authors-all-dang-quach-articles-413-7c1"
-      }
-    ],
-    "__props": "__props---1-a-1-4cc"
   }
 }

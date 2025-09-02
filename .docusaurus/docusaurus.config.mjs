@@ -66,7 +66,6 @@ export default {
           ]
         },
         "blog": {
-          "routeBasePath": "/",
           "remarkPlugins": [
             null
           ],
@@ -135,6 +134,11 @@ export default {
           "position": "left",
           "label": "Analysis",
           "docsPluginId": "analysis"
+        },
+        {
+          "to": "/blog",
+          "label": "Blog",
+          "position": "left"
         },
         {
           "href": "https://github.com/quadang21cen",

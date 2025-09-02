@@ -1,5 +1,5 @@
 {
-  "permalink": "/mdx-blog-post",
+  "permalink": "/blog/mdx-blog-post",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-01-mdx-blog-post.mdx",
   "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
   "title": "Cuộc cách mạng công nghiệp",
@@ -9,7 +9,7 @@
     {
       "inline": true,
       "label": "science",
-      "permalink": "/tags/science"
+      "permalink": "/blog/tags/science"
     }
   ],
   "readingTime": 19.76,
@@ -20,7 +20,7 @@
       "title": "AI Researcher",
       "url": "https://sebastienlorber.com",
       "page": {
-        "permalink": "/authors/all-dang-quach-articles"
+        "permalink": "/blog/authors/all-dang-quach-articles"
       },
       "socials": {
         "x": "https://x.com/quachdang",
@@ -45,10 +45,10 @@
   "unlisted": false,
   "prevItem": {
     "title": "Welcome",
-    "permalink": "/welcome"
+    "permalink": "/blog/welcome"
   },
   "nextItem": {
     "title": "Fukuzawa Yukichi và suy nghĩ về việc Học của người Nhật",
-    "permalink": "/fukuzawa-yukichi"
+    "permalink": "/blog/fukuzawa-yukichi"
   }
 }
