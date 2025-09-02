@@ -292,13 +292,6 @@
     "sidebar": "sidebar---authors-814-ac0",
     "content": "content---welcomed-9-f-552"
   },
-  "/index_-7ec": {
-    "__comp": "__comp---site-src-pages-index-js-487-438",
-    "__context": {
-      "plugin": "plugin---markdown-pagea-74-7b5"
-    },
-    "config": "config---5-e-9-4f3"
-  },
   "/markdown-page-3d7": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
@@ -419,5 +412,12 @@
   "/docs/intro-61d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
+  },
+  "/-2e1": {
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__context": {
+      "plugin": "plugin---markdown-pagea-74-7b5"
+    },
+    "config": "config---5-e-9-4f3"
   }
 }

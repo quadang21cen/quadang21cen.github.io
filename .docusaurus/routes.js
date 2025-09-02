@@ -128,11 +128,6 @@ export default [
     exact: true
   },
   {
-    path: '/index_',
-    component: ComponentCreator('/index_', '7ec'),
-    exact: true
-  },
-  {
     path: '/markdown-page',
     component: ComponentCreator('/markdown-page', '3d7'),
     exact: true
@@ -304,6 +299,11 @@ export default [
         ]
       }
     ]
+  },
+  {
+    path: '/',
+    component: ComponentCreator('/', '2e1'),
+    exact: true
   },
   {
     path: '*',
