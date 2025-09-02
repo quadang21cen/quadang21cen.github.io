@@ -136,11 +136,6 @@ export default {
           "docsPluginId": "analysis"
         },
         {
-          "to": "/blog",
-          "label": "Blog",
-          "position": "left"
-        },
-        {
           "href": "https://github.com/quadang21cen",
           "label": "GitHub",
           "position": "right"

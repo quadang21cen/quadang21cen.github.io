@@ -174,11 +174,11 @@ const config = {
             label: 'Analysis',
             docsPluginId: 'analysis',     // ⚠️ Bắt buộc nếu dùng nhiều plugin
           },
-          {
-            to: '/blog', 
-            label: 'Blog', 
-            position: 'left'
-          },
+          // {
+          //   to: '/blog', 
+          //   label: 'Blog', 
+          //   position: 'left'
+          // },
           // {
           //   to: '/papers/intro',
           //   label: 'Paper',
