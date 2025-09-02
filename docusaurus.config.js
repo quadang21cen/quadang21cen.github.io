@@ -87,6 +87,9 @@ const config = {
         },
       }),
     ],
+
+
+
   ],
   // THÊM MẢNG PLUGINS NẾU CHƯA CÓ, VÀ THÊM CẤU HÌNH CHO "PAPERS"
   plugins: [
@@ -106,6 +109,25 @@ const config = {
         // showLastUpdateTime: true,
         // showLastUpdateAuthor: true,
       }),
+    ],
+
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'analysis',
+        path: 'analysis',
+        routeBasePath: 'analysis',
+        sidebarPath: require.resolve('./sidebarsAnalysis.js'),
+        editUrl: 'https://github.com/quadang21cen/quadang21cen.github.io/tree/main/',
+        remarkPlugins: [require('remark-math')],
+        rehypePlugins: [require('rehype-katex')],
+        
+        // Thêm các option giống docs preset
+        showLastUpdateTime: true,
+        showLastUpdateAuthor: true,
+        sidebarCollapsible: true,     // Sidebar có thể collapse
+        sidebarCollapsed: false,      // Mặc định mở
+      },
     ],
   ],
   themeConfig:
@@ -129,7 +151,19 @@ const config = {
             position: 'left',
             label: 'Linear Algebra',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+
+          {
+            type: 'docSidebar',
+            sidebarId: 'analysisSidebar',  // ID trùng với key trong sidebarsAnalysis.js
+            position: 'left',
+            label: 'Analysis',
+            docsPluginId: 'analysis',     // ⚠️ Bắt buộc nếu dùng nhiều plugin
+          },
+          {
+            to: '/blog', 
+            label: 'Blog', 
+            position: 'left'
+          },
           {
             to: '/papers/intro',
             label: 'Paper',

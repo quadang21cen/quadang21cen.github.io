@@ -1,0 +1,103 @@
+---
+sidebar_position: 1
+---
+
+# Chương 1: Xây dựng Hệ thống Số thực (The Construction of Real Numbers)
+
+Chào mừng các bạn đến với nền tảng của toàn bộ Giải tích. Trong chương này, chúng ta sẽ không khám phá những điều mới lạ, mà sẽ xây dựng lại những gì chúng ta đã biết về số thực một cách chặt chẽ và logic từ những viên gạch cơ bản nhất là các tiên đề. Điều này đảm bảo rằng "ngôi nhà" giải tích mà chúng ta sắp xây dựng sẽ đứng trên một nền móng vững chắc tuyệt đối.
+
+***
+
+### **Tiên đề về trường (Field Axioms) và thứ tự (Order Axioms)**
+
+#### 1. Khái niệm, Cách hiểu đơn giản:
+Hãy tưởng tượng tập số thực $ \mathbb{R} $ là một sân chơi hoàn hảo cho các phép toán số học (cộng, trừ, nhân, chia) và so sánh (lớn hơn, nhỏ hơn). Các **Tiên đề về trường (Field Axioms)** chính là những quy tắc cho việc "chơi" với các phép toán, đảm bảo chúng hoạt động nhất quán. Các **Tiên đề về thứ tự (Order Axioms)** là những quy tắc cho việc "so sánh", cho phép chúng ta sắp xếp mọi con số trên một đường thẳng. Cùng nhau, chúng tạo nên một *trường có thứ tự (ordered field)*.
+
+#### 2. Định nghĩa toán học:
+**a) Field Axioms:**
+Trên tập hợp $ \mathbb{R} $, tồn tại hai phép toán $+$ và $\cdot$ thỏa mãn:
+* **Tính giao hoán, kết hợp, tồn tại phần tử trung hòa (0 và 1), tồn tại phần tử nghịch đảo (đối và nghịch đảo)** cho cả hai phép toán.
+* **Tính phân phối:** $a \cdot (b+c) = (a \cdot b) + (a \cdot c)$ cho mọi $a, b, c \in \mathbb{R}$.
+
+**b) Order Axioms:**
+Tồn tại một tập con các số dương $P \subset \mathbb{R}$ thỏa mãn:
+1.  **Tính đóng (Closure):** Nếu $a, b \in P$ thì $a+b \in P$ và $a \cdot b \in P$.
+2.  **Tính tam phân (Trichotomy):** Với mỗi $a \in \mathbb{R}$, chỉ một trong ba điều sau xảy ra: $a \in P$, $-a \in P$, hoặc $a=0$.
+Từ đó ta định nghĩa $a > b$ nếu $a - b \in P$.
+
+#### 3. Ý nghĩa hình học, hoặc ý nghĩa nào đó:
+Các `Field Axioms` mang ý nghĩa **đại số** thuần túy, là bộ luật cho các phép tính. Các `Order Axioms` mang **ý nghĩa hình học**, biến tập hợp các con số thành một **đường thẳng có thứ tự**.  Tính tam phân đảm bảo mọi điểm hoặc nằm bên phải 0, bên trái 0, hoặc chính là 0. Quan hệ $a > b$ có nghĩa là điểm $a$ nằm về bên phải điểm $b$ trên trục số.
+
+#### 4. Ứng dụng trong Machine Learning, Deep learning, hoặc AI …:
+* **Field Axioms:** Nền tảng cho mọi tính toán số học trong mạng neural. Phép nhân ma trận giữa trọng số và dữ liệu đầu vào, hay việc cập nhật trọng số trong thuật toán `gradient descent`, đều dựa trên các quy tắc này.
+* **Order Axioms:** Cốt lõi của việc tối ưu hóa. Hàm mất mát (`loss function`) đo "độ sai" của mô hình, và mục tiêu là làm giá trị này nhỏ nhất có thể. Khái niệm "nhỏ hơn" là nền tảng cho việc so sánh hiệu suất và điều chỉnh mô hình.
+
+***
+
+### **Khái niệm supremum (cận trên đúng) và infimum (cận dưới đúng)**
+
+#### 1. Khái niệm, Cách hiểu đơn giản:
+Hãy tưởng tượng một tập hợp các điểm trên trục số, ví dụ tập $S = \{x \in \mathbb{R} \mid x < 5 \}$. Có vô số "rào chắn" phía trên cho tập này, ví dụ 6, 10, hoặc 5.1. Những số này gọi là **cận trên (upper bounds)**. Trong tất cả các rào chắn này, có một "rào chắn thấp nhất" hay "chặt nhất", đó chính là số 5. Số này được gọi là **supremum (cận trên đúng)**. Tương tự, **infimum (cận dưới đúng)** là "sàn nhà cao nhất" hay "chặt nhất" của một tập hợp.
+
+#### 2. Định nghĩa toán học:
+Cho một tập con khác rỗng $S \subset \mathbb{R}$.
+* Số $\alpha$ được gọi là **supremum** của $S$, ký hiệu $\sup S$, nếu:
+    1.  $\alpha$ là một cận trên của $S$ (tức là $x \le \alpha$ với mọi $x \in S$).
+    2.  Nếu $\beta$ là một cận trên bất kỳ của $S$, thì $\alpha \le \beta$.
+* Số $\gamma$ được gọi là **infimum** của $S$, ký hiệu $\inf S$, nếu:
+    1.  $\gamma$ là một cận dưới của $S$ (tức là $x \ge \gamma$ với mọi $x \in S$).
+    2.  Nếu $\delta$ là một cận dưới bất kỳ của $S$, thì $\gamma \ge \delta$.
+
+#### 3. Ý nghĩa hình học, hoặc ý nghĩa nào đó:
+Supremum và infimum xác định một cách chính xác "biên" của một tập hợp trên trục số. $\sup S$ là điểm ngoài cùng bên phải mà không "bỏ sót" bất kỳ phần tử nào của $S$, trong khi $\inf S$ là điểm ngoài cùng bên trái. Chúng giống như hai chiếc kẹp giữ tập hợp $S$ lại, ngay cả khi chính những chiếc kẹp đó không thuộc về tập hợp.
+
+#### 4. Ứng dụng trong Machine Learning, Deep learning, hoặc AI …:
+Các hàm kích hoạt (`activation functions`) trong mạng neural thường giới hạn đầu ra trong một khoảng nhất định. Ví dụ, hàm **Sigmoid** $\sigma(x) = \frac{1}{1+e^{-x}}$ nhận đầu vào là một số thực bất kỳ nhưng cho ra kết quả trong khoảng $(0, 1)$. Trong trường hợp này, `supremum` của tập hợp các giá trị đầu ra là 1 và `infimum` là 0. Những giới hạn này rất quan trọng trong các bài toán phân loại xác suất.
+
+***
+
+### **Tiên đề về sự đầy đủ (Completeness Axiom)**
+
+#### 1. Khái niệm, Cách hiểu đơn giản:
+Đây là tiên đề **phân biệt** tập số thực $\mathbb{R}$ với tập số hữu tỉ $\mathbb{Q}$. Ý tưởng cốt lõi là: **trục số thực không có lỗ hổng**. Nếu bạn có một tập hợp các số bị chặn ở trên (ví dụ, các số hữu tỉ có bình phương nhỏ hơn 2), thì luôn luôn tồn tại một "rào chắn trên chặt nhất" (supremum), và quan trọng là, cái rào chắn đó cũng là một số thực. Tập $\mathbb{Q}$ không có tính chất này; nó có một "lỗ hổng" tại vị trí của $\sqrt{2}$.
+
+#### 2. Định nghĩa toán học:
+**Completeness Axiom:** Mọi tập con khác rỗng của $\mathbb{R}$ bị chặn trên đều có một cận trên đúng (supremum) trong $\mathbb{R}$.
+
+#### 3. Ý nghĩa hình học, hoặc ý nghĩa nào đó:
+Ý nghĩa hình học của sự đầy đủ là **tính liên tục (continuum)** của trục số.  Nó đảm bảo rằng đường thẳng số thực là một đường liền nét. Bất cứ khi nào một dãy số dường như đang tiến đến một điểm, tiên đề này đảm bảo rằng điểm đó thực sự tồn tại. Đây là nền tảng cho toàn bộ Giải tích, bao gồm giới hạn, đạo hàm và tích phân.
+
+#### 4. Ứng dụng trong Machine Learning, Deep learning, hoặc AI …:
+Việc huấn luyện một mạng neural là một quá trình tìm kiếm trong một **không gian tham số (parameter space)** liên tục khổng lồ. Mỗi trọng số (`weight`) trong mạng là một chiều của không gian này. Tính đầy đủ của $\mathbb{R}$ đảm bảo không gian này là một `continuum`, không có "lỗ hổng". Điều này cho phép các thuật toán tối ưu hóa dựa trên `gradient` có thể thực hiện những bước đi vô cùng nhỏ một cách trơn tru trên "bề mặt mất mát" (`loss landscape`) để tìm ra điểm cực tiểu.
+
+***
+
+### **Tính chất Archimedean (Archimedean Property)**
+
+#### 1. Khái niệm, Cách hiểu đơn giản:
+Tính chất này nói rằng không có số thực nào "lớn vô hạn" hoặc "nhỏ vô hạn" so với các số khác. Cụ thể, nếu bạn có một que diêm (độ dài $x > 0$) và một cây sào rất dài (độ dài $y$), bạn luôn có thể xếp đủ số que diêm nối tiếp nhau để dài hơn cây sào.
+
+#### 2. Định nghĩa toán học:
+Cho hai số thực bất kỳ $x, y \in \mathbb{R}$ với $x > 0$. Tồn tại một số nguyên dương $n \in \mathbb{Z}^+$ sao cho $nx > y$.
+
+#### 3. Ý nghĩa hình học, hoặc ý nghĩa nào đó:
+Trên trục số, điều này có nghĩa là bạn có thể đi từ điểm 0 đến bất kỳ điểm nào bằng cách thực hiện các bước nhảy có độ dài cố định. Trục số không có những "vùng xa xôi" mà ta không thể với tới được. Mọi thứ đều có thể đo lường được bằng cùng một thước đo.
+
+#### 4. Ứng dụng trong Machine Learning, Deep learning, hoặc AI …:
+Trong các thuật toán tối ưu, **learning rate (tốc độ học)** $\alpha$ là một số dương nhỏ. `Gradient` $\nabla L$ có thể rất lớn. Tính chất Archimedean đảm bảo rằng dù `gradient` lớn đến đâu, vẫn tồn tại một số bước cập nhật $n$ sao cho $n \cdot \alpha \cdot \nabla L$ tạo ra một sự thay đổi đáng kể cho các trọng số của mô hình. Điều này đảm bảo rằng quá trình học luôn có thể tiến triển.
+
+***
+
+### **Tính trù mật của Q trong R (Density of Q in R)**
+
+#### 1. Khái niệm, Cách hiểu đơn giản:
+Tính chất này nói rằng các số hữu tỉ ($\mathbb{Q}$, các số có thể viết dưới dạng phân số) được "rải" khắp nơi trên trục số thực. Giữa hai số thực bất kỳ, dù chúng có gần nhau đến đâu, bạn luôn có thể tìm thấy ít nhất một số hữu tỉ.
+
+#### 2. Định nghĩa toán học:
+Cho hai số thực bất kỳ $x, y \in \mathbb{R}$ với $x < y$. Tồn tại một số hữu tỉ $q \in \mathbb{Q}$ sao cho $x < q < y$.
+
+#### 3. Ý nghĩa hình học, hoặc ý nghĩa nào đó:
+Mặc dù tập số hữu tỉ có "vô số lỗ hổng" (các số vô tỉ), các lỗ hổng này không tạo ra những khoảng trống có độ dài. Bất kỳ một đoạn thẳng nhỏ nào trên trục số, dù nhỏ đến đâu, cũng đều chứa vô số số hữu tỉ. Điều này có nghĩa là chúng ta có thể **xấp xỉ (approximate)** một số thực bất kỳ bằng một số hữu tỉ với độ chính xác mong muốn.
+
+#### 4. Ứng dụng trong Machine Learning, Deep learning, hoặc AI …:
+Đây là một trong những cầu nối quan trọng nhất giữa toán học lý thuyết và AI thực tiễn. **Máy tính không thể biểu diễn số vô tỉ một cách chính xác.** Chúng sử dụng các kiểu dữ liệu có độ chính xác hữu hạn như **floating-point numbers** (ví dụ: `float32`, `float64`), vốn là các số hữu tỉ, để xấp xỉ các số thực. Tính trù mật của $\mathbb{Q}$ trong $\mathbb{R}$ là sự bảo đảm về mặt toán học rằng việc xấp xỉ này là hợp lệ và đáng tin cậy cho các tính toán trong AI.

@@ -133,16 +133,106 @@ export default [
     exact: true
   },
   {
+    path: '/analysis',
+    component: ComponentCreator('/analysis', 'e33'),
+    routes: [
+      {
+        path: '/analysis',
+        component: ComponentCreator('/analysis', '8a4'),
+        routes: [
+          {
+            path: '/analysis',
+            component: ComponentCreator('/analysis', '9d9'),
+            routes: [
+              {
+                path: '/analysis/analysis-intro',
+                component: ComponentCreator('/analysis/analysis-intro', '076'),
+                exact: true,
+                sidebar: "analysisSidebar"
+              },
+              {
+                path: '/analysis/category/phần-i-nền-tảng--giải-tích-thực-real-analysis',
+                component: ComponentCreator('/analysis/category/phần-i-nền-tảng--giải-tích-thực-real-analysis', '263'),
+                exact: true,
+                sidebar: "analysisSidebar"
+              },
+              {
+                path: '/analysis/category/phần-ii-trừu-tượng-hóa--không-gian-metric-và-topo-metric-and-topological-spaces',
+                component: ComponentCreator('/analysis/category/phần-ii-trừu-tượng-hóa--không-gian-metric-và-topo-metric-and-topological-spaces', 'fcc'),
+                exact: true,
+                sidebar: "analysisSidebar"
+              },
+              {
+                path: '/analysis/part1-real-analysis/chap1-the-constructioniof-real-numbers',
+                component: ComponentCreator('/analysis/part1-real-analysis/chap1-the-constructioniof-real-numbers', 'd3b'),
+                exact: true,
+                sidebar: "analysisSidebar"
+              },
+              {
+                path: '/analysis/part1-real-analysis/chap2-sequences-and-series-of-numbers',
+                component: ComponentCreator('/analysis/part1-real-analysis/chap2-sequences-and-series-of-numbers', 'a57'),
+                exact: true,
+                sidebar: "analysisSidebar"
+              },
+              {
+                path: '/analysis/part1-real-analysis/chap3-topology-of-r',
+                component: ComponentCreator('/analysis/part1-real-analysis/chap3-topology-of-r', '79d'),
+                exact: true,
+                sidebar: "analysisSidebar"
+              },
+              {
+                path: '/analysis/part1-real-analysis/chap4-limits-and-continuity-of-functions',
+                component: ComponentCreator('/analysis/part1-real-analysis/chap4-limits-and-continuity-of-functions', '8b1'),
+                exact: true,
+                sidebar: "analysisSidebar"
+              },
+              {
+                path: '/analysis/part1-real-analysis/chap5-differentiation',
+                component: ComponentCreator('/analysis/part1-real-analysis/chap5-differentiation', '10c'),
+                exact: true,
+                sidebar: "analysisSidebar"
+              },
+              {
+                path: '/analysis/part1-real-analysis/chap6-the-riemann-integral',
+                component: ComponentCreator('/analysis/part1-real-analysis/chap6-the-riemann-integral', 'd4c'),
+                exact: true,
+                sidebar: "analysisSidebar"
+              },
+              {
+                path: '/analysis/part1-real-analysis/chap7-sequences-and-series-of-functions',
+                component: ComponentCreator('/analysis/part1-real-analysis/chap7-sequences-and-series-of-functions', '29c'),
+                exact: true,
+                sidebar: "analysisSidebar"
+              },
+              {
+                path: '/analysis/part2-metric-and-topological-spaces/chap8',
+                component: ComponentCreator('/analysis/part2-metric-and-topological-spaces/chap8', '2cd'),
+                exact: true,
+                sidebar: "analysisSidebar"
+              },
+              {
+                path: '/analysis/part2-metric-and-topological-spaces/chap9',
+                component: ComponentCreator('/analysis/part2-metric-and-topological-spaces/chap9', '10b'),
+                exact: true,
+                sidebar: "analysisSidebar"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     path: '/docs',
-    component: ComponentCreator('/docs', '991'),
+    component: ComponentCreator('/docs', 'c39'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'a11'),
+        component: ComponentCreator('/docs', 'dab'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '69e'),
+            component: ComponentCreator('/docs', 'fbb'),
             routes: [
               {
                 path: '/docs/category/linear-algebra',
@@ -157,44 +247,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/tutorial---basics',
-                component: ComponentCreator('/docs/category/tutorial---basics', '20e'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/category/tutorial---extras',
-                component: ComponentCreator('/docs/category/tutorial---extras', '9ad'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
                 path: '/docs/intro',
                 component: ComponentCreator('/docs/intro', '61d'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/linear-algebra/abc',
-                component: ComponentCreator('/docs/linear-algebra/abc', '57e'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/linear-algebra/congratulations',
-                component: ComponentCreator('/docs/linear-algebra/congratulations', '6c1'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/linear-algebra/create-a-blog-post',
-                component: ComponentCreator('/docs/linear-algebra/create-a-blog-post', '665'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/linear-algebra/create-a-document',
-                component: ComponentCreator('/docs/linear-algebra/create-a-document', '901'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -205,74 +259,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/linear-algebra/deploy-your-site',
-                component: ComponentCreator('/docs/linear-algebra/deploy-your-site', '14a'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/linear-algebra/markdown-features',
-                component: ComponentCreator('/docs/linear-algebra/markdown-features', '2b4'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
                 path: '/docs/others/newton-method',
                 component: ComponentCreator('/docs/others/newton-method', 'cac'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-basics/abc',
-                component: ComponentCreator('/docs/tutorial-basics/abc', '2c9'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-basics/congratulations',
-                component: ComponentCreator('/docs/tutorial-basics/congratulations', '458'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-basics/create-a-blog-post',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-blog-post', '108'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-basics/create-a-document',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-document', '8fc'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-basics/create-a-page',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-page', '951'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-basics/deploy-your-site',
-                component: ComponentCreator('/docs/tutorial-basics/deploy-your-site', '4f5'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-basics/markdown-features',
-                component: ComponentCreator('/docs/tutorial-basics/markdown-features', 'b05'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-extras/manage-docs-versions',
-                component: ComponentCreator('/docs/tutorial-extras/manage-docs-versions', '978'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-extras/translate-your-site',
-                component: ComponentCreator('/docs/tutorial-extras/translate-your-site', 'f9a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

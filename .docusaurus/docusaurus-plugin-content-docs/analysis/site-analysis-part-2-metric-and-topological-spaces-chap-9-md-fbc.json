@@ -1,0 +1,25 @@
+{
+  "id": "part2-metric-and-topological-spaces/chap9",
+  "title": "Chương 9: Giới thiệu về không gian Topo (Introduction to Topological Spaces)",
+  "description": "Chương này đưa chúng ta đến mức độ trừu tượng cao nhất về \"không gian\". Thay vì định nghĩa \"khoảng cách\" bằng một con số, chúng ta chỉ định nghĩa một cách tiên đề về \"sự lân cận\" thông qua một cấu trúc gọi là topo. Đây là nền tảng của hình học hiện đại và nhiều nhánh toán học khác.",
+  "source": "@site/analysis/part2-metric-and-topological-spaces/chap9.md",
+  "sourceDirName": "part2-metric-and-topological-spaces",
+  "slug": "/part2-metric-and-topological-spaces/chap9",
+  "permalink": "/analysis/part2-metric-and-topological-spaces/chap9",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/quadang21cen/quadang21cen.github.io/tree/main/analysis/part2-metric-and-topological-spaces/chap9.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "analysisSidebar",
+  "previous": {
+    "title": "Chương 8: Không gian Metric (Metric Spaces)",
+    "permalink": "/analysis/part2-metric-and-topological-spaces/chap8"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "real-analysis/chap1-the-constructioniof-real-numbers",
+  "title": "Chương 1: Xây dựng Hệ thống Số thực (The Construction of Real Numbers)",
+  "description": "Chào mừng các bạn đến với nền tảng của toàn bộ Giải tích. Trong chương này, chúng ta sẽ không khám phá những điều mới lạ, mà sẽ xây dựng lại những gì chúng ta đã biết về số thực một cách chặt chẽ và logic từ những viên gạch cơ bản nhất là các tiên đề. Điều này đảm bảo rằng \"ngôi nhà\" giải tích mà chúng ta sắp xây dựng sẽ đứng trên một nền móng vững chắc tuyệt đối.",
+  "source": "@site/analysis/real-analysis/chap1-the-constructioniof-real-numbers.mdx",
+  "sourceDirName": "real-analysis",
+  "slug": "/real-analysis/chap1-the-constructioniof-real-numbers",
+  "permalink": "/analysis/real-analysis/chap1-the-constructioniof-real-numbers",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/quadang21cen/quadang21cen.github.io/tree/main/analysis/real-analysis/chap1-the-constructioniof-real-numbers.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "analysisSidebar",
+  "previous": {
+    "title": "Phần I: Nền tảng – Giải tích thực (Real Analysis)",
+    "permalink": "/analysis/category/phần-i-nền-tảng--giải-tích-thực-real-analysis"
+  },
+  "next": {
+    "title": "Chương 2: Dãy và Chuỗi số (Sequences and Series of Numbers)",
+    "permalink": "/analysis/real-analysis/chap2-sequences-and-series-of-numbers"
+  }
+}

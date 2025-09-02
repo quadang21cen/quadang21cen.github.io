@@ -107,6 +107,26 @@ export default {
           null
         ]
       }
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        "id": "analysis",
+        "path": "analysis",
+        "routeBasePath": "analysis",
+        "sidebarPath": "/Users/quach/Desktop/Github/quadang21cen.github.io/sidebarsAnalysis.js",
+        "editUrl": "https://github.com/quadang21cen/quadang21cen.github.io/tree/main/",
+        "remarkPlugins": [
+          null
+        ],
+        "rehypePlugins": [
+          null
+        ],
+        "showLastUpdateTime": true,
+        "showLastUpdateAuthor": true,
+        "sidebarCollapsible": true,
+        "sidebarCollapsed": false
+      }
     ]
   ],
   "themeConfig": {
@@ -129,6 +149,13 @@ export default {
           "sidebarId": "tutorialSidebar",
           "position": "left",
           "label": "Linear Algebra"
+        },
+        {
+          "type": "docSidebar",
+          "sidebarId": "analysisSidebar",
+          "position": "left",
+          "label": "Analysis",
+          "docsPluginId": "analysis"
         },
         {
           "to": "/blog",

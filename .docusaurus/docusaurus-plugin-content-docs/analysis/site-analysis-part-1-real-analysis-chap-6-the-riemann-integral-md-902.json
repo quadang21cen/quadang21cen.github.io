@@ -1,0 +1,29 @@
+{
+  "id": "part1-real-analysis/chap6-the-riemann-integral",
+  "title": "Chương 6: Tích phân Riemann (The Riemann Integral)",
+  "description": "Trong chương này, chúng ta sẽ định nghĩa một cách chặt chẽ ý tưởng trực quan về việc \"tính diện tích dưới một đường cong\". Chúng ta sẽ xây dựng khái niệm này từ những ý tưởng rất cơ bản về việc xấp xỉ bằng các hình chữ nhật, và khám phá ra mối liên hệ sâu sắc và đẹp đẽ giữa hai quá trình tưởng chừng như ngược nhau: lấy đạo hàm và lấy tích phân.",
+  "source": "@site/analysis/part1-real-analysis/chap6-the-riemann-integral.md",
+  "sourceDirName": "part1-real-analysis",
+  "slug": "/part1-real-analysis/chap6-the-riemann-integral",
+  "permalink": "/analysis/part1-real-analysis/chap6-the-riemann-integral",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/quadang21cen/quadang21cen.github.io/tree/main/analysis/part1-real-analysis/chap6-the-riemann-integral.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "analysisSidebar",
+  "previous": {
+    "title": "Chương 5: Phép tính vi phân (Differentiation)",
+    "permalink": "/analysis/part1-real-analysis/chap5-differentiation"
+  },
+  "next": {
+    "title": "Chương 7: Dãy và Chuỗi hàm (Sequences and Series of Functions)",
+    "permalink": "/analysis/part1-real-analysis/chap7-sequences-and-series-of-functions"
+  }
+}

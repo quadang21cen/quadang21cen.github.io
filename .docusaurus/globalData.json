@@ -16,88 +16,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "linear-algebra/abc",
-              "path": "/docs/linear-algebra/abc",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "linear-algebra/congratulations",
-              "path": "/docs/linear-algebra/congratulations",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "linear-algebra/create-a-blog-post",
-              "path": "/docs/linear-algebra/create-a-blog-post",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "linear-algebra/create-a-document",
-              "path": "/docs/linear-algebra/create-a-document",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "linear-algebra/create-a-page",
               "path": "/docs/linear-algebra/create-a-page",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "linear-algebra/deploy-your-site",
-              "path": "/docs/linear-algebra/deploy-your-site",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "linear-algebra/markdown-features",
-              "path": "/docs/linear-algebra/markdown-features",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "others/newton-method",
               "path": "/docs/others/newton-method",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/abc",
-              "path": "/docs/tutorial-basics/abc",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/congratulations",
-              "path": "/docs/tutorial-basics/congratulations",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-blog-post",
-              "path": "/docs/tutorial-basics/create-a-blog-post",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-document",
-              "path": "/docs/tutorial-basics/create-a-document",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-page",
-              "path": "/docs/tutorial-basics/create-a-page",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/deploy-your-site",
-              "path": "/docs/tutorial-basics/deploy-your-site",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/markdown-features",
-              "path": "/docs/tutorial-basics/markdown-features",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-extras/manage-docs-versions",
-              "path": "/docs/tutorial-extras/manage-docs-versions",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-extras/translate-your-site",
-              "path": "/docs/tutorial-extras/translate-your-site",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -108,16 +33,6 @@
             {
               "id": "/category/others",
               "path": "/docs/category/others",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/tutorial---basics",
-              "path": "/docs/category/tutorial---basics",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/tutorial---extras",
-              "path": "/docs/category/tutorial---extras",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -166,6 +81,90 @@
               "link": {
                 "path": "/papers/intro",
                 "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "analysis": {
+      "path": "/analysis",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/analysis",
+          "mainDocId": "analysis-intro",
+          "docs": [
+            {
+              "id": "analysis-intro",
+              "path": "/analysis/analysis-intro",
+              "sidebar": "analysisSidebar"
+            },
+            {
+              "id": "part1-real-analysis/chap1-the-constructioniof-real-numbers",
+              "path": "/analysis/part1-real-analysis/chap1-the-constructioniof-real-numbers",
+              "sidebar": "analysisSidebar"
+            },
+            {
+              "id": "part1-real-analysis/chap2-sequences-and-series-of-numbers",
+              "path": "/analysis/part1-real-analysis/chap2-sequences-and-series-of-numbers",
+              "sidebar": "analysisSidebar"
+            },
+            {
+              "id": "part1-real-analysis/chap3-topology-of-r",
+              "path": "/analysis/part1-real-analysis/chap3-topology-of-r",
+              "sidebar": "analysisSidebar"
+            },
+            {
+              "id": "part1-real-analysis/chap4-limits-and-continuity-of-functions",
+              "path": "/analysis/part1-real-analysis/chap4-limits-and-continuity-of-functions",
+              "sidebar": "analysisSidebar"
+            },
+            {
+              "id": "part1-real-analysis/chap5-differentiation",
+              "path": "/analysis/part1-real-analysis/chap5-differentiation",
+              "sidebar": "analysisSidebar"
+            },
+            {
+              "id": "part1-real-analysis/chap6-the-riemann-integral",
+              "path": "/analysis/part1-real-analysis/chap6-the-riemann-integral",
+              "sidebar": "analysisSidebar"
+            },
+            {
+              "id": "part1-real-analysis/chap7-sequences-and-series-of-functions",
+              "path": "/analysis/part1-real-analysis/chap7-sequences-and-series-of-functions",
+              "sidebar": "analysisSidebar"
+            },
+            {
+              "id": "part2-metric-and-topological-spaces/chap8",
+              "path": "/analysis/part2-metric-and-topological-spaces/chap8",
+              "sidebar": "analysisSidebar"
+            },
+            {
+              "id": "part2-metric-and-topological-spaces/chap9",
+              "path": "/analysis/part2-metric-and-topological-spaces/chap9",
+              "sidebar": "analysisSidebar"
+            },
+            {
+              "id": "/category/phần-i-nền-tảng--giải-tích-thực-real-analysis",
+              "path": "/analysis/category/phần-i-nền-tảng--giải-tích-thực-real-analysis",
+              "sidebar": "analysisSidebar"
+            },
+            {
+              "id": "/category/phần-ii-trừu-tượng-hóa--không-gian-metric-và-topo-metric-and-topological-spaces",
+              "path": "/analysis/category/phần-ii-trừu-tượng-hóa--không-gian-metric-và-topo-metric-and-topological-spaces",
+              "sidebar": "analysisSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "analysisSidebar": {
+              "link": {
+                "path": "/analysis/analysis-intro",
+                "label": "analysis-intro"
               }
             }
           }
