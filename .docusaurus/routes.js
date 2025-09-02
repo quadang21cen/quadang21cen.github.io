@@ -68,6 +68,11 @@ export default [
     exact: true
   },
   {
+    path: '/index_',
+    component: ComponentCreator('/index_', '7ec'),
+    exact: true
+  },
+  {
     path: '/long-blog-post',
     component: ComponentCreator('/long-blog-post', 'f6f'),
     exact: true
@@ -298,11 +303,6 @@ export default [
   {
     path: '/',
     component: ComponentCreator('/', '3ca'),
-    exact: true
-  },
-  {
-    path: '/',
-    component: ComponentCreator('/', '2e1'),
     exact: true
   },
   {

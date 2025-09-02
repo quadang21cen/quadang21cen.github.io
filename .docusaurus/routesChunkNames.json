@@ -128,6 +128,13 @@
     "sidebar": "sidebar---authors-814-ac0",
     "content": "content---fukuzawa-yukichib-1-b-c9a"
   },
+  "/index_-7ec": {
+    "__comp": "__comp---site-src-pages-index-js-487-438",
+    "__context": {
+      "plugin": "plugin---markdown-pagea-74-7b5"
+    },
+    "config": "config---5-e-9-4f3"
+  },
   "/long-blog-post-f6f": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
@@ -412,12 +419,5 @@
       }
     ],
     "__props": "__props---1-a-1-4cc"
-  },
-  "/-2e1": {
-    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
-    "__context": {
-      "plugin": "plugin---markdown-pagea-74-7b5"
-    },
-    "config": "config---5-e-9-4f3"
   }
 }
