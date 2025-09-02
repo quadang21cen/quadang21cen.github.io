@@ -134,15 +134,15 @@ export default [
   },
   {
     path: '/analysis',
-    component: ComponentCreator('/analysis', 'e33'),
+    component: ComponentCreator('/analysis', '5ed'),
     routes: [
       {
         path: '/analysis',
-        component: ComponentCreator('/analysis', '8a4'),
+        component: ComponentCreator('/analysis', '38d'),
         routes: [
           {
             path: '/analysis',
-            component: ComponentCreator('/analysis', '9d9'),
+            component: ComponentCreator('/analysis', 'c42'),
             routes: [
               {
                 path: '/analysis/analysis-intro',
@@ -159,6 +159,12 @@ export default [
               {
                 path: '/analysis/category/phần-ii-trừu-tượng-hóa--không-gian-metric-và-topo-metric-and-topological-spaces',
                 component: ComponentCreator('/analysis/category/phần-ii-trừu-tượng-hóa--không-gian-metric-và-topo-metric-and-topological-spaces', 'fcc'),
+                exact: true,
+                sidebar: "analysisSidebar"
+              },
+              {
+                path: '/analysis/category/phần-iii-tổng-hợp--nhập-môn-giải-tích-hàm-introduction-to-functional-analysis',
+                component: ComponentCreator('/analysis/category/phần-iii-tổng-hợp--nhập-môn-giải-tích-hàm-introduction-to-functional-analysis', '86c'),
                 exact: true,
                 sidebar: "analysisSidebar"
               },
@@ -205,14 +211,50 @@ export default [
                 sidebar: "analysisSidebar"
               },
               {
-                path: '/analysis/part2-metric-and-topological-spaces/chap8',
-                component: ComponentCreator('/analysis/part2-metric-and-topological-spaces/chap8', '2cd'),
+                path: '/analysis/part2-metric-and-topological-spaces/chap10-introduction-to-lebesgue-integration',
+                component: ComponentCreator('/analysis/part2-metric-and-topological-spaces/chap10-introduction-to-lebesgue-integration', '1e0'),
                 exact: true,
                 sidebar: "analysisSidebar"
               },
               {
-                path: '/analysis/part2-metric-and-topological-spaces/chap9',
-                component: ComponentCreator('/analysis/part2-metric-and-topological-spaces/chap9', '10b'),
+                path: '/analysis/part2-metric-and-topological-spaces/chap8-metric -paces',
+                component: ComponentCreator('/analysis/part2-metric-and-topological-spaces/chap8-metric -paces', '4be'),
+                exact: true,
+                sidebar: "analysisSidebar"
+              },
+              {
+                path: '/analysis/part2-metric-and-topological-spaces/chap9-introduction-to-topological-spaces',
+                component: ComponentCreator('/analysis/part2-metric-and-topological-spaces/chap9-introduction-to-topological-spaces', 'ed1'),
+                exact: true,
+                sidebar: "analysisSidebar"
+              },
+              {
+                path: '/analysis/part3-introduction-to-functional-analysis/chap11-normed-and-banach-spaces',
+                component: ComponentCreator('/analysis/part3-introduction-to-functional-analysis/chap11-normed-and-banach-spaces', '77a'),
+                exact: true,
+                sidebar: "analysisSidebar"
+              },
+              {
+                path: '/analysis/part3-introduction-to-functional-analysis/chap12-hilbert-spaces',
+                component: ComponentCreator('/analysis/part3-introduction-to-functional-analysis/chap12-hilbert-spaces', '379'),
+                exact: true,
+                sidebar: "analysisSidebar"
+              },
+              {
+                path: '/analysis/part3-introduction-to-functional-analysis/chap13-fundamental-theorems-of-functional-analysis',
+                component: ComponentCreator('/analysis/part3-introduction-to-functional-analysis/chap13-fundamental-theorems-of-functional-analysis', 'a41'),
+                exact: true,
+                sidebar: "analysisSidebar"
+              },
+              {
+                path: '/analysis/part3-introduction-to-functional-analysis/chap14-dual-spaces-and-weak-convergence',
+                component: ComponentCreator('/analysis/part3-introduction-to-functional-analysis/chap14-dual-spaces-and-weak-convergence', '084'),
+                exact: true,
+                sidebar: "analysisSidebar"
+              },
+              {
+                path: '/analysis/part3-introduction-to-functional-analysis/chap15-introduction-to-spectral-theory',
+                component: ComponentCreator('/analysis/part3-introduction-to-functional-analysis/chap15-introduction-to-spectral-theory', '17c'),
                 exact: true,
                 sidebar: "analysisSidebar"
               }

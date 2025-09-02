@@ -1,0 +1,22 @@
+{
+  "id": "part3-introduction-to-functional-analysis/chap12",
+  "title": "Chương 12: Không gian Hilbert (Hilbert Spaces)",
+  "description": "Chương này giới thiệu một loại không gian Banach đặc biệt và hoàn hảo nhất: không gian Hilbert. Bằng cách bổ sung thêm một cấu trúc hình học là inner product (tích vô hướng), chúng ta có thể định nghĩa được các khái niệm về \"góc\" và \"sự vuông góc\" (orthogonality). Đây là môi trường làm việc gần gũi nhất với không gian Euclid quen thuộc, và là nền tảng của cơ học lượng tử, xử lý tín hiệu và nhiều lý thuyết học máy hiện đại.",
+  "source": "@site/analysis/part3-introduction-to-functional-analysis/chap12.md",
+  "sourceDirName": "part3-introduction-to-functional-analysis",
+  "slug": "/part3-introduction-to-functional-analysis/chap12",
+  "permalink": "/analysis/part3-introduction-to-functional-analysis/chap12",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/quadang21cen/quadang21cen.github.io/tree/main/analysis/part3-introduction-to-functional-analysis/chap12.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {},
+  "sidebar": "analysisSidebar",
+  "previous": {
+    "title": "Chương 11: Không gian định chuẩn và không gian Banach (Normed and Banach Spaces)",
+    "permalink": "/analysis/part3-introduction-to-functional-analysis/chap11-normed-and-banach-spaces"
+  }
+}

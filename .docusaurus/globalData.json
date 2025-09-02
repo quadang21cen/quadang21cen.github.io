@@ -139,13 +139,43 @@
               "sidebar": "analysisSidebar"
             },
             {
-              "id": "part2-metric-and-topological-spaces/chap8",
-              "path": "/analysis/part2-metric-and-topological-spaces/chap8",
+              "id": "part2-metric-and-topological-spaces/chap10-introduction-to-lebesgue-integration",
+              "path": "/analysis/part2-metric-and-topological-spaces/chap10-introduction-to-lebesgue-integration",
               "sidebar": "analysisSidebar"
             },
             {
-              "id": "part2-metric-and-topological-spaces/chap9",
-              "path": "/analysis/part2-metric-and-topological-spaces/chap9",
+              "id": "part2-metric-and-topological-spaces/chap8-metric -paces",
+              "path": "/analysis/part2-metric-and-topological-spaces/chap8-metric -paces",
+              "sidebar": "analysisSidebar"
+            },
+            {
+              "id": "part2-metric-and-topological-spaces/chap9-introduction-to-topological-spaces",
+              "path": "/analysis/part2-metric-and-topological-spaces/chap9-introduction-to-topological-spaces",
+              "sidebar": "analysisSidebar"
+            },
+            {
+              "id": "part3-introduction-to-functional-analysis/chap11-normed-and-banach-spaces",
+              "path": "/analysis/part3-introduction-to-functional-analysis/chap11-normed-and-banach-spaces",
+              "sidebar": "analysisSidebar"
+            },
+            {
+              "id": "part3-introduction-to-functional-analysis/chap12-hilbert-spaces",
+              "path": "/analysis/part3-introduction-to-functional-analysis/chap12-hilbert-spaces",
+              "sidebar": "analysisSidebar"
+            },
+            {
+              "id": "part3-introduction-to-functional-analysis/chap13-fundamental-theorems-of-functional-analysis",
+              "path": "/analysis/part3-introduction-to-functional-analysis/chap13-fundamental-theorems-of-functional-analysis",
+              "sidebar": "analysisSidebar"
+            },
+            {
+              "id": "part3-introduction-to-functional-analysis/chap14-dual-spaces-and-weak-convergence",
+              "path": "/analysis/part3-introduction-to-functional-analysis/chap14-dual-spaces-and-weak-convergence",
+              "sidebar": "analysisSidebar"
+            },
+            {
+              "id": "part3-introduction-to-functional-analysis/chap15-introduction-to-spectral-theory",
+              "path": "/analysis/part3-introduction-to-functional-analysis/chap15-introduction-to-spectral-theory",
               "sidebar": "analysisSidebar"
             },
             {
@@ -156,6 +186,11 @@
             {
               "id": "/category/phần-ii-trừu-tượng-hóa--không-gian-metric-và-topo-metric-and-topological-spaces",
               "path": "/analysis/category/phần-ii-trừu-tượng-hóa--không-gian-metric-và-topo-metric-and-topological-spaces",
+              "sidebar": "analysisSidebar"
+            },
+            {
+              "id": "/category/phần-iii-tổng-hợp--nhập-môn-giải-tích-hàm-introduction-to-functional-analysis",
+              "path": "/analysis/category/phần-iii-tổng-hợp--nhập-môn-giải-tích-hàm-introduction-to-functional-analysis",
               "sidebar": "analysisSidebar"
             }
           ],
