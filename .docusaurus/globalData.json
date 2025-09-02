@@ -11,28 +11,18 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "abstract-vector-spaces/create-a-page",
+              "path": "/docs/abstract-vector-spaces/create-a-page",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "linear-algebra/create-a-page",
-              "path": "/docs/linear-algebra/create-a-page",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "others/newton-method",
-              "path": "/docs/others/newton-method",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/linear-algebra",
-              "path": "/docs/category/linear-algebra",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/others",
-              "path": "/docs/category/others",
+              "id": "/category/phần-i-nền-tảng--không-gian-vector-trừu-tượng-abstract-vector-spaces",
+              "path": "/docs/category/phần-i-nền-tảng--không-gian-vector-trừu-tượng-abstract-vector-spaces",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -41,45 +31,6 @@
             "tutorialSidebar": {
               "link": {
                 "path": "/docs/intro",
-                "label": "intro"
-              }
-            }
-          }
-        }
-      ],
-      "breadcrumbs": true
-    },
-    "papers": {
-      "path": "/papers",
-      "versions": [
-        {
-          "name": "current",
-          "label": "Next",
-          "isLast": true,
-          "path": "/papers",
-          "mainDocId": "intro",
-          "docs": [
-            {
-              "id": "intro",
-              "path": "/papers/intro",
-              "sidebar": "paperSidebar"
-            },
-            {
-              "id": "linear-algebra/abc",
-              "path": "/papers/linear-algebra/abc",
-              "sidebar": "paperSidebar"
-            },
-            {
-              "id": "/category/linear-algebra",
-              "path": "/papers/category/linear-algebra",
-              "sidebar": "paperSidebar"
-            }
-          ],
-          "draftIds": [],
-          "sidebars": {
-            "paperSidebar": {
-              "link": {
-                "path": "/papers/intro",
                 "label": "intro"
               }
             }

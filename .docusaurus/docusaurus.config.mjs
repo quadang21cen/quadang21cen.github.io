@@ -66,6 +66,7 @@ export default {
           ]
         },
         "blog": {
+          "routeBasePath": "/",
           "remarkPlugins": [
             null
           ],
@@ -92,22 +93,6 @@ export default {
     ]
   ],
   "plugins": [
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        "id": "papers",
-        "path": "papers",
-        "routeBasePath": "papers",
-        "sidebarPath": "./sidebarsPapers.js",
-        "editUrl": "https://github.com/quadang21cen/quadang21cen.github.io/tree/main/",
-        "remarkPlugins": [
-          null
-        ],
-        "rehypePlugins": [
-          null
-        ]
-      }
-    ],
     [
       "@docusaurus/plugin-content-docs",
       {
@@ -146,26 +131,10 @@ export default {
       "items": [
         {
           "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
-          "position": "left",
-          "label": "Linear Algebra"
-        },
-        {
-          "type": "docSidebar",
           "sidebarId": "analysisSidebar",
           "position": "left",
           "label": "Analysis",
           "docsPluginId": "analysis"
-        },
-        {
-          "to": "/blog",
-          "label": "Blog",
-          "position": "left"
-        },
-        {
-          "to": "/papers/intro",
-          "label": "Paper",
-          "position": "left"
         },
         {
           "href": "https://github.com/quadang21cen",
@@ -178,15 +147,6 @@ export default {
     "footer": {
       "style": "dark",
       "links": [
-        {
-          "title": "Docs",
-          "items": [
-            {
-              "label": "Tutorial",
-              "to": "/docs/intro"
-            }
-          ]
-        },
         {
           "title": "Community",
           "items": [

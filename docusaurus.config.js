@@ -66,6 +66,7 @@ const config = {
           rehypePlugins: [rehypeKatex],
         },
         blog: {
+          routeBasePath: '/',
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
           showReadingTime: true,
@@ -93,23 +94,37 @@ const config = {
   ],
   // THÊM MẢNG PLUGINS NẾU CHƯA CÓ, VÀ THÊM CẤU HÌNH CHO "PAPERS"
   plugins: [
-    [
-      '@docusaurus/plugin-content-docs',
-      /** @type {import('@docusaurus/plugin-content-docs').Options} */
-      ({
-        id: 'papers', // ID duy nhất cho instance này
-        path: 'papers', // Thư mục chứa nội dung markdown cho "Paper"
-        routeBasePath: 'papers', // Đường dẫn URL (ví dụ: yoursite.com/papers)
-        sidebarPath: './sidebarsPapers.js', // File sidebar riêng cho "Paper"
-        editUrl:
-          'https://github.com/quadang21cen/quadang21cen.github.io/tree/main/', // Thay bằng link repo của bạn
-        remarkPlugins: [remarkMath],
-        rehypePlugins: [rehypeKatex],
-        // Bạn có thể thêm các tùy chọn khác như versioning nếu cần
-        // showLastUpdateTime: true,
-        // showLastUpdateAuthor: true,
-      }),
-    ],
+    // [
+    //   '@docusaurus/plugin-content-docs',
+    //   /** @type {import('@docusaurus/plugin-content-docs').Options} */
+    //   ({
+    //     id: 'papers', // ID duy nhất cho instance này
+    //     path: 'papers', // Thư mục chứa nội dung markdown cho "Paper"
+    //     routeBasePath: 'papers', // Đường dẫn URL (ví dụ: yoursite.com/papers)
+    //     sidebarPath: './sidebarsPapers.js', // File sidebar riêng cho "Paper"
+    //     editUrl:
+    //       'https://github.com/quadang21cen/quadang21cen.github.io/tree/main/', // Thay bằng link repo của bạn
+    //     remarkPlugins: [remarkMath],
+    //     rehypePlugins: [rehypeKatex],
+    //     // Bạn có thể thêm các tùy chọn khác như versioning nếu cần
+    //     // showLastUpdateTime: true,
+    //     // showLastUpdateAuthor: true,
+    //   }),
+    // ],
+
+    // [
+    //   '@docusaurus/plugin-content-blog',
+    //   {
+    //     id: 'papers-blog',           // ID plugin (tùy chọn)
+    //     path: 'papers',              // Thư mục markdown của bạn
+    //     routeBasePath: 'papers',     // URL: site.com/papers
+    //     blogTitle: 'Papers',         // Tiêu đề trang blog
+    //     blogDescription: 'Danh sách các Paper của tôi',
+    //     showReadingTime: true,
+    //     remarkPlugins: [remarkMath],
+    //     rehypePlugins: [rehypeKatex],
+    //   },
+    // ],
 
     [
       '@docusaurus/plugin-content-docs',
@@ -145,12 +160,12 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Linear Algebra',
-          },
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'tutorialSidebar',
+          //   position: 'left',
+          //   label: 'Linear Algebra',
+          // },
 
           {
             type: 'docSidebar',
@@ -159,16 +174,17 @@ const config = {
             label: 'Analysis',
             docsPluginId: 'analysis',     // ⚠️ Bắt buộc nếu dùng nhiều plugin
           },
-          {
-            to: '/blog', 
-            label: 'Blog', 
-            position: 'left'
-          },
-          {
-            to: '/papers/intro',
-            label: 'Paper',
-            position: 'left',
-          },
+          // {
+          //   to: '/blog', 
+          //   label: 'Blog', 
+          //   position: 'left'
+          // },
+          // {
+          //   to: '/papers/intro',
+          //   label: 'Paper',
+          //   position: 'left',
+          //   docsPluginId: 'papers'
+          // },
           {
             href: 'https://github.com/quadang21cen',
             label: 'GitHub',
@@ -179,15 +195,15 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
+          // {
+          //   title: 'Docs',
+          //   items: [
+          //     {
+          //       label: 'Tutorial',
+          //       to: '/docs/intro',
+          //     },
+          //   ],
+          // },
           {
             title: 'Community',
             items: [

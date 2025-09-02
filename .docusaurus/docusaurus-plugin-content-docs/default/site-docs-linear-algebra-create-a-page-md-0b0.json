@@ -17,11 +17,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Linear Algebra",
-    "permalink": "/docs/category/linear-algebra"
-  },
-  "next": {
-    "title": "Others",
-    "permalink": "/docs/category/others"
+    "title": "Phần I: Nền tảng – Không gian Vector trừu tượng (Abstract Vector Spaces)",
+    "permalink": "/docs/category/phần-i-nền-tảng--không-gian-vector-trừu-tượng-abstract-vector-spaces"
   }
 }

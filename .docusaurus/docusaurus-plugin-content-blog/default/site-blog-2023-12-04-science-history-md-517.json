@@ -1,5 +1,5 @@
 {
-  "permalink": "/blog/long-blog-post",
+  "permalink": "/long-blog-post",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-12-04-Science-History.md",
   "source": "@site/blog/2023-12-04-Science-History.md",
   "title": "Long Blog Post",
@@ -9,12 +9,12 @@
     {
       "inline": true,
       "label": "science",
-      "permalink": "/blog/tags/science"
+      "permalink": "/tags/science"
     },
     {
       "inline": true,
       "label": "history",
-      "permalink": "/blog/tags/history"
+      "permalink": "/tags/history"
     }
   ],
   "readingTime": 6.25,
@@ -25,7 +25,7 @@
       "title": "AI Researcher",
       "url": "https://sebastienlorber.com",
       "page": {
-        "permalink": "/blog/authors/all-dang-quach-articles"
+        "permalink": "/authors/all-dang-quach-articles"
       },
       "socials": {
         "x": "https://x.com/quachdang",
@@ -49,10 +49,10 @@
   "unlisted": false,
   "prevItem": {
     "title": "Simple Explanation - Phương pháp trực quan hóa dữ liệu nhiều chiều t-SNE visualization",
-    "permalink": "/blog/simple-exp-tnse"
+    "permalink": "/simple-exp-tnse"
   },
   "nextItem": {
     "title": "Welcome",
-    "permalink": "/blog/welcome"
+    "permalink": "/welcome"
   }
 }

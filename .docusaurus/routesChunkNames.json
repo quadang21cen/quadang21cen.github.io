@@ -42,39 +42,14 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/blog-bdf": {
-    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
-    "__context": {
-      "plugin": "plugin---blog-369-22e"
-    },
-    "sidebar": "sidebar---blog-814-8ac",
-    "items": [
-      {
-        "content": "content---blog-592-1ef"
-      },
-      {
-        "content": "content---blog-3-cb-10d"
-      },
-      {
-        "content": "content---blog-766-e3c"
-      },
-      {
-        "content": "content---blogf-4-f-cd7"
-      },
-      {
-        "content": "content---blog-413-7c1"
-      }
-    ],
-    "__props": "__props---blogc-15-573"
-  },
-  "/blog/archive-182": {
+  "/archive-51a": {
     "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
-    "__props": "__props---blog-archivef-81-229"
+    "__props": "__props---archiveb-26-52e"
   },
-  "/blog/authors-0b7": {
+  "/authors-498": {
     "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
     "__context": {
       "data": {
@@ -83,9 +58,9 @@
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
-    "__props": "__props---blog-authorsef-8-44f"
+    "__props": "__props---authors-3-f-9-914"
   },
-  "/blog/authors/all-dang-quach-articles-55d": {
+  "/authors/all-dang-quach-articles-0bf": {
     "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
     "__context": {
       "data": {
@@ -108,9 +83,9 @@
       }
     ],
     "sidebar": "sidebar---blog-814-8ac",
-    "__props": "__props---blog-authors-all-dang-quach-articles-15-b-ca5"
+    "__props": "__props---authors-all-dang-quach-articles-4-f-7-874"
   },
-  "/blog/authors/all-sebastien-lorber-articles-0a8": {
+  "/authors/all-sebastien-lorber-articles-8b6": {
     "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
     "__context": {
       "data": {
@@ -124,9 +99,9 @@
       }
     ],
     "sidebar": "sidebar---blog-814-8ac",
-    "__props": "__props---blog-authors-all-sebastien-lorber-articlesc-9-c-639"
+    "__props": "__props---authors-all-sebastien-lorber-articles-70-c-136"
   },
-  "/blog/authors/yangshun-db6": {
+  "/authors/yangshun-47f": {
     "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
     "__context": {
       "data": {
@@ -140,9 +115,9 @@
       }
     ],
     "sidebar": "sidebar---blog-814-8ac",
-    "__props": "__props---blog-authors-yangshun-1-de-d0c"
+    "__props": "__props---authors-yangshun-662-f7b"
   },
-  "/blog/fukuzawa-yukichi-06f": {
+  "/fukuzawa-yukichi-b95": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
@@ -153,7 +128,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-fukuzawa-yukichib-1-b-3c1"
   },
-  "/blog/long-blog-post-aea": {
+  "/long-blog-post-f6f": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
@@ -164,7 +139,14 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-long-blog-post-517-40f"
   },
-  "/blog/mdx-blog-post-e9f": {
+  "/markdown-page-3d7": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---markdown-pagea-74-7b5"
+    },
+    "content": "content---markdown-page-393-028"
+  },
+  "/mdx-blog-post-886": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
@@ -175,7 +157,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-mdx-blog-post-593-37b"
   },
-  "/blog/simple-exp-tnse-0e5": {
+  "/simple-exp-tnse-648": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
@@ -186,15 +168,15 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-simple-exp-tnse-619-070"
   },
-  "/blog/tags-287": {
+  "/tags-626": {
     "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
-    "__props": "__props---blog-tags-3-a-2-fa2"
+    "__props": "__props---tagsc-2-a-bff"
   },
-  "/blog/tags/docusaurus-fcd": {
+  "/tags/docusaurus-555": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -205,9 +187,9 @@
         "content": "content---blog-766-e3c"
       }
     ],
-    "__props": "__props---blog-tags-docusaurus-321-832"
+    "__props": "__props---tags-docusaurusaca-278"
   },
-  "/blog/tags/facebook-858": {
+  "/tags/facebook-03e": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -218,9 +200,9 @@
         "content": "content---blog-766-e3c"
       }
     ],
-    "__props": "__props---blog-tags-facebooke-5-a-514"
+    "__props": "__props---tags-facebookd-2-e-f65"
   },
-  "/blog/tags/hello-4ad": {
+  "/tags/hello-ca7": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -231,9 +213,9 @@
         "content": "content---blog-766-e3c"
       }
     ],
-    "__props": "__props---blog-tags-hellof-82-2fd"
+    "__props": "__props---tags-hellod-22-513"
   },
-  "/blog/tags/history-900": {
+  "/tags/history-68e": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -247,9 +229,9 @@
         "content": "content---blog-3-cb-10d"
       }
     ],
-    "__props": "__props---blog-tags-history-92-f-48c"
+    "__props": "__props---tags-historyf-33-18e"
   },
-  "/blog/tags/motivation-ff5": {
+  "/tags/motivation-a43": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -260,9 +242,9 @@
         "content": "content---blog-413-7c1"
       }
     ],
-    "__props": "__props---blog-tags-motivationca-2-72a"
+    "__props": "__props---tags-motivatione-90-361"
   },
-  "/blog/tags/science-92d": {
+  "/tags/science-011": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -279,9 +261,9 @@
         "content": "content---blogf-4-f-cd7"
       }
     ],
-    "__props": "__props---blog-tags-sciencee-88-41c"
+    "__props": "__props---tags-science-9-ef-6fe"
   },
-  "/blog/welcome-d2b": {
+  "/welcome-9e2": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
@@ -291,13 +273,6 @@
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-welcomed-9-f-ffb"
-  },
-  "/markdown-page-3d7": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
-    "__context": {
-      "plugin": "plugin---markdown-pagea-74-7b5"
-    },
-    "content": "content---markdown-page-393-028"
   },
   "/analysis-5ed": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
@@ -388,63 +363,55 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---analysis-part-3-introduction-to-functional-analysis-chap-15-introduction-to-spectral-theory-52-c-d77"
   },
-  "/docs-c39": {
+  "/docs-361": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-dab": {
+  "/docs-b71": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-fbb": {
+  "/docs-503": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
-  "/docs/category/linear-algebra-3bb": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-linear-algebraa-01-677"
+  "/docs/abstract-vector-spaces/create-a-page-aac": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-abstract-vector-spaces-create-a-page-25-c-6a2"
   },
-  "/docs/category/others-6b5": {
+  "/docs/category/phần-i-nền-tảng--không-gian-vector-trừu-tượng-abstract-vector-spaces-36d": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-others-8-ae-1b0"
+    "__props": "__props---docs-category-phần-i-nền-tảng-khong-gian-vector-trừu-tượng-abstract-vector-spacescfa-3fc"
   },
   "/docs/intro-61d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
   },
-  "/docs/linear-algebra/create-a-page-846": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-linear-algebra-create-a-page-0-b-0-262"
-  },
-  "/docs/others/newton-method-cac": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-others-newton-methodfb-2-9c2"
-  },
-  "/papers-714": {
-    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+  "/-3ca": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
-      "plugin": "plugin---papersf-7-c-a1d"
-    }
-  },
-  "/papers-918": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---papers-315-023"
-  },
-  "/papers-3cb": {
-    "__comp": "__comp---theme-doc-roota-94-67a"
-  },
-  "/papers/category/linear-algebra-e18": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---papers-category-linear-algebra-4-e-4-86d"
-  },
-  "/papers/intro-21c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---papers-intro-6-b-8-2d1"
-  },
-  "/papers/linear-algebra/abc-eca": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---papers-linear-algebra-abcfc-9-34b"
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-592-1ef"
+      },
+      {
+        "content": "content---blog-3-cb-10d"
+      },
+      {
+        "content": "content---blog-766-e3c"
+      },
+      {
+        "content": "content---blogf-4-f-cd7"
+      },
+      {
+        "content": "content---blog-413-7c1"
+      }
+    ],
+    "__props": "__props---1-a-1-4cc"
   },
   "/-2e1": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",

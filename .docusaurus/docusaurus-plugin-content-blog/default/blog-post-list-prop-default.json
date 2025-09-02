@@ -3,31 +3,31 @@
   "items": [
     {
       "title": "Simple Explanation - Phương pháp trực quan hóa dữ liệu nhiều chiều t-SNE visualization",
-      "permalink": "/blog/simple-exp-tnse",
+      "permalink": "/simple-exp-tnse",
       "unlisted": false,
       "date": "2025-06-22T00:00:00.000Z"
     },
     {
       "title": "Long Blog Post",
-      "permalink": "/blog/long-blog-post",
+      "permalink": "/long-blog-post",
       "unlisted": false,
       "date": "2023-12-04T00:00:00.000Z"
     },
     {
       "title": "Welcome",
-      "permalink": "/blog/welcome",
+      "permalink": "/welcome",
       "unlisted": false,
       "date": "2021-08-26T00:00:00.000Z"
     },
     {
       "title": "Cuộc cách mạng công nghiệp",
-      "permalink": "/blog/mdx-blog-post",
+      "permalink": "/mdx-blog-post",
       "unlisted": false,
       "date": "2021-08-01T00:00:00.000Z"
     },
     {
       "title": "Fukuzawa Yukichi và suy nghĩ về việc Học của người Nhật",
-      "permalink": "/blog/fukuzawa-yukichi",
+      "permalink": "/fukuzawa-yukichi",
       "unlisted": false,
       "date": "2019-05-28T00:00:00.000Z"
     }
