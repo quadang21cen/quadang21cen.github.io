@@ -129,10 +129,49 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
+        id: 'statistics',
+        path: 'statistics',
+        routeBasePath: 'statistics',
+        sidebarPath: require.resolve('./sidebarsStatistics.js'),
+        editUrl: 'https://github.com/quadang21cen/quadang21cen.github.io/tree/main/',
+        remarkPlugins: [require('remark-math')],
+        rehypePlugins: [require('rehype-katex')],
+        
+        // Thêm các option giống docs preset
+        showLastUpdateTime: true,
+        showLastUpdateAuthor: true,
+        sidebarCollapsible: true,     // Sidebar có thể collapse
+        sidebarCollapsed: false,      // Mặc định mở
+      },
+    ],
+
+
+    [
+      '@docusaurus/plugin-content-docs',
+      {
         id: 'analysis',
         path: 'analysis',
         routeBasePath: 'analysis',
         sidebarPath: require.resolve('./sidebarsAnalysis.js'),
+        editUrl: 'https://github.com/quadang21cen/quadang21cen.github.io/tree/main/',
+        remarkPlugins: [require('remark-math')],
+        rehypePlugins: [require('rehype-katex')],
+        
+        // Thêm các option giống docs preset
+        showLastUpdateTime: true,
+        showLastUpdateAuthor: true,
+        sidebarCollapsible: true,     // Sidebar có thể collapse
+        sidebarCollapsed: false,      // Mặc định mở
+      },
+    ],
+
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'linear-algebra',
+        path: 'linear-algebra',
+        routeBasePath: 'linear-algebra',
+        sidebarPath: require.resolve('./sidebarsLinear.js'),
         editUrl: 'https://github.com/quadang21cen/quadang21cen.github.io/tree/main/',
         remarkPlugins: [require('remark-math')],
         rehypePlugins: [require('rehype-katex')],
@@ -166,13 +205,26 @@ const config = {
           //   position: 'left',
           //   label: 'Linear Algebra',
           // },
-
+          {
+            type: 'docSidebar',
+            sidebarId: 'statisticsSidebar',  // ID trùng với key trong sidebarsAnalysis.js
+            position: 'left',
+            label: 'Statistics and Probabilit',
+            docsPluginId: 'statistics',
+          },
           {
             type: 'docSidebar',
             sidebarId: 'analysisSidebar',  // ID trùng với key trong sidebarsAnalysis.js
             position: 'left',
-            label: 'Analysis',
-            docsPluginId: 'analysis',     // ⚠️ Bắt buộc nếu dùng nhiều plugin
+            label: 'Mathematical analysis',
+            docsPluginId: 'analysis',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'linearAlgebraSidebar',  // ID trùng với key trong sidebarsAnalysis.js
+            position: 'left',
+            label: 'Linear Algebra',
+            docsPluginId: 'linear-algebra',     // ⚠️ Bắt buộc nếu dùng nhiều plugin
           },
           // {
           //   to: '/blog', 

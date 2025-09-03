@@ -1,0 +1,29 @@
+{
+  "id": "advance-data-science/chap-11",
+  "title": "Chương 11: Ứng dụng trong Machine Learning và Data Science",
+  "description": "Đây là chương cuối cùng, nơi chúng ta gặt hái thành quả của toàn bộ hành trình lý thuyết. Chúng ta sẽ thấy các khái niệm trừu tượng và thanh lịch nhất của Đại số tuyến tính—orthogonal projection, eigenvectors, và SVD—không chỉ là những ý tưởng đẹp đẽ mà còn là nền tảng hoạt động của các thuật toán mạnh mẽ và phổ biến nhất trong Khoa học Dữ liệu và Trí tuệ Nhân tạo. Chương này sẽ xây dựng cầu nối vững chắc giữa lý thuyết và thực hành.",
+  "source": "@site/linear-algebra/advance-data-science/chap-11.md",
+  "sourceDirName": "advance-data-science",
+  "slug": "/advance-data-science/chap-11",
+  "permalink": "/linear-algebra/advance-data-science/chap-11",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/quadang21cen/quadang21cen.github.io/tree/main/linear-algebra/advance-data-science/chap-11.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "linearAlgebraSidebar",
+  "previous": {
+    "title": "Phần V: Các chủ đề nâng cao và Ứng dụng trong Khoa học dữ liệu",
+    "permalink": "/linear-algebra/category/phần-v-các-chủ-đề-nâng-cao-và-ứng-dụng-trong-khoa-học-dữ-liệu"
+  },
+  "next": {
+    "title": "Chương 9: Phân rã Ma trận và các Dạng chính tắc (Matrix Decompositions and Canonical Forms)",
+    "permalink": "/linear-algebra/advance-data-science/chap9-matrix-decompositions-and-canonical-forms"
+  }
+}

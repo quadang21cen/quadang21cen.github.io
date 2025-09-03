@@ -1,0 +1,29 @@
+{
+  "id": "linear-maps-and-matrices/chap3-finite-dimensional-vector-spaces",
+  "title": "Chương 3: Ánh xạ tuyến tính (Linear Maps)",
+  "description": "Khi đã có \"sân khấu\" là các vector space, chúng ta bắt đầu nghiên cứu các \"diễn viên\"—các linear maps. Đây là những hàm số đặc biệt, không phải là những hàm bất kỳ, mà là những hàm \"tôn trọng\" và bảo toàn cấu trúc đại số của không gian. Chúng là hiện thân của các phép biến đổi nền tảng như quay, co giãn, và chiếu. Chỉ sau khi hiểu rõ bản chất của chúng, chúng ta mới thấy rằng ma trận chỉ là một cách tiện lợi để \"biểu diễn\" các diễn viên này.",
+  "source": "@site/linear-algebra/linear-maps-and-matrices/chap3-finite-dimensional-vector-spaces.md",
+  "sourceDirName": "linear-maps-and-matrices",
+  "slug": "/linear-maps-and-matrices/chap3-finite-dimensional-vector-spaces",
+  "permalink": "/linear-algebra/linear-maps-and-matrices/chap3-finite-dimensional-vector-spaces",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/quadang21cen/quadang21cen.github.io/tree/main/linear-algebra/linear-maps-and-matrices/chap3-finite-dimensional-vector-spaces.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "linearAlgebraSidebar",
+  "previous": {
+    "title": "Phần II: Tác động – Ánh xạ tuyến tính và Ma trận (Linear Maps and Matrices)",
+    "permalink": "/linear-algebra/category/phần-ii-tác-động--ánh-xạ-tuyến-tính-và-ma-trận-linear-maps-and-matrices"
+  },
+  "next": {
+    "title": "Chương 4: Biểu diễn ma trận (Matrix Representation)",
+    "permalink": "/linear-algebra/linear-maps-and-matrices/chap4-matrix-representation"
+  }
+}

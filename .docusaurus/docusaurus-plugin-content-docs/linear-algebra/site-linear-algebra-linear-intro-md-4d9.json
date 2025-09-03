@@ -1,0 +1,27 @@
+{
+  "id": "linear-intro",
+  "title": "Giới thiệu về Đại số tuyến tính",
+  "description": "Chào mừng bạn đến với thế giới của Đại số tuyến tính. Nếu bạn đến đây với nền tảng từ các ngành kỹ thuật hoặc khoa học máy tính, có lẽ bạn đã quen thuộc với Đại số tuyến tính qua lăng kính của ma trận, định thức, và các phép khử Gauss—những công cụ tính toán mạnh mẽ để giải quyết các hệ phương trình và xử lý dữ liệu. Bạn đã biết cách để thực hiện các phép toán, nhưng có lẽ câu hỏi tại sao chúng lại hoạt động như vậy, và đâu là bản chất thực sự đằng sau chúng, vẫn còn là một ẩn số.",
+  "source": "@site/linear-algebra/linear-intro.md",
+  "sourceDirName": ".",
+  "slug": "/linear-intro",
+  "permalink": "/linear-algebra/linear-intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/quadang21cen/quadang21cen.github.io/tree/main/linear-algebra/linear-intro.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "linear-intro",
+    "title": "Giới thiệu về Đại số tuyến tính",
+    "sidebar_position": 1
+  },
+  "sidebar": "linearAlgebraSidebar",
+  "next": {
+    "title": "Phần I: Nền tảng – Không gian Vector trừu tượng (Abstract Vector Spaces)",
+    "permalink": "/linear-algebra/category/phần-i-nền-tảng--không-gian-vector-trừu-tượng-abstract-vector-spaces"
+  }
+}

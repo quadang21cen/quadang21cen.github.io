@@ -1,0 +1,27 @@
+{
+  "id": "statistics-intro",
+  "title": "Giới thiệu về Lý thuyết Xác suất và Thống kê Toán",
+  "description": "Thế giới chúng ta đang sống vốn dĩ không chắc chắn. Từ những dao động nhỏ nhất của thị trường chứng khoán, kết quả của một cuộc bầu cử, cho đến việc một loại thuốc mới có thực sự hiệu quả hay không—sự ngẫu nhiên và biến thiên là một phần không thể tách rời của thực tại. Con người, với bản năng tìm kiếm trật tự, từ lâu đã khao khát có được một bộ công cụ đủ mạnh mẽ để có thể định lượng, mô hình hóa và cuối cùng là đưa ra những quyết định thông minh khi đối mặt với sự bất định đó. Bộ công cụ đó, trong hình thái toán học chặt chẽ và thanh lịch nhất, chính là Lý thuyết Xác suất và Thống kê Toán.",
+  "source": "@site/statistics/statistics-intro.md",
+  "sourceDirName": ".",
+  "slug": "/statistics-intro",
+  "permalink": "/statistics/statistics-intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/quadang21cen/quadang21cen.github.io/tree/main/statistics/statistics-intro.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "statistics-intro",
+    "title": "Giới thiệu về Lý thuyết Xác suất và Thống kê Toán",
+    "sidebar_position": 1
+  },
+  "sidebar": "statisticsSidebar",
+  "next": {
+    "title": "Phần I: Các Nguyên lý Cơ bản của Xác suất (Foundations of Probability Theory)",
+    "permalink": "/statistics/category/phần-i-các-nguyên-lý-cơ-bản-của-xác-suất-foundations-of-probability-theory"
+  }
+}

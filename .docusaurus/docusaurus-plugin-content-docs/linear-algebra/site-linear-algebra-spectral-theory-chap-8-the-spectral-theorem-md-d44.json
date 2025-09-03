@@ -1,0 +1,29 @@
+{
+  "id": "spectral-theory/chap8-the-spectral-theorem",
+  "title": "Chương 8: Định lý Phổ (The Spectral Theorem)",
+  "description": "Đây là chương đỉnh cao của đại số tuyến tính hữu hạn chiều, nơi tất cả các khái niệm trừu tượng chúng ta đã xây dựng—inner product, adjoint, normal, eigenvalue—hội tụ lại để mang đến một trong những kết quả đẹp và mạnh mẽ nhất của toán học. Định lý Phổ trả lời câu hỏi cuối cùng: \"Đâu là những toán tử có thể được hiểu một cách đơn giản nhất có thể?\". Câu trả lời hóa ra lại vô cùng thanh lịch và có những ứng dụng sâu rộng.",
+  "source": "@site/linear-algebra/spectral-theory/chap8-the-spectral-theorem.md",
+  "sourceDirName": "spectral-theory",
+  "slug": "/spectral-theory/chap8-the-spectral-theorem",
+  "permalink": "/linear-algebra/spectral-theory/chap8-the-spectral-theorem",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/quadang21cen/quadang21cen.github.io/tree/main/linear-algebra/spectral-theory/chap8-the-spectral-theorem.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "linearAlgebraSidebar",
+  "previous": {
+    "title": "Chương 7: Giá trị riêng và Vector riêng (Eigenvalues and Eigenvectors)",
+    "permalink": "/linear-algebra/spectral-theory/chap7-eigenvalues-and-eigenvectors"
+  },
+  "next": {
+    "title": "Phần V: Các chủ đề nâng cao và Ứng dụng trong Khoa học dữ liệu",
+    "permalink": "/linear-algebra/category/phần-v-các-chủ-đề-nâng-cao-và-ứng-dụng-trong-khoa-học-dữ-liệu"
+  }
+}

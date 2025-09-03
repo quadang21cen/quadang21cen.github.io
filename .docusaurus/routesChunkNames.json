@@ -45,24 +45,24 @@
   "/blog-bdf": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
-      "plugin": "plugin---archive-369-3bf"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "sidebar---authors-814-ac0",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---authors-all-dang-quach-articles-592-1af"
+        "content": "content---blog-592-1ef"
       },
       {
-        "content": "content---authors-all-dang-quach-articles-3-cb-b12"
+        "content": "content---blog-3-cb-10d"
       },
       {
-        "content": "content---authors-all-sebastien-lorber-articles-766-ef3"
+        "content": "content---blog-766-e3c"
       },
       {
-        "content": "content---authors-all-dang-quach-articlesf-4-f-d18"
+        "content": "content---blogf-4-f-cd7"
       },
       {
-        "content": "content---authors-all-dang-quach-articles-413-7c1"
+        "content": "content---blog-413-7c1"
       }
     ],
     "__props": "__props---blogc-15-573"
@@ -70,7 +70,7 @@
   "/blog/archive-182": {
     "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
     "__context": {
-      "plugin": "plugin---archive-369-3bf"
+      "plugin": "plugin---blog-369-22e"
     },
     "__props": "__props---blog-archivef-81-229"
   },
@@ -78,131 +78,131 @@
     "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---authorsace-1c9"
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
       },
-      "plugin": "plugin---archive-369-3bf"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "sidebar---authors-814-ac0",
+    "sidebar": "sidebar---blog-814-8ac",
     "__props": "__props---blog-authorsef-8-44f"
   },
   "/blog/authors/all-dang-quach-articles-55d": {
     "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---authorsace-1c9"
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
       },
-      "plugin": "plugin---archive-369-3bf"
+      "plugin": "plugin---blog-369-22e"
     },
     "items": [
       {
-        "content": "content---authors-all-dang-quach-articles-592-1af"
+        "content": "content---blog-592-1ef"
       },
       {
-        "content": "content---authors-all-dang-quach-articles-3-cb-b12"
+        "content": "content---blog-3-cb-10d"
       },
       {
-        "content": "content---authors-all-dang-quach-articlesf-4-f-d18"
+        "content": "content---blogf-4-f-cd7"
       },
       {
-        "content": "content---authors-all-dang-quach-articles-413-7c1"
+        "content": "content---blog-413-7c1"
       }
     ],
-    "sidebar": "sidebar---authors-814-ac0",
+    "sidebar": "sidebar---blog-814-8ac",
     "__props": "__props---blog-authors-all-dang-quach-articles-15-b-ca5"
   },
   "/blog/authors/all-sebastien-lorber-articles-0a8": {
     "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---authorsace-1c9"
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
       },
-      "plugin": "plugin---archive-369-3bf"
+      "plugin": "plugin---blog-369-22e"
     },
     "items": [
       {
-        "content": "content---authors-all-sebastien-lorber-articles-766-ef3"
+        "content": "content---blog-766-e3c"
       }
     ],
-    "sidebar": "sidebar---authors-814-ac0",
+    "sidebar": "sidebar---blog-814-8ac",
     "__props": "__props---blog-authors-all-sebastien-lorber-articlesc-9-c-639"
   },
   "/blog/authors/yangshun-db6": {
     "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---authorsace-1c9"
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
       },
-      "plugin": "plugin---archive-369-3bf"
+      "plugin": "plugin---blog-369-22e"
     },
     "items": [
       {
-        "content": "content---authors-all-sebastien-lorber-articles-766-ef3"
+        "content": "content---blog-766-e3c"
       }
     ],
-    "sidebar": "sidebar---authors-814-ac0",
+    "sidebar": "sidebar---blog-814-8ac",
     "__props": "__props---blog-authors-yangshun-1-de-d0c"
   },
   "/blog/fukuzawa-yukichi-06f": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---authorsace-1c9"
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
       },
-      "plugin": "plugin---archive-369-3bf"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "sidebar---authors-814-ac0",
-    "content": "content---fukuzawa-yukichib-1-b-c9a"
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-fukuzawa-yukichib-1-b-3c1"
   },
   "/blog/long-blog-post-aea": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---authorsace-1c9"
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
       },
-      "plugin": "plugin---archive-369-3bf"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "sidebar---authors-814-ac0",
-    "content": "content---long-blog-post-517-ebb"
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-long-blog-post-517-40f"
   },
   "/blog/mdx-blog-post-e9f": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---authorsace-1c9"
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
       },
-      "plugin": "plugin---archive-369-3bf"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "sidebar---authors-814-ac0",
-    "content": "content---mdx-blog-post-593-22d"
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-mdx-blog-post-593-37b"
   },
   "/blog/simple-exp-tnse-0e5": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---authorsace-1c9"
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
       },
-      "plugin": "plugin---archive-369-3bf"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "sidebar---authors-814-ac0",
-    "content": "content---simple-exp-tnse-619-4be"
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-simple-exp-tnse-619-070"
   },
   "/blog/tags-287": {
     "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
     "__context": {
-      "plugin": "plugin---archive-369-3bf"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "sidebar---authors-814-ac0",
+    "sidebar": "sidebar---blog-814-8ac",
     "__props": "__props---blog-tags-3-a-2-fa2"
   },
   "/blog/tags/docusaurus-fcd": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---archive-369-3bf"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "sidebar---authors-814-ac0",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---authors-all-sebastien-lorber-articles-766-ef3"
+        "content": "content---blog-766-e3c"
       }
     ],
     "__props": "__props---blog-tags-docusaurus-321-832"
@@ -210,12 +210,12 @@
   "/blog/tags/facebook-858": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---archive-369-3bf"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "sidebar---authors-814-ac0",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---authors-all-sebastien-lorber-articles-766-ef3"
+        "content": "content---blog-766-e3c"
       }
     ],
     "__props": "__props---blog-tags-facebooke-5-a-514"
@@ -223,12 +223,12 @@
   "/blog/tags/hello-4ad": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---archive-369-3bf"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "sidebar---authors-814-ac0",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---authors-all-sebastien-lorber-articles-766-ef3"
+        "content": "content---blog-766-e3c"
       }
     ],
     "__props": "__props---blog-tags-hellof-82-2fd"
@@ -236,15 +236,15 @@
   "/blog/tags/history-900": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---archive-369-3bf"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "sidebar---authors-814-ac0",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---authors-all-dang-quach-articles-592-1af"
+        "content": "content---blog-592-1ef"
       },
       {
-        "content": "content---authors-all-dang-quach-articles-3-cb-b12"
+        "content": "content---blog-3-cb-10d"
       }
     ],
     "__props": "__props---blog-tags-history-92-f-48c"
@@ -252,12 +252,12 @@
   "/blog/tags/motivation-ff5": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---archive-369-3bf"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "sidebar---authors-814-ac0",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---authors-all-dang-quach-articles-413-7c1"
+        "content": "content---blog-413-7c1"
       }
     ],
     "__props": "__props---blog-tags-motivationca-2-72a"
@@ -265,18 +265,18 @@
   "/blog/tags/science-92d": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---archive-369-3bf"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "sidebar---authors-814-ac0",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---authors-all-dang-quach-articles-592-1af"
+        "content": "content---blog-592-1ef"
       },
       {
-        "content": "content---authors-all-dang-quach-articles-3-cb-b12"
+        "content": "content---blog-3-cb-10d"
       },
       {
-        "content": "content---authors-all-dang-quach-articlesf-4-f-d18"
+        "content": "content---blogf-4-f-cd7"
       }
     ],
     "__props": "__props---blog-tags-sciencee-88-41c"
@@ -285,12 +285,12 @@
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---authorsace-1c9"
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
       },
-      "plugin": "plugin---archive-369-3bf"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "sidebar---authors-814-ac0",
-    "content": "content---welcomed-9-f-552"
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-welcomed-9-f-ffb"
   },
   "/markdown-page-3d7": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
@@ -412,6 +412,164 @@
   "/docs/intro-61d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
+  },
+  "/linear-algebra-147": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---linear-algebraef-5-2c3"
+    }
+  },
+  "/linear-algebra-f3f": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---linear-algebra-830-bba"
+  },
+  "/linear-algebra-c3f": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/linear-algebra/abstract-vector-spaces/chap1-vector-spaces-b56": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---linear-algebra-abstract-vector-spaces-chap-1-vector-spaces-90-c-5ae"
+  },
+  "/linear-algebra/abstract-vector-spaces/chap2-finite-dimensional-vector-spaces-d16": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---linear-algebra-abstract-vector-spaces-chap-2-finite-dimensional-vector-spaces-74-e-338"
+  },
+  "/linear-algebra/applications-in-data-science/chap10-singular-value-decomposition-svd-969": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---linear-algebra-applications-in-data-science-chap-10-singular-value-decomposition-svd-1-f-2-b8b"
+  },
+  "/linear-algebra/applications-in-data-science/chap11-applications-in-data-science-f15": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---linear-algebra-applications-in-data-science-chap-11-applications-in-data-scienceade-286"
+  },
+  "/linear-algebra/applications-in-data-science/chap9-matrix-decompositions-and-canonical-forms-2c2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---linear-algebra-applications-in-data-science-chap-9-matrix-decompositions-and-canonical-forms-639-162"
+  },
+  "/linear-algebra/category/phần-i-nền-tảng--không-gian-vector-trừu-tượng-abstract-vector-spaces-a70": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---linear-algebra-category-phần-i-nền-tảng-khong-gian-vector-trừu-tượng-abstract-vector-spaces-040-00a"
+  },
+  "/linear-algebra/category/phần-ii-tác-động--ánh-xạ-tuyến-tính-và-ma-trận-linear-maps-and-matrices-d84": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---linear-algebra-category-phần-ii-tac-dộng-anh-xạ-tuyến-tinh-va-ma-trận-linear-maps-and-matrices-1-cb-f7d"
+  },
+  "/linear-algebra/category/phần-iii-cấu-trúc-hình-học--không-gian-tích-vô-hướng-inner-product-spaces-f91": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---linear-algebra-category-phần-iii-cấu-truc-hinh-học-khong-gian-tich-vo-hướng-inner-product-spaces-970-a92"
+  },
+  "/linear-algebra/category/phần-iv-phân-tích-cấu-trúc-sâu--lý-thuyết-phổ-spectral-theory-1e4": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---linear-algebra-category-phần-iv-phan-tich-cấu-truc-sau-ly-thuyết-phổ-spectral-theory-1-ce-708"
+  },
+  "/linear-algebra/category/phần-v-các-chủ-đề-nâng-cao-và-ứng-dụng-trong-khoa-học-dữ-liệu-72e": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---linear-algebra-category-phần-v-cac-chủ-dề-nang-cao-va-ứng-dụng-trong-khoa-học-dữ-liệu-7-c-2-5de"
+  },
+  "/linear-algebra/inner-product-spaces/chap5-inner-product-spaces-f6c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---linear-algebra-inner-product-spaces-chap-5-inner-product-spaces-9-d-0-c0b"
+  },
+  "/linear-algebra/inner-product-spaces/chap6-operators-on-inner-product-spaces-4cb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---linear-algebra-inner-product-spaces-chap-6-operators-on-inner-product-spaces-393-9bc"
+  },
+  "/linear-algebra/linear-intro-ae9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---linear-algebra-linear-intro-4-d-9-f92"
+  },
+  "/linear-algebra/linear-maps-and-matrices/chap3-finite-dimensional-vector-spaces-fb1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---linear-algebra-linear-maps-and-matrices-chap-3-finite-dimensional-vector-spacesbe-2-016"
+  },
+  "/linear-algebra/linear-maps-and-matrices/chap4-matrix-representation-f04": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---linear-algebra-linear-maps-and-matrices-chap-4-matrix-representationaa-2-d2f"
+  },
+  "/linear-algebra/spectral-theory/chap7-eigenvalues-and-eigenvectors-391": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---linear-algebra-spectral-theory-chap-7-eigenvalues-and-eigenvectorsb-06-c5e"
+  },
+  "/linear-algebra/spectral-theory/chap8-the-spectral-theorem-88d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---linear-algebra-spectral-theory-chap-8-the-spectral-theoremd-44-b92"
+  },
+  "/statistics-d2a": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---statisticse-8-b-507"
+    }
+  },
+  "/statistics-e33": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---statistics-3-cd-29a"
+  },
+  "/statistics-0f0": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/statistics/advanced-models-and-applications/chap10-linear-models-d3f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---statistics-advanced-models-and-applications-chap-10-linear-modelsd-60-4b2"
+  },
+  "/statistics/advanced-models-and-applications/chap11-bayesian-statistics-bb2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---statistics-advanced-models-and-applications-chap-11-bayesian-statistics-7-d-9-b1d"
+  },
+  "/statistics/advanced-models-and-applications/chap12-connections-to-data-science-and-machine-learning-8a8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---statistics-advanced-models-and-applications-chap-12-connections-to-data-science-and-machine-learning-567-624"
+  },
+  "/statistics/category/phần-i-các-nguyên-lý-cơ-bản-của-xác-suất-foundations-of-probability-theory-7e2": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---statistics-category-phần-i-cac-nguyen-ly-cơ-bản-của-xac-suất-foundations-of-probability-theory-792-def"
+  },
+  "/statistics/category/phần-ii-thống-kê-suy-luận-statistical-inference-b6a": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---statistics-category-phần-ii-thống-ke-suy-luận-statistical-inference-09-b-e31"
+  },
+  "/statistics/category/phần-iii-các-mô-hình-và-ứng-dụng-nâng-cao-advanced-models-and-applications-1fa": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---statistics-category-phần-iii-cac-mo-hinh-va-ứng-dụng-nang-cao-advanced-models-and-applicationsf-2-d-749"
+  },
+  "/statistics/foundations-of-probability-theory/chap1-basic-principles-of-probability-b67": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---statistics-foundations-of-probability-theory-chap-1-basic-principles-of-probability-68-e-a41"
+  },
+  "/statistics/foundations-of-probability-theory/chap2-finite-dimensional-vector-spaces-3f5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---statistics-foundations-of-probability-theory-chap-2-finite-dimensional-vector-spacesb-57-34c"
+  },
+  "/statistics/foundations-of-probability-theory/chap3-multivariate-random-variables-70f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---statistics-foundations-of-probability-theory-chap-3-multivariate-random-variables-7-ad-755"
+  },
+  "/statistics/foundations-of-probability-theory/chap4-properties-of-distributions-ceb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---statistics-foundations-of-probability-theory-chap-4-properties-of-distributions-0-ed-fe1"
+  },
+  "/statistics/foundations-of-probability-theory/chap5-fundamental-limit-theorems-dfa": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---statistics-foundations-of-probability-theory-chap-5-fundamental-limit-theorems-396-c71"
+  },
+  "/statistics/statistical-inference/chap6-statistical-inference-1d1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---statistics-statistical-inference-chap-6-statistical-inference-7-f-6-c1a"
+  },
+  "/statistics/statistical-inference/chap7-point-estimation-ef9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---statistics-statistical-inference-chap-7-point-estimationa-57-329"
+  },
+  "/statistics/statistical-inference/chap8-interval-estimation-3b1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---statistics-statistical-inference-chap-8-interval-estimationf-07-26f"
+  },
+  "/statistics/statistical-inference/chap9-hypothesis-testing-874": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---statistics-statistical-inference-chap-9-hypothesis-testingdb-3-26b"
+  },
+  "/statistics/statistics-intro-0cd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---statistics-linear-intro-129-71c"
   },
   "/-2e1": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",

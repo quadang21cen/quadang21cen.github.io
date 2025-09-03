@@ -1,0 +1,25 @@
+{
+  "id": "statistical-inference/chap8",
+  "title": "**Giảng giải Chương 8: Ước lượng khoảng (Interval Estimation)",
+  "description": "Chào mừng các bạn đến với chương 8. Ở chương trước, chúng ta đã học cách đưa ra một \"phỏng đoán tốt nhất\" duy nhất cho một tham số, gọi là ước lượng điểm. Tuy nhiên, một ước lượng điểm, dù tốt đến đâu, gần như chắc chắn sẽ không bao giờ bằng chính xác giá trị thật. Nó không cho chúng ta biết gì về mức độ không chắc chắn của phỏng đoán. Chương này sẽ giải quyết vấn đề đó bằng cách xây dựng một khoảng giá trị, thay vì một con số duy nhất, đi kèm với một thước đo độ tin cậy.",
+  "source": "@site/statistics/statistical-inference/chap8.md",
+  "sourceDirName": "statistical-inference",
+  "slug": "/statistical-inference/chap8",
+  "permalink": "/statistics/statistical-inference/chap8",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/quadang21cen/quadang21cen.github.io/tree/main/statistics/statistical-inference/chap8.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "statisticsSidebar",
+  "previous": {
+    "title": "Giảng giải Chương 7: Ước lượng điểm (Point Estimation)",
+    "permalink": "/statistics/statistical-inference/chap7-point-estimation"
+  }
+}

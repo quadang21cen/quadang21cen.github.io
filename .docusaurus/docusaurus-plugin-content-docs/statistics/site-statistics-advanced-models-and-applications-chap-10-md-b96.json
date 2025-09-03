@@ -1,0 +1,25 @@
+{
+  "id": "advanced-models-and-applications/chap10",
+  "title": "chap10",
+  "description": "Chương 11: Thống kê Bayes",
+  "source": "@site/statistics/advanced-models-and-applications/chap10.md",
+  "sourceDirName": "advanced-models-and-applications",
+  "slug": "/advanced-models-and-applications/chap10",
+  "permalink": "/statistics/advanced-models-and-applications/chap10",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/quadang21cen/quadang21cen.github.io/tree/main/statistics/advanced-models-and-applications/chap10.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "statisticsSidebar",
+  "previous": {
+    "title": "Giảng giải Chương 10: Mô hình tuyến tính (Linear Models)",
+    "permalink": "/statistics/advanced-models-and-applications/chap10-linear-models"
+  }
+}

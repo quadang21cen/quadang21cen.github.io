@@ -1,0 +1,29 @@
+{
+  "id": "statistical-inference/chap9-hypothesis-testing",
+  "title": "Chương 9: Kiểm định giả thuyết (Hypothesis Testing)",
+  "description": "Chào mừng các bạn đến với chương cuối cùng của Phần II, và cũng là một trong những chủ đề quan trọng, được ứng dụng rộng rãi nhất trong thống kê: Kiểm định giả thuyết (Hypothesis Testing). Nếu như ước lượng điểm là để \"đoán\" một giá trị, ước lượng khoảng là để \"khoanh vùng\" một giá trị, thì kiểm định giả thuyết là để đưa ra quyết định giữa hai tuyên bố đối nghịch nhau về thế giới, dựa trên bằng chứng từ dữ liệu.",
+  "source": "@site/statistics/statistical-inference/chap9-hypothesis-testing.md",
+  "sourceDirName": "statistical-inference",
+  "slug": "/statistical-inference/chap9-hypothesis-testing",
+  "permalink": "/statistics/statistical-inference/chap9-hypothesis-testing",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/quadang21cen/quadang21cen.github.io/tree/main/statistics/statistical-inference/chap9-hypothesis-testing.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "statisticsSidebar",
+  "previous": {
+    "title": "Chương 8: Ước lượng khoảng (Interval Estimation)",
+    "permalink": "/statistics/statistical-inference/chap8-interval-estimation"
+  },
+  "next": {
+    "title": "Phần III: Các Mô hình và Ứng dụng Nâng cao (Advanced Models and Applications)",
+    "permalink": "/statistics/category/phần-iii-các-mô-hình-và-ứng-dụng-nâng-cao-advanced-models-and-applications"
+  }
+}

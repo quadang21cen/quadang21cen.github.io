@@ -1,0 +1,29 @@
+{
+  "id": "advanced-models-and-applications/chap10-n",
+  "title": "chap10-n",
+  "description": "Giảng giải Chương 10: Mô hình tuyến tính",
+  "source": "@site/statistics/advanced-models-and-applications/chap10-n.md",
+  "sourceDirName": "advanced-models-and-applications",
+  "slug": "/advanced-models-and-applications/chap10-n",
+  "permalink": "/statistics/advanced-models-and-applications/chap10-n",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/quadang21cen/quadang21cen.github.io/tree/main/statistics/advanced-models-and-applications/chap10-n.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "statisticsSidebar",
+  "previous": {
+    "title": "Phần III: Các Mô hình và Ứng dụng Nâng cao (Advanced Models and Applications)",
+    "permalink": "/statistics/category/phần-iii-các-mô-hình-và-ứng-dụng-nâng-cao-advanced-models-and-applications"
+  },
+  "next": {
+    "title": "chap10",
+    "permalink": "/statistics/advanced-models-and-applications/chap10"
+  }
+}

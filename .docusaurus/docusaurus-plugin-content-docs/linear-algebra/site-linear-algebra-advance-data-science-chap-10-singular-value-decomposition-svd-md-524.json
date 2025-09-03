@@ -1,0 +1,25 @@
+{
+  "id": "advance-data-science/chap10-singular-value-decomposition-svd",
+  "title": "Chương 10: Phân rã giá trị suy biến (Singular Value Decomposition - SVD)",
+  "description": "Phần này là đỉnh cao của đại số tuyến tính ứng dụng. Chúng ta sẽ khám phá Singular Value Decomposition (SVD), được nhiều người coi là phép phân rã ma trận quan trọng và hữu ích nhất. Không giống như phân tích eigen vốn chỉ áp dụng cho ma trận vuông, SVD hoạt động với mọi ma trận bất kỳ. Nó cung cấp một cái nhìn hình học sâu sắc về tác động của một phép biến đổi tuyến tính và là nền tảng lý thuyết cho vô số thuật toán trong khoa học dữ liệu.",
+  "source": "@site/linear-algebra/advance-data-science/chap10-singular-value-decomposition-svd.md",
+  "sourceDirName": "advance-data-science",
+  "slug": "/advance-data-science/chap10-singular-value-decomposition-svd",
+  "permalink": "/linear-algebra/advance-data-science/chap10-singular-value-decomposition-svd",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/quadang21cen/quadang21cen.github.io/tree/main/linear-algebra/advance-data-science/chap10-singular-value-decomposition-svd.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "linearAlgebraSidebar",
+  "previous": {
+    "title": "Chương 9: Phân rã Ma trận và các Dạng chính tắc (Matrix Decompositions and Canonical Forms)",
+    "permalink": "/linear-algebra/advance-data-science/chap9-matrix-decompositions-and-canonical-forms"
+  }
+}

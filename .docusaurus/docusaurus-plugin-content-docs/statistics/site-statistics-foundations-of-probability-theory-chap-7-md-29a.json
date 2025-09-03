@@ -1,0 +1,25 @@
+{
+  "id": "foundations-of-probability-theory/chap7",
+  "title": "Giảng giải Chương 7: Ước lượng điểm (Point Estimation)",
+  "description": "Chào mừng các bạn đến với chương 7. Sau khi đã nắm vững các nguyên tắc cơ bản của suy luận, bây giờ là lúc chúng ta đi vào nhiệm vụ cụ thể đầu tiên: Ước lượng điểm (Point Estimation). Mục tiêu của chúng ta là từ một mẫu dữ liệu, đưa ra một con số duy nhất được xem là \"phỏng đoán tốt nhất\" cho một tham số chưa biết của tổng thể. Chương này sẽ giới thiệu các phương pháp để tìm ra phỏng đoán đó và các tiêu chí để đánh giá xem một phỏng đoán tốt đến mức nào.",
+  "source": "@site/statistics/foundations-of-probability-theory/chap7.md",
+  "sourceDirName": "foundations-of-probability-theory",
+  "slug": "/foundations-of-probability-theory/chap7",
+  "permalink": "/statistics/foundations-of-probability-theory/chap7",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/quadang21cen/quadang21cen.github.io/tree/main/statistics/foundations-of-probability-theory/chap7.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "statisticsSidebar",
+  "previous": {
+    "title": "Giảng giải Chương 6: Nguyên tắc Suy luận Thống kê (Statistical Inference)",
+    "permalink": "/statistics/foundations-of-probability-theory/chap6-statistical-inference"
+  }
+}

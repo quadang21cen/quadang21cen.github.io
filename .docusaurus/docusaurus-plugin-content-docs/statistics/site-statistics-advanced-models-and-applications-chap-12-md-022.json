@@ -1,0 +1,25 @@
+{
+  "id": "advanced-models-and-applications/chap12",
+  "title": "Chương 12: Kết nối với Khoa học Dữ liệu và Học máy (Connections to Data Science & Machine Learning)",
+  "description": "Chào mừng các bạn đến với chương cuối cùng của khóa học! Đây là nơi tất cả những mảnh ghép lý thuyết xác suất và suy luận thống kê mà chúng ta đã dày công xây dựng sẽ được kết nối một cách chặt chẽ với các khái niệm và thuật toán cốt lõi trong lĩnh vực Khoa học Dữ liệu và Học máy (Data Science & Machine Learning). Bạn sẽ thấy rằng những nguyên tắc toán học kinh điển chính là linh hồn đằng sau các công nghệ AI hiện đại.",
+  "source": "@site/statistics/advanced-models-and-applications/chap12.md",
+  "sourceDirName": "advanced-models-and-applications",
+  "slug": "/advanced-models-and-applications/chap12",
+  "permalink": "/statistics/advanced-models-and-applications/chap12",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/quadang21cen/quadang21cen.github.io/tree/main/statistics/advanced-models-and-applications/chap12.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "statisticsSidebar",
+  "previous": {
+    "title": "Chương 11: Thống kê Bayes (Bayesian Statistics)",
+    "permalink": "/statistics/advanced-models-and-applications/chap11-bayesian-statistics"
+  }
+}

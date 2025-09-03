@@ -1,0 +1,29 @@
+{
+  "id": "intro",
+  "title": "Một hành trình tái khám phá Đại số tuyến tính",
+  "description": "Chào mừng bạn đến với thế giới của Đại số tuyến tính. Nếu bạn đến đây với nền tảng từ các ngành kỹ thuật hoặc khoa học máy tính, có lẽ bạn đã quen thuộc với Đại số tuyến tính qua lăng kính của ma trận, định thức, và các phép khử Gauss—những công cụ tính toán mạnh mẽ để giải quyết các hệ phương trình và xử lý dữ liệu. Bạn đã biết cách để thực hiện các phép toán, nhưng có lẽ câu hỏi tại sao chúng lại hoạt động như vậy, và đâu là bản chất thực sự đằng sau chúng, vẫn còn là một ẩn số.",
+  "source": "@site/linear-algebra/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/linear-algebra/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/quadang21cen/quadang21cen.github.io/tree/main/linear-algebra/intro.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "linearAlgebraSidebar",
+  "previous": {
+    "title": "Chương 2: Không gian hữu hạn chiều (Finite-Dimensional Vector Spaces)",
+    "permalink": "/linear-algebra/abstract-vector-spaces/chap2-finite-dimensional-vector-spaces"
+  },
+  "next": {
+    "title": "Phần II: Tác động – Ánh xạ tuyến tính và Ma trận (Linear Maps and Matrices)",
+    "permalink": "/linear-algebra/category/phần-ii-tác-động--ánh-xạ-tuyến-tính-và-ma-trận-linear-maps-and-matrices"
+  }
+}

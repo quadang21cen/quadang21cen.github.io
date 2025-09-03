@@ -1,0 +1,29 @@
+{
+  "id": "advanced-models-and-applications/chap10-linear-models",
+  "title": "Chương 10: Mô hình tuyến tính (Linear Models)",
+  "description": "Chào mừng các bạn đến với Phần III, nơi chúng ta sẽ kết nối những lý thuyết suy luận thống kê chặt chẽ đã học với các mô hình ứng dụng cụ thể. Chúng ta sẽ bắt đầu với công cụ được xem là nền tảng, mạnh mẽ và được sử dụng rộng rãi nhất trong kho vũ khí của nhà thống kê và khoa học dữ liệu: Mô hình tuyến tính (Linear Models). Chương này sẽ chỉ ra cách chúng ta có thể sử dụng một phương trình đường thẳng đơn giản để mô hình hóa các mối quan hệ phức tạp trong dữ liệu.",
+  "source": "@site/statistics/advanced-models-and-applications/chap10-linear-models.md",
+  "sourceDirName": "advanced-models-and-applications",
+  "slug": "/advanced-models-and-applications/chap10-linear-models",
+  "permalink": "/statistics/advanced-models-and-applications/chap10-linear-models",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/quadang21cen/quadang21cen.github.io/tree/main/statistics/advanced-models-and-applications/chap10-linear-models.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "statisticsSidebar",
+  "previous": {
+    "title": "Phần III: Các Mô hình và Ứng dụng Nâng cao (Advanced Models and Applications)",
+    "permalink": "/statistics/category/phần-iii-các-mô-hình-và-ứng-dụng-nâng-cao-advanced-models-and-applications"
+  },
+  "next": {
+    "title": "Chương 11: Thống kê Bayes (Bayesian Statistics)",
+    "permalink": "/statistics/advanced-models-and-applications/chap11-bayesian-statistics"
+  }
+}

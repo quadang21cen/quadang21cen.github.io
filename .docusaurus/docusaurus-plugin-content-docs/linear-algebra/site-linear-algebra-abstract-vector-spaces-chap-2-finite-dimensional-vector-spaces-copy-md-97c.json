@@ -1,0 +1,29 @@
+{
+  "id": "abstract-vector-spaces/chap2-finite-dimensional-vector-spaces copy",
+  "title": "Chương 2: Không gian hữu hạn chiều (Finite-Dimensional Vector Spaces)",
+  "description": "Sau khi định nghĩa \"sân khấu\" trừu tượng là vector space, chương này sẽ trả lời một câu hỏi cơ bản: Làm thế nào để đo lường \"kích thước\" của một sân khấu? Chúng ta sẽ giới thiệu các khái niệm basis (cơ sở) và dimension (số chiều), những công cụ cho phép chúng ta định lượng và so sánh các không gian vector, đặc biệt là trong trường hợp hữu hạn chiều, nơi mà trực giác của chúng ta hoạt động tốt nhất.",
+  "source": "@site/linear-algebra/abstract-vector-spaces/chap2-finite-dimensional-vector-spaces copy.md",
+  "sourceDirName": "abstract-vector-spaces",
+  "slug": "/abstract-vector-spaces/chap2-finite-dimensional-vector-spaces copy",
+  "permalink": "/linear-algebra/abstract-vector-spaces/chap2-finite-dimensional-vector-spaces copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/quadang21cen/quadang21cen.github.io/tree/main/linear-algebra/abstract-vector-spaces/chap2-finite-dimensional-vector-spaces copy.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "linearAlgebraSidebar",
+  "previous": {
+    "title": "Chương 1: Không gian Vector (Vector Spaces)",
+    "permalink": "/linear-algebra/abstract-vector-spaces/chap1-vector-spaces"
+  },
+  "next": {
+    "title": "Chương 2: Không gian hữu hạn chiều (Finite-Dimensional Vector Spaces)",
+    "permalink": "/linear-algebra/abstract-vector-spaces/chap2-finite-dimensional-vector-spaces"
+  }
+}

@@ -95,10 +95,50 @@ export default {
     [
       "@docusaurus/plugin-content-docs",
       {
+        "id": "statistics",
+        "path": "statistics",
+        "routeBasePath": "statistics",
+        "sidebarPath": "/Users/quach/Desktop/Github/quadang21cen.github.io/sidebarsStatistics.js",
+        "editUrl": "https://github.com/quadang21cen/quadang21cen.github.io/tree/main/",
+        "remarkPlugins": [
+          null
+        ],
+        "rehypePlugins": [
+          null
+        ],
+        "showLastUpdateTime": true,
+        "showLastUpdateAuthor": true,
+        "sidebarCollapsible": true,
+        "sidebarCollapsed": false
+      }
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
         "id": "analysis",
         "path": "analysis",
         "routeBasePath": "analysis",
         "sidebarPath": "/Users/quach/Desktop/Github/quadang21cen.github.io/sidebarsAnalysis.js",
+        "editUrl": "https://github.com/quadang21cen/quadang21cen.github.io/tree/main/",
+        "remarkPlugins": [
+          null
+        ],
+        "rehypePlugins": [
+          null
+        ],
+        "showLastUpdateTime": true,
+        "showLastUpdateAuthor": true,
+        "sidebarCollapsible": true,
+        "sidebarCollapsed": false
+      }
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        "id": "linear-algebra",
+        "path": "linear-algebra",
+        "routeBasePath": "linear-algebra",
+        "sidebarPath": "/Users/quach/Desktop/Github/quadang21cen.github.io/sidebarsLinear.js",
         "editUrl": "https://github.com/quadang21cen/quadang21cen.github.io/tree/main/",
         "remarkPlugins": [
           null
@@ -130,10 +170,24 @@ export default {
       "items": [
         {
           "type": "docSidebar",
+          "sidebarId": "statisticsSidebar",
+          "position": "left",
+          "label": "Statistics and Probabilit",
+          "docsPluginId": "statistics"
+        },
+        {
+          "type": "docSidebar",
           "sidebarId": "analysisSidebar",
           "position": "left",
-          "label": "Analysis",
+          "label": "Mathematical analysis",
           "docsPluginId": "analysis"
+        },
+        {
+          "type": "docSidebar",
+          "sidebarId": "linearAlgebraSidebar",
+          "position": "left",
+          "label": "Linear Algebra",
+          "docsPluginId": "linear-algebra"
         },
         {
           "href": "https://github.com/quadang21cen",

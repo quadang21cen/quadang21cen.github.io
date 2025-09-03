@@ -1,0 +1,29 @@
+{
+  "id": "advance-data-science/chap9-matrix-decompositions-and-canonical-forms",
+  "title": "Chương 9: Phân rã Ma trận và các Dạng chính tắc (Matrix Decompositions and Canonical Forms)",
+  "description": "Phần này hoàn thiện bức tranh của chúng ta về Đại số tuyến tính. Chúng ta sẽ kết nối lý thuyết trừu tượng về các toán tử với các công cụ tính toán mạnh mẽ—các phép phân rã ma trận. Đây là những \"công thức\" cho phép chúng ta \"giải phẫu\" một ma trận bất kỳ thành các thành phần đơn giản hơn, tiết lộ cấu trúc bên trong của nó và cho phép tính toán hiệu quả. Chúng ta cũng sẽ khám phá dạng chính tắc cuối cùng, Jordan Normal Form, để hiểu cả những toán tử \"xấu tính\" nhất.",
+  "source": "@site/linear-algebra/advance-data-science/chap9-matrix-decompositions-and-canonical-forms.md",
+  "sourceDirName": "advance-data-science",
+  "slug": "/advance-data-science/chap9-matrix-decompositions-and-canonical-forms",
+  "permalink": "/linear-algebra/advance-data-science/chap9-matrix-decompositions-and-canonical-forms",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/quadang21cen/quadang21cen.github.io/tree/main/linear-algebra/advance-data-science/chap9-matrix-decompositions-and-canonical-forms.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "linearAlgebraSidebar",
+  "previous": {
+    "title": "Chương 11: Ứng dụng trong Machine Learning và Data Science",
+    "permalink": "/linear-algebra/advance-data-science/chap11-applications-in-data-science"
+  },
+  "next": {
+    "title": "Chương 10: Phân rã giá trị suy biến (Singular Value Decomposition - SVD)",
+    "permalink": "/linear-algebra/advance-data-science/chap10-singular-value-decomposition-svd"
+  }
+}

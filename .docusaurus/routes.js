@@ -301,6 +301,240 @@ export default [
     ]
   },
   {
+    path: '/linear-algebra',
+    component: ComponentCreator('/linear-algebra', '147'),
+    routes: [
+      {
+        path: '/linear-algebra',
+        component: ComponentCreator('/linear-algebra', 'f3f'),
+        routes: [
+          {
+            path: '/linear-algebra',
+            component: ComponentCreator('/linear-algebra', 'c3f'),
+            routes: [
+              {
+                path: '/linear-algebra/abstract-vector-spaces/chap1-vector-spaces',
+                component: ComponentCreator('/linear-algebra/abstract-vector-spaces/chap1-vector-spaces', 'b56'),
+                exact: true,
+                sidebar: "linearAlgebraSidebar"
+              },
+              {
+                path: '/linear-algebra/abstract-vector-spaces/chap2-finite-dimensional-vector-spaces',
+                component: ComponentCreator('/linear-algebra/abstract-vector-spaces/chap2-finite-dimensional-vector-spaces', 'd16'),
+                exact: true,
+                sidebar: "linearAlgebraSidebar"
+              },
+              {
+                path: '/linear-algebra/applications-in-data-science/chap10-singular-value-decomposition-svd',
+                component: ComponentCreator('/linear-algebra/applications-in-data-science/chap10-singular-value-decomposition-svd', '969'),
+                exact: true,
+                sidebar: "linearAlgebraSidebar"
+              },
+              {
+                path: '/linear-algebra/applications-in-data-science/chap11-applications-in-data-science',
+                component: ComponentCreator('/linear-algebra/applications-in-data-science/chap11-applications-in-data-science', 'f15'),
+                exact: true,
+                sidebar: "linearAlgebraSidebar"
+              },
+              {
+                path: '/linear-algebra/applications-in-data-science/chap9-matrix-decompositions-and-canonical-forms',
+                component: ComponentCreator('/linear-algebra/applications-in-data-science/chap9-matrix-decompositions-and-canonical-forms', '2c2'),
+                exact: true,
+                sidebar: "linearAlgebraSidebar"
+              },
+              {
+                path: '/linear-algebra/category/phần-i-nền-tảng--không-gian-vector-trừu-tượng-abstract-vector-spaces',
+                component: ComponentCreator('/linear-algebra/category/phần-i-nền-tảng--không-gian-vector-trừu-tượng-abstract-vector-spaces', 'a70'),
+                exact: true,
+                sidebar: "linearAlgebraSidebar"
+              },
+              {
+                path: '/linear-algebra/category/phần-ii-tác-động--ánh-xạ-tuyến-tính-và-ma-trận-linear-maps-and-matrices',
+                component: ComponentCreator('/linear-algebra/category/phần-ii-tác-động--ánh-xạ-tuyến-tính-và-ma-trận-linear-maps-and-matrices', 'd84'),
+                exact: true,
+                sidebar: "linearAlgebraSidebar"
+              },
+              {
+                path: '/linear-algebra/category/phần-iii-cấu-trúc-hình-học--không-gian-tích-vô-hướng-inner-product-spaces',
+                component: ComponentCreator('/linear-algebra/category/phần-iii-cấu-trúc-hình-học--không-gian-tích-vô-hướng-inner-product-spaces', 'f91'),
+                exact: true,
+                sidebar: "linearAlgebraSidebar"
+              },
+              {
+                path: '/linear-algebra/category/phần-iv-phân-tích-cấu-trúc-sâu--lý-thuyết-phổ-spectral-theory',
+                component: ComponentCreator('/linear-algebra/category/phần-iv-phân-tích-cấu-trúc-sâu--lý-thuyết-phổ-spectral-theory', '1e4'),
+                exact: true,
+                sidebar: "linearAlgebraSidebar"
+              },
+              {
+                path: '/linear-algebra/category/phần-v-các-chủ-đề-nâng-cao-và-ứng-dụng-trong-khoa-học-dữ-liệu',
+                component: ComponentCreator('/linear-algebra/category/phần-v-các-chủ-đề-nâng-cao-và-ứng-dụng-trong-khoa-học-dữ-liệu', '72e'),
+                exact: true,
+                sidebar: "linearAlgebraSidebar"
+              },
+              {
+                path: '/linear-algebra/inner-product-spaces/chap5-inner-product-spaces',
+                component: ComponentCreator('/linear-algebra/inner-product-spaces/chap5-inner-product-spaces', 'f6c'),
+                exact: true,
+                sidebar: "linearAlgebraSidebar"
+              },
+              {
+                path: '/linear-algebra/inner-product-spaces/chap6-operators-on-inner-product-spaces',
+                component: ComponentCreator('/linear-algebra/inner-product-spaces/chap6-operators-on-inner-product-spaces', '4cb'),
+                exact: true,
+                sidebar: "linearAlgebraSidebar"
+              },
+              {
+                path: '/linear-algebra/linear-intro',
+                component: ComponentCreator('/linear-algebra/linear-intro', 'ae9'),
+                exact: true,
+                sidebar: "linearAlgebraSidebar"
+              },
+              {
+                path: '/linear-algebra/linear-maps-and-matrices/chap3-finite-dimensional-vector-spaces',
+                component: ComponentCreator('/linear-algebra/linear-maps-and-matrices/chap3-finite-dimensional-vector-spaces', 'fb1'),
+                exact: true,
+                sidebar: "linearAlgebraSidebar"
+              },
+              {
+                path: '/linear-algebra/linear-maps-and-matrices/chap4-matrix-representation',
+                component: ComponentCreator('/linear-algebra/linear-maps-and-matrices/chap4-matrix-representation', 'f04'),
+                exact: true,
+                sidebar: "linearAlgebraSidebar"
+              },
+              {
+                path: '/linear-algebra/spectral-theory/chap7-eigenvalues-and-eigenvectors',
+                component: ComponentCreator('/linear-algebra/spectral-theory/chap7-eigenvalues-and-eigenvectors', '391'),
+                exact: true,
+                sidebar: "linearAlgebraSidebar"
+              },
+              {
+                path: '/linear-algebra/spectral-theory/chap8-the-spectral-theorem',
+                component: ComponentCreator('/linear-algebra/spectral-theory/chap8-the-spectral-theorem', '88d'),
+                exact: true,
+                sidebar: "linearAlgebraSidebar"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    path: '/statistics',
+    component: ComponentCreator('/statistics', 'd2a'),
+    routes: [
+      {
+        path: '/statistics',
+        component: ComponentCreator('/statistics', 'e33'),
+        routes: [
+          {
+            path: '/statistics',
+            component: ComponentCreator('/statistics', '0f0'),
+            routes: [
+              {
+                path: '/statistics/advanced-models-and-applications/chap10-linear-models',
+                component: ComponentCreator('/statistics/advanced-models-and-applications/chap10-linear-models', 'd3f'),
+                exact: true,
+                sidebar: "statisticsSidebar"
+              },
+              {
+                path: '/statistics/advanced-models-and-applications/chap11-bayesian-statistics',
+                component: ComponentCreator('/statistics/advanced-models-and-applications/chap11-bayesian-statistics', 'bb2'),
+                exact: true,
+                sidebar: "statisticsSidebar"
+              },
+              {
+                path: '/statistics/advanced-models-and-applications/chap12-connections-to-data-science-and-machine-learning',
+                component: ComponentCreator('/statistics/advanced-models-and-applications/chap12-connections-to-data-science-and-machine-learning', '8a8'),
+                exact: true,
+                sidebar: "statisticsSidebar"
+              },
+              {
+                path: '/statistics/category/phần-i-các-nguyên-lý-cơ-bản-của-xác-suất-foundations-of-probability-theory',
+                component: ComponentCreator('/statistics/category/phần-i-các-nguyên-lý-cơ-bản-của-xác-suất-foundations-of-probability-theory', '7e2'),
+                exact: true,
+                sidebar: "statisticsSidebar"
+              },
+              {
+                path: '/statistics/category/phần-ii-thống-kê-suy-luận-statistical-inference',
+                component: ComponentCreator('/statistics/category/phần-ii-thống-kê-suy-luận-statistical-inference', 'b6a'),
+                exact: true,
+                sidebar: "statisticsSidebar"
+              },
+              {
+                path: '/statistics/category/phần-iii-các-mô-hình-và-ứng-dụng-nâng-cao-advanced-models-and-applications',
+                component: ComponentCreator('/statistics/category/phần-iii-các-mô-hình-và-ứng-dụng-nâng-cao-advanced-models-and-applications', '1fa'),
+                exact: true,
+                sidebar: "statisticsSidebar"
+              },
+              {
+                path: '/statistics/foundations-of-probability-theory/chap1-basic-principles-of-probability',
+                component: ComponentCreator('/statistics/foundations-of-probability-theory/chap1-basic-principles-of-probability', 'b67'),
+                exact: true,
+                sidebar: "statisticsSidebar"
+              },
+              {
+                path: '/statistics/foundations-of-probability-theory/chap2-finite-dimensional-vector-spaces',
+                component: ComponentCreator('/statistics/foundations-of-probability-theory/chap2-finite-dimensional-vector-spaces', '3f5'),
+                exact: true,
+                sidebar: "statisticsSidebar"
+              },
+              {
+                path: '/statistics/foundations-of-probability-theory/chap3-multivariate-random-variables',
+                component: ComponentCreator('/statistics/foundations-of-probability-theory/chap3-multivariate-random-variables', '70f'),
+                exact: true,
+                sidebar: "statisticsSidebar"
+              },
+              {
+                path: '/statistics/foundations-of-probability-theory/chap4-properties-of-distributions',
+                component: ComponentCreator('/statistics/foundations-of-probability-theory/chap4-properties-of-distributions', 'ceb'),
+                exact: true,
+                sidebar: "statisticsSidebar"
+              },
+              {
+                path: '/statistics/foundations-of-probability-theory/chap5-fundamental-limit-theorems',
+                component: ComponentCreator('/statistics/foundations-of-probability-theory/chap5-fundamental-limit-theorems', 'dfa'),
+                exact: true,
+                sidebar: "statisticsSidebar"
+              },
+              {
+                path: '/statistics/statistical-inference/chap6-statistical-inference',
+                component: ComponentCreator('/statistics/statistical-inference/chap6-statistical-inference', '1d1'),
+                exact: true,
+                sidebar: "statisticsSidebar"
+              },
+              {
+                path: '/statistics/statistical-inference/chap7-point-estimation',
+                component: ComponentCreator('/statistics/statistical-inference/chap7-point-estimation', 'ef9'),
+                exact: true,
+                sidebar: "statisticsSidebar"
+              },
+              {
+                path: '/statistics/statistical-inference/chap8-interval-estimation',
+                component: ComponentCreator('/statistics/statistical-inference/chap8-interval-estimation', '3b1'),
+                exact: true,
+                sidebar: "statisticsSidebar"
+              },
+              {
+                path: '/statistics/statistical-inference/chap9-hypothesis-testing',
+                component: ComponentCreator('/statistics/statistical-inference/chap9-hypothesis-testing', '874'),
+                exact: true,
+                sidebar: "statisticsSidebar"
+              },
+              {
+                path: '/statistics/statistics-intro',
+                component: ComponentCreator('/statistics/statistics-intro', '0cd'),
+                exact: true,
+                sidebar: "statisticsSidebar"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     path: '/',
     component: ComponentCreator('/', '2e1'),
     exact: true

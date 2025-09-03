@@ -39,6 +39,110 @@
       ],
       "breadcrumbs": true
     },
+    "statistics": {
+      "path": "/statistics",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/statistics",
+          "mainDocId": "statistics-intro",
+          "docs": [
+            {
+              "id": "advanced-models-and-applications/chap10-linear-models",
+              "path": "/statistics/advanced-models-and-applications/chap10-linear-models",
+              "sidebar": "statisticsSidebar"
+            },
+            {
+              "id": "advanced-models-and-applications/chap11-bayesian-statistics",
+              "path": "/statistics/advanced-models-and-applications/chap11-bayesian-statistics",
+              "sidebar": "statisticsSidebar"
+            },
+            {
+              "id": "advanced-models-and-applications/chap12-connections-to-data-science-and-machine-learning",
+              "path": "/statistics/advanced-models-and-applications/chap12-connections-to-data-science-and-machine-learning",
+              "sidebar": "statisticsSidebar"
+            },
+            {
+              "id": "foundations-of-probability-theory/chap1-basic-principles-of-probability",
+              "path": "/statistics/foundations-of-probability-theory/chap1-basic-principles-of-probability",
+              "sidebar": "statisticsSidebar"
+            },
+            {
+              "id": "foundations-of-probability-theory/chap2-finite-dimensional-vector-spaces",
+              "path": "/statistics/foundations-of-probability-theory/chap2-finite-dimensional-vector-spaces",
+              "sidebar": "statisticsSidebar"
+            },
+            {
+              "id": "foundations-of-probability-theory/chap3-multivariate-random-variables",
+              "path": "/statistics/foundations-of-probability-theory/chap3-multivariate-random-variables",
+              "sidebar": "statisticsSidebar"
+            },
+            {
+              "id": "foundations-of-probability-theory/chap4-properties-of-distributions",
+              "path": "/statistics/foundations-of-probability-theory/chap4-properties-of-distributions",
+              "sidebar": "statisticsSidebar"
+            },
+            {
+              "id": "foundations-of-probability-theory/chap5-fundamental-limit-theorems",
+              "path": "/statistics/foundations-of-probability-theory/chap5-fundamental-limit-theorems",
+              "sidebar": "statisticsSidebar"
+            },
+            {
+              "id": "statistical-inference/chap6-statistical-inference",
+              "path": "/statistics/statistical-inference/chap6-statistical-inference",
+              "sidebar": "statisticsSidebar"
+            },
+            {
+              "id": "statistical-inference/chap7-point-estimation",
+              "path": "/statistics/statistical-inference/chap7-point-estimation",
+              "sidebar": "statisticsSidebar"
+            },
+            {
+              "id": "statistical-inference/chap8-interval-estimation",
+              "path": "/statistics/statistical-inference/chap8-interval-estimation",
+              "sidebar": "statisticsSidebar"
+            },
+            {
+              "id": "statistical-inference/chap9-hypothesis-testing",
+              "path": "/statistics/statistical-inference/chap9-hypothesis-testing",
+              "sidebar": "statisticsSidebar"
+            },
+            {
+              "id": "statistics-intro",
+              "path": "/statistics/statistics-intro",
+              "sidebar": "statisticsSidebar"
+            },
+            {
+              "id": "/category/phần-i-các-nguyên-lý-cơ-bản-của-xác-suất-foundations-of-probability-theory",
+              "path": "/statistics/category/phần-i-các-nguyên-lý-cơ-bản-của-xác-suất-foundations-of-probability-theory",
+              "sidebar": "statisticsSidebar"
+            },
+            {
+              "id": "/category/phần-ii-thống-kê-suy-luận-statistical-inference",
+              "path": "/statistics/category/phần-ii-thống-kê-suy-luận-statistical-inference",
+              "sidebar": "statisticsSidebar"
+            },
+            {
+              "id": "/category/phần-iii-các-mô-hình-và-ứng-dụng-nâng-cao-advanced-models-and-applications",
+              "path": "/statistics/category/phần-iii-các-mô-hình-và-ứng-dụng-nâng-cao-advanced-models-and-applications",
+              "sidebar": "statisticsSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "statisticsSidebar": {
+              "link": {
+                "path": "/statistics/statistics-intro",
+                "label": "statistics-intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
     "analysis": {
       "path": "/analysis",
       "versions": [
@@ -151,6 +255,115 @@
               "link": {
                 "path": "/analysis/analysis-intro",
                 "label": "analysis-intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "linear-algebra": {
+      "path": "/linear-algebra",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/linear-algebra",
+          "mainDocId": "linear-intro",
+          "docs": [
+            {
+              "id": "abstract-vector-spaces/chap1-vector-spaces",
+              "path": "/linear-algebra/abstract-vector-spaces/chap1-vector-spaces",
+              "sidebar": "linearAlgebraSidebar"
+            },
+            {
+              "id": "abstract-vector-spaces/chap2-finite-dimensional-vector-spaces",
+              "path": "/linear-algebra/abstract-vector-spaces/chap2-finite-dimensional-vector-spaces",
+              "sidebar": "linearAlgebraSidebar"
+            },
+            {
+              "id": "applications-in-data-science/chap10-singular-value-decomposition-svd",
+              "path": "/linear-algebra/applications-in-data-science/chap10-singular-value-decomposition-svd",
+              "sidebar": "linearAlgebraSidebar"
+            },
+            {
+              "id": "applications-in-data-science/chap11-applications-in-data-science",
+              "path": "/linear-algebra/applications-in-data-science/chap11-applications-in-data-science",
+              "sidebar": "linearAlgebraSidebar"
+            },
+            {
+              "id": "applications-in-data-science/chap9-matrix-decompositions-and-canonical-forms",
+              "path": "/linear-algebra/applications-in-data-science/chap9-matrix-decompositions-and-canonical-forms",
+              "sidebar": "linearAlgebraSidebar"
+            },
+            {
+              "id": "inner-product-spaces/chap5-inner-product-spaces",
+              "path": "/linear-algebra/inner-product-spaces/chap5-inner-product-spaces",
+              "sidebar": "linearAlgebraSidebar"
+            },
+            {
+              "id": "inner-product-spaces/chap6-operators-on-inner-product-spaces",
+              "path": "/linear-algebra/inner-product-spaces/chap6-operators-on-inner-product-spaces",
+              "sidebar": "linearAlgebraSidebar"
+            },
+            {
+              "id": "linear-intro",
+              "path": "/linear-algebra/linear-intro",
+              "sidebar": "linearAlgebraSidebar"
+            },
+            {
+              "id": "linear-maps-and-matrices/chap3-finite-dimensional-vector-spaces",
+              "path": "/linear-algebra/linear-maps-and-matrices/chap3-finite-dimensional-vector-spaces",
+              "sidebar": "linearAlgebraSidebar"
+            },
+            {
+              "id": "linear-maps-and-matrices/chap4-matrix-representation",
+              "path": "/linear-algebra/linear-maps-and-matrices/chap4-matrix-representation",
+              "sidebar": "linearAlgebraSidebar"
+            },
+            {
+              "id": "spectral-theory/chap7-eigenvalues-and-eigenvectors",
+              "path": "/linear-algebra/spectral-theory/chap7-eigenvalues-and-eigenvectors",
+              "sidebar": "linearAlgebraSidebar"
+            },
+            {
+              "id": "spectral-theory/chap8-the-spectral-theorem",
+              "path": "/linear-algebra/spectral-theory/chap8-the-spectral-theorem",
+              "sidebar": "linearAlgebraSidebar"
+            },
+            {
+              "id": "/category/phần-i-nền-tảng--không-gian-vector-trừu-tượng-abstract-vector-spaces",
+              "path": "/linear-algebra/category/phần-i-nền-tảng--không-gian-vector-trừu-tượng-abstract-vector-spaces",
+              "sidebar": "linearAlgebraSidebar"
+            },
+            {
+              "id": "/category/phần-ii-tác-động--ánh-xạ-tuyến-tính-và-ma-trận-linear-maps-and-matrices",
+              "path": "/linear-algebra/category/phần-ii-tác-động--ánh-xạ-tuyến-tính-và-ma-trận-linear-maps-and-matrices",
+              "sidebar": "linearAlgebraSidebar"
+            },
+            {
+              "id": "/category/phần-iii-cấu-trúc-hình-học--không-gian-tích-vô-hướng-inner-product-spaces",
+              "path": "/linear-algebra/category/phần-iii-cấu-trúc-hình-học--không-gian-tích-vô-hướng-inner-product-spaces",
+              "sidebar": "linearAlgebraSidebar"
+            },
+            {
+              "id": "/category/phần-iv-phân-tích-cấu-trúc-sâu--lý-thuyết-phổ-spectral-theory",
+              "path": "/linear-algebra/category/phần-iv-phân-tích-cấu-trúc-sâu--lý-thuyết-phổ-spectral-theory",
+              "sidebar": "linearAlgebraSidebar"
+            },
+            {
+              "id": "/category/phần-v-các-chủ-đề-nâng-cao-và-ứng-dụng-trong-khoa-học-dữ-liệu",
+              "path": "/linear-algebra/category/phần-v-các-chủ-đề-nâng-cao-và-ứng-dụng-trong-khoa-học-dữ-liệu",
+              "sidebar": "linearAlgebraSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "linearAlgebraSidebar": {
+              "link": {
+                "path": "/linear-algebra/linear-intro",
+                "label": "linear-intro"
               }
             }
           }

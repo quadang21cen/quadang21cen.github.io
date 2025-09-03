@@ -1,0 +1,29 @@
+{
+  "id": "spectral-theory/chap8",
+  "title": "chap8",
+  "description": "Chương 8: Định lý Phổ (The Spectral Theorem)",
+  "source": "@site/linear-algebra/spectral-theory/chap8.md",
+  "sourceDirName": "spectral-theory",
+  "slug": "/spectral-theory/chap8",
+  "permalink": "/linear-algebra/spectral-theory/chap8",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/quadang21cen/quadang21cen.github.io/tree/main/linear-algebra/spectral-theory/chap8.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "linearAlgebraSidebar",
+  "previous": {
+    "title": "Chương 7: Giá trị riêng và Vector riêng (Eigenvalues and Eigenvectors)",
+    "permalink": "/linear-algebra/spectral-theory/chap7-eigenvalues-and-eigenvectors"
+  },
+  "next": {
+    "title": "Phần V: Các chủ đề nâng cao và Ứng dụng trong Khoa học dữ liệu",
+    "permalink": "/linear-algebra/spectral-theory/chap9-matrix-decompositions-and-canonical-forms"
+  }
+}
