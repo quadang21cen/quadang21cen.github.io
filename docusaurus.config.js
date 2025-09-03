@@ -209,7 +209,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'statisticsSidebar',  // ID trùng với key trong sidebarsAnalysis.js
             position: 'left',
-            label: 'Statistics and Probabilit',
+            label: 'Statistics and Probability',
             docsPluginId: 'statistics',
           },
           {
