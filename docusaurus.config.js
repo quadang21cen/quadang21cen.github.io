@@ -15,7 +15,8 @@ const config = {
   
   title: 'Quach Dang Blog',
   tagline: "I am Quach Van Dang, an AI Engineer from Bac Lieu, Vietnam. Since graduating in 2022 with a specialization in AI, I have been working professionally in the field while deepening my expertise through academic research. My work involves active participation in LLM research labs, with a particular focus on the challenges of Time Series and the complexities of embedding latent spaces. My long-term goal is to build a strong theoretical foundation by obtaining a Master's in Mathematics and subsequently pursuing a PhD.",
-  favicon: 'img/favicon.ico',
+  // favicon: 'img/favicon.ico',
+  favicon: 'img/science.ico',
   stylesheets: [
     {
       href: 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css', // Hoặc phiên bản KaTeX bạn muốn
