@@ -4,10 +4,66 @@ sidebar_position: 1
 
 # Chương 1: Xây dựng Hệ thống Số thực (The Construction of Real Numbers)
 
-Chào mừng các bạn đến với nền tảng của toàn bộ Giải tích. Trong chương này, chúng ta sẽ không khám phá những điều mới lạ, mà sẽ xây dựng lại những gì chúng ta đã biết về số thực một cách chặt chẽ và logic từ những viên gạch cơ bản nhất là các tiên đề. Điều này đảm bảo rằng "ngôi nhà" giải tích mà chúng ta sắp xây dựng sẽ đứng trên một nền móng vững chắc tuyệt đối.
-
+Trong chương này, chúng ta sẽ không khám phá những điều mới lạ, bạn hãy tạm quên mọi thứ bạn đã học về số thực, và hãy bắt đầu từ đầu.
+để xây dựng lại một cách chặt chẽ và logic từ những viên gạch cơ bản nhất là các tiên đề. Điều này để đảm bảo rằng khi chúng ta xây dựng lại số thực, 
+chúng ta sẽ không bỏ qua bất kỳ khía cạnh nào, và hiểu được bản chất của từng phép toán.
 ***
 
+### Giới thiệu về các tập hợp số (Sets of Numbers)
+
+Trước khi đi sâu vào xây dựng số thực, chúng ta cần làm quen với các **tập hợp số cơ bản** và các ký hiệu của chúng. Đây là nền tảng để hiểu các tiên đề, tính chất, và các khái niệm cao hơn trong giải tích và đại số.
+
+#### 1. Số tự nhiên (Natural Numbers) – ℕ
+- Là tập hợp các số dùng để **đếm**: 1, 2, 3, 4, …  
+- Ký hiệu: $\mathbb{N} = \{1, 2, 3, \dots\}$  
+- Trong một số tài liệu, 0 cũng được tính là số tự nhiên: $\mathbb{N}_0 = \{0, 1, 2, 3, \dots\}$
+
+**Ví dụ:** Bạn có 3 quả táo, 3 là một số tự nhiên.
+
+
+#### 2. Số nguyên (Integers) – ℤ
+- Bao gồm tất cả các số **âm, dương và số 0**: …, -3, -2, -1, 0, 1, 2, 3, …  
+- Ký hiệu: $\mathbb{Z} = \{\dots, -3, -2, -1, 0, 1, 2, 3, \dots\}$
+
+**Ví dụ:** Điểm số -2 trên một trục nhiệt độ, hay số tầng -1 trong tòa nhà.
+
+
+#### 3. Số hữu tỉ (Rational Numbers) – ℚ
+- Là các số có thể viết dưới dạng **phân số** $\frac{p}{q}$ với $p \in \mathbb{Z}$ và $q \in \mathbb{Z} \setminus \{0\}$  
+- Ký hiệu: $\mathbb{Q} = \left\{\frac{p}{q} \mid p \in \mathbb{Z}, q \in \mathbb{Z}, q \neq 0 \right\}$
+
+**Ví dụ:** 1/2, -3/4, 5 đều là số hữu tỉ (5 = 5/1).
+
+
+#### 4. Số vô tỉ (Irrational Numbers)
+- Là các số **không thể viết dưới dạng phân số**.  
+- Chúng có **thập phân vô hạn và không tuần hoàn**.  
+**Ví dụ:**  `√2, π, e`
+
+
+#### 5. Số thực (Real Numbers) – ℝ
+- Bao gồm **tất cả số hữu tỉ và số vô tỉ**. Số thực có thể nằm trên **trục số liên tục** mà không có "lỗ hổng".  
+- Ký hiệu: $\mathbb{R}$
+
+**Ví dụ:** 2, -1, 0.5, $\sqrt{2}$, $\pi$ là các số thực.
+
+
+#### 6. Số phức (Complex Numbers) – ℂ
+- Bao gồm các số dạng $a + bi$ với $a, b \in \mathbb{R}$ và $i = \sqrt{-1}$  
+- Ký hiệu: $\mathbb{C} = \{ a + bi \mid a, b \in \mathbb{R} \}$
+
+**Ví dụ:** $3 + 2i$, $-1 - i$, $0 + i$ là các số phức.
+
+**Chú ý:** Số thực là một trường hợp đặc biệt của số phức khi $b = 0$.
+
+
+#### 7. Mối quan hệ giữa các tập hợp số
+Các tập hợp số cơ bản được sắp xếp theo **thứ bậc bao gồm**:
+
+```text
+ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ
+```
+---
 ### **Tiên đề về trường (Field Axioms) và thứ tự (Order Axioms)**
 
 #### 1. Khái niệm, Cách hiểu đơn giản:
