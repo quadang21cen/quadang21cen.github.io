@@ -6,15 +6,14 @@ sidebar_position: 1
 
 ***
 
-Đề cương này không phải là một danh sách các chủ đề rời rạc, mà là một bản thiết kế chi tiết cho việc xây dựng một đại giáo đường của toán học hiện đại, bắt đầu từ những viên gạch nền tảng vững chắc nhất cho đến những ngọn tháp cao vút, trừu tượng và đầy quyền năng.
+<!-- Đề cương này không phải là một danh sách các chủ đề rời rạc, mà là một bản thiết kế chi tiết cho việc xây dựng một đại giáo đường của toán học hiện đại, bắt đầu từ những viên gạch nền tảng vững chắc nhất cho đến những ngọn tháp cao vút, trừu tượng và đầy quyền năng. -->
 
-Hành trình của chúng ta được chia thành ba phần lớn, mỗi phần xây dựng dựa trên phần trước đó, ngày càng nâng cao mức độ trừu tượng và sức mạnh tổng quát.
+Đây là chuỗi bài viết, giáo trình, liên quan tới Giải tích, và đặc biệt là Giải tích thực (Real Analysis), lưu ý tài liệu được viết từ một người đang tìm hiểu về giải tích, thông qua việc tự học, và đặc biệt là GPT, Gemini thần thánh, nhằm mục đích cung cấp cho người đang học Real Analysis hiểu được các khái niệm cơ bản của môn Giải tích. Hành trình của chúng ta được chia thành ba phần lớn, mỗi phần xây dựng dựa trên phần trước đó, ngày càng nâng cao mức độ trừu tượng và sức mạnh tổng quát.
 
 **Phần I: Nền tảng – Giải tích thực (Real Analysis): Đặt Nền Móng Vững Chắc**
 
 
-
-Phần đầu tiên này là phần quan trọng nhất, nơi chúng ta sẽ làm một việc tưởng chừng như đơn giản nhưng lại vô cùng sâu sắc: xây dựng lại toàn bộ phép tính Vi-Tích phân (Calculus) mà bạn đã biết từ đầu, nhưng lần này với một sự chặt chẽ tuyệt đối. Chúng ta sẽ không chấp nhận bất cứ điều gì dựa trên trực giác mơ hồ.
+Phần đầu tiên này là phần quan trọng nhất, nơi chúng ta sẽ làm một việc tưởng chừng như đơn giản nhưng lại vô cùng sâu sắc: xây dựng lại toàn bộ phép tính Vi-Tích phân (Calculus) mà bạn đã biết từ hồi cấp 3, nhưng lần này với một sự chặt chẽ tuyệt đối. Chúng ta sẽ không chấp nhận bất cứ điều gì dựa trên trực giác mơ hồ.
 
 Chúng ta bắt đầu từ **Chương 1** với câu hỏi cơ bản nhất: "Số thực là gì?". Bằng cách sử dụng các tiên đề về *Trường* và *Thứ tự*, và đặc biệt là **Tiên đề về sự Đầy đủ (Completeness Axiom)**—viên ngọc quý phân biệt giữa thế giới "có lỗ hổng" của số hữu tỉ và thế giới "liền một mạch" của số thực—chúng ta sẽ tạo ra một nền móng vững chắc không thể lay chuyển.
 
@@ -25,7 +24,6 @@ Khi đã có ngôn ngữ này, **Chương 4 đến 6** sẽ định nghĩa lại
 **Phần II: Trừu tượng hóa – Không gian Metric và Topo: Mở Rộng Chân Trời**
 
 
-
 Nếu Phần I là việc nghiên cứu chi tiết một vùng đất quen thuộc (trục số thực $\mathbb{R}$), thì Phần II là hành trình khám phá những thế giới hoàn toàn mới. Chúng ta sẽ nhận ra rằng các ý tưởng về "khoảng cách", "sự hội tụ", và "tính liên tục" không chỉ dành riêng cho các con số.
 
 **Chương 8** giới thiệu *Không gian Metric*, một sự tổng quát hóa mạnh mẽ nơi chúng ta có thể định nghĩa khoảng cách giữa các đối tượng phức tạp hơn nhiều, như khoảng cách giữa hai hàm số, hai chuỗi ảnh, hay hai dãy số. Đây là lúc giải tích bắt đầu vươn ra khỏi trục số để áp dụng vào các không gian đa chiều và vô hạn chiều.
@@ -33,7 +31,6 @@ Nếu Phần I là việc nghiên cứu chi tiết một vùng đất quen thu�
 **Chương 9 và 10** còn đẩy sự trừu tượng đi xa hơn. *Không gian Topo* loại bỏ cả khái niệm khoảng cách, chỉ giữ lại ý tưởng cốt lõi nhất về "sự lân cận", cho phép ta nghiên cứu các cấu trúc không gian một cách linh hoạt nhất. Song song đó, *Tích phân Lebesgue* sẽ được giới thiệu như một lý thuyết tích phân mạnh mẽ hơn, vượt qua những hạn chế của tích phân Riemann và trở thành một công cụ không thể thiếu trong lý thuyết xác suất và giải tích hiện đại.
 
 **Phần III: Tổng hợp – Nhập môn Giải tích hàm (Functional Analysis): Xây Dựng Những Ngọn Tháp**
-
 
 
 Đây là đỉnh cao của hành trình, nơi chúng ta kết hợp hai trụ cột lớn của toán học: cấu trúc đại số của *Không gian Vector* (từ Đại số tuyến tính) và cấu trúc topo của *Không gian Metric* (từ Phần II). Kết quả là *Giải tích hàm*—ngành học nghiên cứu các không gian vô hạn chiều của các hàm số và các phép biến đổi (toán tử) trên chúng.
