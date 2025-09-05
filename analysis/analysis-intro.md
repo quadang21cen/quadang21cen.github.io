@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ***
 
-Chào mừng các bạn đến với Giải tích, không chỉ đơn thuần là một môn học, mà là một hành trình trí tuệ để xây dựng nên một trong những công trình vĩ đại nhất của tư duy con người. Đề cương này không phải là một danh sách các chủ đề rời rạc, mà là một bản thiết kế chi tiết cho việc xây dựng một đại giáo đường của toán học hiện đại, bắt đầu từ những viên gạch nền tảng vững chắc nhất cho đến những ngọn tháp cao vút, trừu tượng và đầy quyền năng.
+Đề cương này không phải là một danh sách các chủ đề rời rạc, mà là một bản thiết kế chi tiết cho việc xây dựng một đại giáo đường của toán học hiện đại, bắt đầu từ những viên gạch nền tảng vững chắc nhất cho đến những ngọn tháp cao vút, trừu tượng và đầy quyền năng.
 
 Hành trình của chúng ta được chia thành ba phần lớn, mỗi phần xây dựng dựa trên phần trước đó, ngày càng nâng cao mức độ trừu tượng và sức mạnh tổng quát.
 

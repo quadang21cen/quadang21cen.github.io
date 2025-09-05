@@ -1,0 +1,47 @@
+# Node modules
+/node_modules
+
+# Build output
+/build
+
+# Docusaurus cache
+/.docusaurus
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+
+# Docusaurus / Node
+node_modules/
+build/
+.cache/
+dist/
+
+# MacOS
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# Node modules
+/node_modules
+node_modules
+# Docusaurus cache & build
+/.docusaurus
+/.cache
+/build
+/dist
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
