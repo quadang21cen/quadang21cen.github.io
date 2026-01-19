@@ -1,5 +1,5 @@
 ---
-slug: cosy-voice
+slug: cosy-voice-explained
 title: Phân Tích Chuyên Sâu Cơ Chế Toán Học Của Mô Hình CosyVoice
 authors: [dangquach]
 tags: [motivation]
@@ -9,8 +9,9 @@ tags: [motivation]
 
 <!-- truncate -->
 
-CosyVoice là một hệ thống tổng hợp giọng nói (TTS) zero-shot đa ngôn ngữ có khả năng mở rộng cao. Điểm đột phá của CosyVoice nằm ở việc sử dụng Token ngữ nghĩa có giám sát (Supervised Semantic Tokens) kết hợp với mô hình Conditional Flow Matching.
-Bài viết này sẽ giải mã quy trình hoạt động của CosyVoice qua 4 giai đoạn chính, minh bạch hóa các hàm toán học chuyển đổi dữ liệu từ đầu vào đến đầu ra.
+- CosyVoice là một hệ thống tổng hợp giọng nói (TTS) zero-shot đa ngôn ngữ có khả năng mở rộng cao đi theo hướng Generative TTS (Large Audio Models), với kiến trúc lai ghép giữa LLM và Flow Matching. 
+- Điểm đột phá của CosyVoice nằm ở việc sử dụng Token ngữ nghĩa có giám sát (Supervised Semantic Tokens) kết hợp với mô hình Conditional Flow Matching.
+> Lưu ý: bài viết này không phải là một hướng dẫn chi tiết để huấn luyện mô hình, mà chỉ là một phân tích chuyên sâu về cơ chế hoạt động của mô hình giải mã quy trình hoạt động của CosyVoice qua 4 giai đoạn chính, mô tả chi tiết các hàm toán học chính từ đầu vào đến đầu ra. Dựa theo cách hiểu của mình trong quá trình tìm hiểu và nghiên cứu, vì vậy không tránh khỏi những sai sót. 
 ### Tổng Quan Kiến Trúc
 Mô hình bao gồm 4 thành phần hoạt động tuần tự,:
 1. Speech Tokenizer (S3): Trích xuất token ngữ nghĩa từ giọng nói.
@@ -51,9 +52,6 @@ $$\mu_l = \text{VQ}(h_l, C) = \operatorname{arg,min}_{c_n \in C} ||h_l - c_n||_2
 
 
 
-
-
-
 ### Bước 1.3: Khôi phục ngữ nghĩa (Semantic Verification)
 
 Để đảm bảo token mang ngữ nghĩa (để dùng cho bước sau), hệ thống tiếp tục mã hóa token lượng tử hóa ($\bar{H}$) qua Encoder2 và đưa vào ASR Decoder để dự đoán văn bản.
@@ -84,12 +82,6 @@ $$\bar{Y} = \text{TextEncoder}(\text{BPE}(Y))$$
 - **Hàm cấu trúc chuỗi:**
 $$\text{Input Sequence} = [S, v, {\bar{y}*u}*{u \in [1:U]}, T, {\mu_l}_{l \in [1:L]}, E]$$
 *Trong đó: $S$ (Start), $T$ (Separator), $E$ (End).*
-
-
-
-
-
-
 
 ### Bước 2.3: Dự đoán Token (Auto-regressive Prediction)
 
@@ -168,7 +160,13 @@ $$\text{Waveform} = \text{HiFiGAN}(X_1)$$
 
 ### Tổng Kết
 
-Dưới góc nhìn toán học, CosyVoice là sự kết hợp tinh tế giữa việc **rời rạc hóa tín hiệu** (VQ) để nén thông tin ngữ nghĩa và **giải phương trình vi phân** (Flow Matching) để khôi phục lại độ chi tiết âm học. Việc sử dụng token có giám sát ($S^3$) chính là chìa khóa giúp mô hình đạt được sự nhất quán về nội dung cao hơn so với các phương pháp trước đây.
+<!-- Dưới góc nhìn toán học, CosyVoice là sự kết hợp tinh tế giữa việc **rời rạc hóa tín hiệu** (VQ) để nén thông tin ngữ nghĩa và **giải phương trình vi phân** (Flow Matching) để khôi phục lại độ chi tiết âm học. Việc sử dụng token có giám sát ($S^3$) chính là chìa khóa giúp mô hình đạt được sự nhất quán về nội dung cao hơn so với các phương pháp trước đây.
+
+CosyVoice là một hệ thống xấp xỉ nghiệm của một phương trình vi phân thường (ODE), trong đó trường vector (vector field) được tham số hóa bởi một mạng nơ-ron sâu và được điều kiện hóa (conditioned) bởi một không gian tiềm ẩn ngữ nghĩa rời rạc (semantic latent space) và một đa tạp embedding người nói (speaker embedding manifold), nhằm thực hiện phép vận chuyển tối ưu (Optimal Transport) từ phân phối Gaussian sang phân phối dữ liệu âm thanh. -->
+
+
+Từ góc nhìn toán học, CosyVoice được định nghĩa là một hệ thống xấp xỉ nghiệm của phương trình vi phân thường (ODE), nhằm thực hiện phép vận chuyển tối ưu (Optimal Transport) từ phân phối nhiễu Gaussian sang phân phối dữ liệu âm thanh liên tục.
+Cụ thể, trường vector (vector field) điều khiển dòng chảy này được tham số hóa bởi một mạng nơ-ron sâu và chịu sự điều kiện hóa (conditioning) bởi hai yếu tố: đa tạp embedding người nói (speaker manifold) và không gian tiềm ẩn ngữ nghĩa rời rạc. Điểm đột phá nằm ở việc sử dụng các token ngữ nghĩa có giám sát ($S^3$) thông qua quá trình lượng tử hóa vector (VQ), cho phép mô hình nén thông tin ngữ nghĩa hiệu quả trước khi dùng Flow Matching để khôi phục độ chi tiết âm học. Sự kết hợp này giải quyết bài toán ánh xạ từ không gian rời rạc (text) sang không gian liên tục (audio) với độ hội tụ và tính nhất quán cao hơn các phương pháp khuếch tán truyền thống
 
 ### Tài Liệu Tham Khảo
 
