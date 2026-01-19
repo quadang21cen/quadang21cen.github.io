@@ -4,7 +4,7 @@ title: CosyVoice - dưới góc nhìn toán học
 description: Bài viết giải thích về Flow Matching và ODE trong CosyVoice.
 authors: [dangquach]
 tags: [motivation]
-image: figure/cosy_voice.png
+image: /img/cosy_voice.png
 ---
 
 # CosyVoice - dưới góc nhìn toán học
@@ -21,7 +21,7 @@ Mô hình bao gồm 4 thành phần hoạt động tuần tự,:
 3. Large Language Model (LLM): Dự đoán chuỗi token giọng nói từ văn bản và mẫu giọng.
 4. Conditional Flow Matching: Chuyển đổi token thành Mel spectrogram.
 
-![CosyVoice](figure/cosy_voice.png)
+![CosyVoice](/img/cosy_voice.png)
 
 --------------------------------------------------------------------------------
 ## Giai Đoạn 1: Trích Xuất Token Ngữ Nghĩa (Supervised Speech Tokenizer)
