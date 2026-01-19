@@ -85,6 +85,12 @@ $$\bar{Y} = \text{TextEncoder}(\text{BPE}(Y))$$
 $$\text{Input Sequence} = [S, v, {\bar{y}*u}*{u \in [1:U]}, T, {\mu_l}_{l \in [1:L]}, E]$$
 *Trong đó: $S$ (Start), $T$ (Separator), $E$ (End).*
 
+
+
+
+
+
+
 ### Bước 2.3: Dự đoán Token (Auto-regressive Prediction)
 
 - **Đầu vào:** Chuỗi token đã sinh ra trước đó.
@@ -92,6 +98,15 @@ $$\text{Input Sequence} = [S, v, {\bar{y}*u}*{u \in [1:U]}, T, {\mu_l}_{l \in [1
 - **Công thức:**
 $$L_{LLM} = -\frac{1}{L+1} \sum_{l=1}^{L+1} \log q(\mu_l)$$
 *Trong đó $q(\mu_l)$ là xác suất hậu nghiệm được tính qua lớp Softmax của LLM,.*
+
+>
+
+**Tại sao dùng Log?**
+- Xác suất là các số nhỏ $(0<p<1)$. Khi nhân chuỗi xác suất (tính xác suất của cả câu), số sẽ trở nên cực bé (underflow). Hàm log biến phép nhân thành phép cộng: $\log(a⋅b)=\log_a+\log_b$, giúp máy tính xử lý dễ dàng hơn.
+- Dấu trừ $(−)$ để biến bài toán "tối đa hóa xác suất đúng" thành bài toán "tối thiểu hóa độ sai lệch" (Loss function).
+- Bản chất: LLM đang học cách trả lời câu hỏi: "Dựa trên giọng của ông A, và nội dung chữ là B, thì âm thanh tiếp theo xác suất cao nhất là gì?".
+
+>
 
 ---
 
@@ -107,6 +122,12 @@ Quá trình sinh dữ liệu được mô tả bằng một phương trình vi p
 $$\frac{d}{dt} \phi_t(X) = v_t(\phi_t(X), t)$$
 *Với điều kiện biên: $\phi_0(X) \sim \mathcal{N}(0, I)$ (Nhiễu chuẩn) và $\phi_1(X) \sim p_1(X)$ (Phân phối dữ liệu thực).*
 
+- Đây là phương trình mô tả sự chuyển động.  
+$\frac{d}{dt}$ là vận tốc (đạo hàm theo thời gian).
+- $v_t$ là Trường vector (Vector Field). Hãy tưởng tượng một dòng sông chảy, tại mỗi điểm trong sông có một mũi tên chỉ hướng nước chảy và tốc độ. $v_t$ chính là bản đồ các mũi tên đó.
+**Ý nghĩa:** Thay vì cố gắng khử nhiễu từng bước một cách ngẫu nhiên như Diffusion, Flow Matching định nghĩa một quỹ đạo (flow) rõ ràng biến đổi từ Nhiễu $(X_0)$ sang Dữ liệu thực $(X_1)$ trong khoảng thời gian t từ 0 đến 1
+
+
 ### Bước 3.2: Xấp xỉ trường vector tối ưu (Optimal Transport Path)
 
 CosyVoice huấn luyện mạng nơ-ron để khớp với một đường dẫn nội suy tuyến tính giữa nhiễu ($X_0$) và dữ liệu thực ($X_1$).
@@ -117,6 +138,10 @@ $$\phi_t^{OT}(X_0, X_1) = (1 - (1 - \sigma)t)X_0 + tX_1$$
 $$v_t(\phi_t^{OT}(X_0, X_1)|\theta) = \text{NN}_{\theta}(\phi_t^{OT}(X_0, X_1), t; v, {\mu_l}, \tilde{X}_1)$$
 *Các điều kiện đầu vào bao gồm: Vector người nói $v$, chuỗi token ${\mu_l}$, và Mel spectrogram bị che $\tilde{X}_1$.*
 
+- Đây thực chất là phương trình của một đoạn thẳng (Linear Interpolation) nối giữa điểm Nhiễu $(X_0)$ và điểm Dữ liệu $(X_1)$.
+- Optimal Transport (Vận chuyển tối ưu): Trong toán học, đường ngắn nhất và ít tốn chi phí nhất để di chuyển khối lượng từ A đến B là đường thẳng.
+- Diffusion Model thường đi theo đường cong phức tạp. CosyVoice ép mô hình học theo đường thẳng này. Điều này giúp mô hình hội tụ nhanh hơn và suy luận (inference) tốn ít bước hơn.
+
 ### Bước 3.3: Lấy mẫu với hướng dẫn (Inference with Classifier-free Guidance)
 
 Khi sinh giọng nói, mô hình sử dụng kỹ thuật Classifier-free Guidance (CFG) để tăng cường chất lượng và độ chính xác theo điều kiện.
@@ -125,9 +150,10 @@ Khi sinh giọng nói, mô hình sử dụng kỹ thuật Classifier-free Guidan
 $$\tilde{v}_t(\dots) = (1 + \beta) \cdot v_t(\dots|\Psi) - \beta \cdot v_t(\dots)$$
 *Trong đó $\Psi$ là các điều kiện (văn bản, giọng mẫu), $\beta$ là độ mạnh hướng dẫn (thường là 0.7).*
 
+- Bằng cách nhân với $(1+\beta)$ (với $\beta>0$), ta đang "phóng đại" cái vector đặc trưng đó lên.
+- Mục đích: Ép mô hình tạo ra giọng nói tuân thủ cực kỳ chặt chẽ theo giọng mẫu và văn bản, loại bỏ các yếu tố trung bình, nhạt nhòa. Ví dụ: Nếu giọng mẫu "buồn", CFG sẽ làm cho nó "rất buồn" thay vì "hơi buồn".
 > Chi tiết phụ trợ: CosyVoice sử dụng một Cosine Scheduler cho bước thời gian $t$ để tập trung nhiều bước sinh vào giai đoạn đầu khó khăn hơn: $t := 1 - \cos(\frac{t\pi}{2})$,.
-> 
-
+> Hàm Cosine giúp điều chỉnh bước thời gian $t$, làm cho mô hình dành nhiều bước xử lý hơn ở giai đoạn đầu và ít bước hơn ở giai đoạn cuối, giúp âm thanh chi tiết hơn
 ---
 
 ## Giai Đoạn 4: Tạo Sóng Âm (Vocoder)
