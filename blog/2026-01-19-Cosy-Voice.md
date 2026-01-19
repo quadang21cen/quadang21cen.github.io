@@ -1,8 +1,10 @@
 ---
 slug: cosy-voice-explained
 title: Phân Tích Chuyên Sâu Cơ Chế Toán Học Của Mô Hình CosyVoice
+description: Bài viết giải thích về Flow Matching và ODE trong CosyVoice.
 authors: [dangquach]
 tags: [motivation]
+image: figure/cosy_voice.png
 ---
 
 # Phân Tích Chuyên Sâu Cơ Chế Toán Học Của Mô Hình CosyVoice
