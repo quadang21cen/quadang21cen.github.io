@@ -1,0 +1,98 @@
+Đề cương tổng thể cho ngành Giải tích (Syllabus for Mathematical Analysis)
+Phần I: Nền tảng – Giải tích thực (Real Analysis)
+Phần này xây dựng lại toàn bộ giải tích một cách chặt chẽ từ các tiên đề cơ bản, làm nền móng vững chắc cho tất cả các phần sau.
+Chương 1: Xây dựng hệ thống số thực (The Construction of Real Numbers)
+Tiên đề về trường (Field Axioms), thứ tự (Order Axioms).
+Khái niệm supremum (cận trên đúng) và infimum (cận dưới đúng).
+Tiên đề quan trọng nhất: Completeness Axiom (Tiên đề về sự đầy đủ). Đây là tính chất phân biệt tập số thực R và tập số hữu tỉ Q.
+Tính chất Archimedean (Archimedean Property).
+Tính trù mật của Q trong R.
+Chương 2: Dãy và Chuỗi số (Sequences and Series of Numbers)
+Định nghĩa giới hạn của một dãy (limit of a sequence).
+Dãy con (subsequences) và định lý Bolzano-Weierstrass.
+Dãy Cauchy và tiêu chuẩn hội tụ Cauchy.
+Giới hạn trên (limsup) và giới hạn dưới (liminf).
+Chuỗi số (series), các tiêu chuẩn hội tụ (so sánh, d'Alembert, Cauchy).
+Hội tụ tuyệt đối và hội tụ có điều kiện.
+Chương 3: Cấu trúc Topo trên R (Topology of R)
+Tập mở (open sets), tập đóng (closed sets).
+Điểm tụ (limit points), bao đóng (closure).
+Tập hợp compact và định lý Heine-Borel.
+Tập hợp liên thông (connected sets).
+Chương 4: Giới hạn và tính liên tục của hàm số (Limits and Continuity of Functions)
+Định nghĩa giới hạn của hàm số theo kiểu ϵ−δ.
+Tính liên tục (continuity). Các tính chất của hàm liên tục.
+Các định lý quan trọng về hàm liên tục trên tập compact: định lý giá trị cực trị (Extreme Value Theorem), tính liên tục đều (uniform continuity).
+Định lý giá trị trung gian (Intermediate Value Theorem).
+Chương 5: Phép tính vi phân (Differentiation)
+Định nghĩa đạo hàm (derivative).
+Các quy tắc tính đạo hàm.
+Định lý Rolle, định lý giá trị trung bình (Mean Value Theorem) và các hệ quả.
+Quy tắc L'Hôpital.
+Định lý Taylor.
+Chương 6: Tích phân Riemann (The Riemann Integral)
+Định nghĩa tích phân Riemann bằng tổng Darboux trên và dưới.
+Điều kiện khả tích Riemann.
+Các tính chất của tích phân.
+Định lý cơ bản của giải tích (Fundamental Theorem of Calculus).
+Chương 7: Dãy và chuỗi hàm (Sequences and Series of Functions)
+Hội tụ điểm (pointwise convergence).
+Hội tụ đều (uniform convergence) và tiêu chuẩn Cauchy cho hội tụ đều.
+Các định lý về việc bảo toàn tính chất (liên tục, khả tích, khả vi) dưới giới hạn đều.
+Chuỗi lũy thừa (power series).
+Phần II: Trừu tượng hóa – Không gian Metric và Topo (Metric and Topological Spaces)
+Phần này tổng quát hóa các khái niệm về khoảng cách, sự hội tụ và tính liên tục ra khỏi không gian R 
+n
+  quen thuộc.
+Chương 8: Không gian Metric (Metric Spaces)
+Định nghĩa metric space, các ví dụ (không gian Euclide, không gian hàm, không gian dãy).
+Các khái niệm topo trong không gian metric: tập mở, tập đóng, hội tụ, liên tục.
+Dãy Cauchy và không gian đầy đủ (complete metric spaces).
+Nguyên lý ánh xạ co (Contraction Mapping Principle) và các ứng dụng.
+Tính compact, tính compact dãy (sequential compactness).
+Tính liên thông (connectedness).
+Không gian khả ly (separable spaces).
+Chương 9: Giới thiệu về không gian Topo (Introduction to Topological Spaces)
+Định nghĩa không gian topo (topological space) thông qua họ các tập mở.
+Cơ sở (basis) cho một topo.
+So sánh các khái niệm compactness, connectedness trong không gian topo.
+Chương 10: Giới thiệu về Tích phân Lebesgue (Introduction to Lebesgue Integration)
+Độ đo ngoài (outer measure), các tập đo được (measurable sets).
+Độ đo Lebesgue (Lebesgue measure).
+Hàm đo được (measurable functions).
+Tích phân Lebesgue và so sánh với tích phân Riemann.
+Các định lý hội tụ quan trọng: Monotone Convergence Theorem, Fatou's Lemma, Dominated Convergence Theorem.
+Không gian L 
+p
+  (Lp spaces).
+Phần III: Tổng hợp – Nhập môn Giải tích hàm (Introduction to Functional Analysis)
+Phần này kết hợp cấu trúc đại số của không gian vector với cấu trúc topo của không gian metric để nghiên cứu các không gian hàm và các toán tử trên chúng.
+Chương 11: Không gian định chuẩn và không gian Banach (Normed and Banach Spaces)
+Không gian vector định chuẩn (Normed Vector Space).
+Mối liên hệ giữa norm và metric.
+Không gian Banach (không gian định chuẩn đầy đủ). Các ví dụ quan trọng.
+Không gian con tuyến tính, không gian thương (quotient space).
+Toán tử tuyến tính liên tục (bị chặn) (Continuous/Bounded Linear Operators).
+Chương 12: Không gian Hilbert (Hilbert Spaces)
+Tích vô hướng (Inner Product). Bất đẳng thức Cauchy-Schwarz.
+Không gian Hilbert (không gian tích vô hướng đầy đủ).
+Khái niệm trực giao (orthogonality). Định lý Pythagoras tổng quát.
+Định lý hình chiếu (The Projection Theorem).
+Cơ sở trực chuẩn (orthonormal basis) và chuỗi Fourier tổng quát.
+Định lý biểu diễn Riesz (Riesz Representation Theorem).
+Chương 13: Các định lý cơ bản của Giải tích hàm (Fundamental Theorems of Functional Analysis)
+Định lý Hahn-Banach (dạng giải tích và hình học).
+Định lý phạm trù Baire (Baire's Category Theorem).
+Nguyên lý bị chặn đều (Uniform Boundedness Principle / Banach-Steinhaus Theorem).
+Định lý ánh xạ mở (Open Mapping Theorem).
+Định lý đồ thị đóng (Closed Graph Theorem).
+Chương 14: Không gian đối ngẫu và Hội tụ yếu (Dual Spaces and Weak Convergence)
+Không gian đối ngẫu (dual space) X 
+Hội tụ mạnh và hội tụ yếu (strong and weak convergence).
+Hội tụ yếu-sao (weak- convergence*).
+Không gian phản xạ (reflexive spaces).
+Chương 15: Nhập môn Lý thuyết phổ (Introduction to Spectral Theory)
+Phổ của một toán tử (spectrum of an operator).
+Giá trị riêng và vector riêng.
+Toán tử compact.
+Định lý phổ cho toán tử compact tự liên hợp trên không gian Hilbert.
