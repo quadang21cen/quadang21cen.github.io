@@ -192,7 +192,7 @@ const config = {
         {name: 'google-site-verification', content: 'hw5c3N5_0S6J1g9F8wwlILr9NCi7nFdRCWw9gVSTHRw'},
       ],
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/baner.png',
       navbar: {
         title: 'Quadang21cen',
         logo: {
