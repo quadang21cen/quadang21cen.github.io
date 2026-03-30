@@ -8,9 +8,7 @@ tags: [motivation]
 Cuộc cách mạng công nghiệp là một quá trình chuyển đổi sâu rộng trong nền kinh tế và xã hội, diễn ra chủ yếu trong thế kỷ 18 và 19, khi mà các quốc gia bắt đầu chuyển từ nền kinh tế nông nghiệp, thủ công sang nền kinh tế công nghiệp và cơ khí hóa sản xuất. Quá trình này bao gồm sự phát triển mạnh mẽ của các công nghệ mới, đặc biệt là trong các lĩnh vực sản xuất, giao thông, năng lượng, và sau này là thông tin, dẫn đến việc tăng năng suất lao động, thay đổi cách thức sản xuất, cũng như tạo ra những thay đổi sâu sắc trong các cơ cấu xã hội và chính trị.
 <!-- truncate -->
 
-<center>
-![Intro](https://phuong3.tayninh.gov.vn/uploads/news/2024_01/ls-cach-mang-con-nghiep-1493864764.jpg)
-</center>
+
 ## 1. Cuộc cách mạng công nghiệp lần thứ nhất.
 Bắt đầu vào khoảng năm 1784. Điểm nổi bật của cuộc cách mạng công nghiệp lần thứ nhất là việc sử dụng năng lượng nước, hơi nước và cơ giới hóa sản xuất. Cuộc cách mạng công nghiệp này mở màn từ việc James Watt phát minh ra động cơ hơi nước vào năm 1784. Phát minh vĩ đại này đã châm ngòi cho sự bùng nổ của công nghiệp thế kỷ 19 lan rộng từ Anh đến khắp châu Âu và Hoa Kỳ.
 
