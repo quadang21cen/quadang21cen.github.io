@@ -1,13 +1,13 @@
 ---
 slug: markov-chains
 title: Giới thiệu về Chuỗi Markov (Markov Chains)
-authors: [dangquach]
-tags: [motivation]
+authors: [quachdang]
+tags: [computer-science]
 ---
 # Giới thiệu về Chuỗi Markov (Markov Chains)
 
 Trong nhiều hiện tượng ngẫu nhiên của đời sống và khoa học, trạng thái của hệ thống ở một thời điểm thường phụ thuộc vào những gì đã xảy ra trong quá khứ. Tuy nhiên, có một lớp quá trình đặc biệt mà “tương lai chỉ phụ thuộc vào hiện tại, không cần biết quá khứ”. Lớp quá trình này được mô tả bằng Chuỗi Markov (Markov Chain).
-
+<!-- truncate -->
 Ý tưởng chính của chuỗi Markov rất đơn giản: nếu bạn biết trạng thái hiện tại, thì đó là tất cả thông tin cần thiết để dự đoán trạng thái kế tiếp. Ví dụ, khi dự báo thời tiết, xác suất ngày mai mưa hay nắng chỉ phụ thuộc vào thời tiết hôm nay, chứ không cần nhớ lại chuỗi thời tiết nhiều ngày trước.
 
 Chuỗi Markov đóng vai trò nền tảng trong nhiều lĩnh vực: từ khoa học dữ liệu, trí tuệ nhân tạo, vật lý thống kê, tài chính định lượng cho đến thuật toán PageRank của Google. Nó vừa mang tính trực quan gần gũi, vừa có cơ sở toán học vững chắc để phân tích và mô hình hóa những hiện tượng phức tạp.

@@ -1,15 +1,16 @@
 ---
 slug: fukuzawa-yukichi
 title: Fukuzawa Yukichi và suy nghĩ về việc Học của người Nhật
-authors: [dangquach]
-tags: [motivation]
+authors: [quachdang]
+tags: [computer-science]
 ---
 
 # Fukuzawa Yukichi và suy nghĩ về việc Học của người Nhật
 
-<!-- truncate -->
+
 
 Ở Nhật không ai ko biết tới Fukazawa Yuchiki, ông là con người có suy nghĩ vượt thời đại, là khai quốc công thần của dân Nhật. Hình ảnh của ông được in trên tờ tiền có mệnh giá cai nhất của Nhật: tờ 10 ngàn yên.
+<!-- truncate -->
 Ông là người có tư tưởng sâu rộng nhất với dân Nhật thời cận đại. Ông là người khai sáng tri thức cho dân Nhật, đem lại linh hồn và động lực tinh thần cho cuộc Duy Tân của Minh Trị.
 
 <center>

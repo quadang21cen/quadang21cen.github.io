@@ -1,7 +1,7 @@
 ---
 slug: long-blog-post
 title: Long Blog Post
-authors: dangquach
+authors: [quachdang]
 tags: [science, history]
 ---
 ### Lịch Sử Của khoa học

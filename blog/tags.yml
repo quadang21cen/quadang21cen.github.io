@@ -32,3 +32,8 @@ motivation:
   label: Motivation
   permalink: /motivation
   description: Motivation tag description
+
+other: 
+  label: Other
+  permalink: /other
+  description: Other tag description

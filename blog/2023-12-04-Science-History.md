@@ -1,13 +1,13 @@
 ---
 slug: long-blog-post
 title: Long Blog Post
-authors: dangquach
-tags: [science, history]
+authors: [quachdang]
+tags: [computer-science]
 ---
 ### Lịch Sử Của khoa học
 
 Khoa học là một lĩnh vực rộng lớn, đóng góp quan trọng vào quá trình phát triển của xã hội và con người. Trên chặng đường lịch sử, khoa học đã trải qua nhiều giai đoạn tiến hóa, từ những đóng góp ban đầu của các nền văn minh cổ đại đến những đổi mới mang tính cách mạng trong thời đại công nghệ hiện nay.
-
+<!-- truncate -->
 ## Khoa học trong thời kỳ cổ đại
 
 Khoa học xuất hiện từ rất sớm trong lịch sử nhân loại, được thể hiện qua những đóng góp của Ai Cập cổ đại, Lưỡng Hà, Hy Lạp và La Mã. Tại Hy Lạp, những nhà tư tưởng như Aristoteles, Euclid và Ptolemy đã đề ra các nguyên lý về logic, hình học và thiên văn học. Trong khi đó, người Ai Cập đã phát triển các phương pháp đo đạc và y học sơ khai. Tại Lưỡng Hà, hệ thống số học và thiên văn học cũng đạt những bước tiến đáng kể, đặt nền móng cho nhiều khám phá sau này.

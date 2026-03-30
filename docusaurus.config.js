@@ -4,7 +4,7 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 const remarkMath = require('remark-math');
 const rehypeKatex = require('rehype-katex');
 
@@ -12,11 +12,11 @@ const rehypeKatex = require('rehype-katex');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  
+
   title: 'Quach Dang Blog',
   tagline: "I am Quach Van Dang, an AI Engineer from Bac Lieu, Vietnam. Since graduating in 2022 with a specialization in AI, I have been working professionally in the field while deepening my expertise through academic research. My work involves active participation in LLM research labs, with a particular focus on the challenges of Time Series and the complexities of embedding latent spaces. My long-term goal is to build a strong theoretical foundation by obtaining a Master's in Mathematics and subsequently pursuing a PhD.",
   // favicon: 'img/favicon.ico',
-  favicon: 'img/science.ico',
+  favicon: 'img/logo.svg',
   stylesheets: [
     {
       href: 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css', // Hoặc phiên bản KaTeX bạn muốn
@@ -95,23 +95,20 @@ const config = {
   ],
   // THÊM MẢNG PLUGINS NẾU CHƯA CÓ, VÀ THÊM CẤU HÌNH CHO "PAPERS"
   plugins: [
-    // [
-    //   '@docusaurus/plugin-content-docs',
-    //   /** @type {import('@docusaurus/plugin-content-docs').Options} */
-    //   ({
-    //     id: 'papers', // ID duy nhất cho instance này
-    //     path: 'papers', // Thư mục chứa nội dung markdown cho "Paper"
-    //     routeBasePath: 'papers', // Đường dẫn URL (ví dụ: yoursite.com/papers)
-    //     sidebarPath: './sidebarsPapers.js', // File sidebar riêng cho "Paper"
-    //     editUrl:
-    //       'https://github.com/quadang21cen/quadang21cen.github.io/tree/main/', // Thay bằng link repo của bạn
-    //     remarkPlugins: [remarkMath],
-    //     rehypePlugins: [rehypeKatex],
-    //     // Bạn có thể thêm các tùy chọn khác như versioning nếu cần
-    //     // showLastUpdateTime: true,
-    //     // showLastUpdateAuthor: true,
-    //   }),
-    // ],
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'papers',
+        path: 'papers',
+        routeBasePath: 'papers',
+        blogTitle: 'Papers',
+        blogDescription: 'Danh sách các Paper của tôi',
+        showReadingTime: true,
+        authorsMapPath: 'authors.yml',
+        remarkPlugins: [require('remark-math')],
+        rehypePlugins: [require('rehype-katex')],
+      },
+    ],
 
     // [
     //   '@docusaurus/plugin-content-blog',
@@ -137,7 +134,7 @@ const config = {
         editUrl: 'https://github.com/quadang21cen/quadang21cen.github.io/tree/main/',
         remarkPlugins: [require('remark-math')],
         rehypePlugins: [require('rehype-katex')],
-        
+
         // Thêm các option giống docs preset
         showLastUpdateTime: true,
         showLastUpdateAuthor: true,
@@ -157,7 +154,7 @@ const config = {
         editUrl: 'https://github.com/quadang21cen/quadang21cen.github.io/tree/main/',
         remarkPlugins: [require('remark-math')],
         rehypePlugins: [require('rehype-katex')],
-        
+
         // Thêm các option giống docs preset
         showLastUpdateTime: true,
         showLastUpdateAuthor: true,
@@ -176,7 +173,7 @@ const config = {
         editUrl: 'https://github.com/quadang21cen/quadang21cen.github.io/tree/main/',
         remarkPlugins: [require('remark-math')],
         rehypePlugins: [require('rehype-katex')],
-        
+
         // Thêm các option giống docs preset
         showLastUpdateTime: true,
         showLastUpdateAuthor: true,
@@ -189,7 +186,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       metadata: [
-        {name: 'google-site-verification', content: 'hw5c3N5_0S6J1g9F8wwlILr9NCi7nFdRCWw9gVSTHRw'},
+        { name: 'google-site-verification', content: 'hw5c3N5_0S6J1g9F8wwlILr9NCi7nFdRCWw9gVSTHRw' },
       ],
       // Replace with your project's social card
       image: 'img/baner.png',
@@ -200,44 +197,37 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'tutorialSidebar',
-          //   position: 'left',
-          //   label: 'Linear Algebra',
-          // },
+          {
+            to: '/blog',
+            label: 'Blog',
+            position: 'left'
+          },
+          {
+            to: '/papers',
+            label: 'Papers',
+            position: 'left'
+          },
           {
             type: 'docSidebar',
-            sidebarId: 'statisticsSidebar',  // ID trùng với key trong sidebarsAnalysis.js
+            sidebarId: 'statisticsSidebar',
             position: 'left',
             label: 'Statistics and Probability',
             docsPluginId: 'statistics',
           },
           {
             type: 'docSidebar',
-            sidebarId: 'analysisSidebar',  // ID trùng với key trong sidebarsAnalysis.js
+            sidebarId: 'analysisSidebar',
             position: 'left',
             label: 'Mathematical analysis',
             docsPluginId: 'analysis',
           },
           {
             type: 'docSidebar',
-            sidebarId: 'linearAlgebraSidebar',  // ID trùng với key trong sidebarsAnalysis.js
+            sidebarId: 'linearAlgebraSidebar',
             position: 'left',
             label: 'Linear Algebra',
-            docsPluginId: 'linear-algebra',     // ⚠️ Bắt buộc nếu dùng nhiều plugin
+            docsPluginId: 'linear-algebra',
           },
-          // {
-          //   to: '/blog', 
-          //   label: 'Blog', 
-          //   position: 'left'
-          // },
-          // {
-          //   to: '/papers/intro',
-          //   label: 'Paper',
-          //   position: 'left',
-          //   docsPluginId: 'papers'
-          // },
           {
             href: 'https://github.com/quadang21cen',
             label: 'GitHub',

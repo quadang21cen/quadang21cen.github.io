@@ -1,7 +1,7 @@
 ---
 slug: fukuzawa-yukichi
 title: Fukuzawa Yukichi và suy nghĩ về việc Học của người Nhật
-authors: [dangquach]
+authors: [quachdang]
 tags: [motivation]
 ---
 
