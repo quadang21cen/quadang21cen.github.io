@@ -7,11 +7,7 @@ tags: [computer-science]
 image: /img/cosy_voice.png
 ---
 
-# CosyVoice - dưới góc nhìn toán học
-
-
-
-- CosyVoice là một hệ thống tổng hợp giọng nói (TTS) zero-shot đa ngôn ngữ có khả năng mở rộng cao đi theo hướng Generative TTS (Large Audio Models), với kiến trúc lai ghép giữa LLM và Flow Matching. 
+CosyVoice là một hệ thống tổng hợp giọng nói (TTS) zero-shot đa ngôn ngữ có khả năng mở rộng cao đi theo hướng Generative TTS (Large Audio Models), với kiến trúc lai ghép giữa LLM và Flow Matching. 
 <!-- truncate -->
 - Điểm đột phá của CosyVoice nằm ở việc sử dụng Token ngữ nghĩa có giám sát (Supervised Semantic Tokens) kết hợp với mô hình Conditional Flow Matching.
 > Lưu ý: bài viết này không phải là một hướng dẫn chi tiết để huấn luyện mô hình, mà chỉ là một phân tích chuyên sâu về cơ chế hoạt động của mô hình giải mã quy trình hoạt động của CosyVoice qua 4 giai đoạn chính, mô tả chi tiết các hàm toán học chính từ đầu vào đến đầu ra. Dựa theo cách hiểu của mình trong quá trình tìm hiểu và nghiên cứu, vì vậy không tránh khỏi những sai sót. 

@@ -100,9 +100,9 @@ const config = {
       {
         id: 'papers',
         path: 'papers',
-        routeBasePath: 'papers',
-        blogTitle: 'Papers',
-        blogDescription: 'Danh sách các Paper của tôi',
+        routeBasePath: 'tech-notes',
+        blogTitle: 'Tech Notes',
+        blogDescription: 'Ghi chú kỹ thuật và tóm tắt paper AI',
         showReadingTime: true,
         authorsMapPath: 'authors.yml',
         remarkPlugins: [require('remark-math')],
@@ -191,11 +191,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/baner.png',
       navbar: {
-        title: 'Quadang21cen',
-        logo: {
-          alt: 'Quadang21cen Logo',
-          src: 'img/logo.svg',
-        },
+        title: 'Dang Quach',
         items: [
           {
             to: '/blog',
@@ -203,8 +199,8 @@ const config = {
             position: 'left'
           },
           {
-            to: '/papers',
-            label: 'Papers',
+            to: '/tech-notes',
+            label: 'Tech Notes',
             position: 'left'
           },
           {

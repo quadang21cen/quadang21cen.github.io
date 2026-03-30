@@ -4,7 +4,6 @@ title: Long Blog Post
 authors: [quachdang]
 tags: [computer-science]
 ---
-### Lịch Sử Của khoa học
 
 Khoa học là một lĩnh vực rộng lớn, đóng góp quan trọng vào quá trình phát triển của xã hội và con người. Trên chặng đường lịch sử, khoa học đã trải qua nhiều giai đoạn tiến hóa, từ những đóng góp ban đầu của các nền văn minh cổ đại đến những đổi mới mang tính cách mạng trong thời đại công nghệ hiện nay.
 <!-- truncate -->

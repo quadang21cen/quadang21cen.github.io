@@ -42,3 +42,153 @@
   margin-top: -0.25rem;
   margin-bottom: 1rem;
 }
+
+/* Blog/Papers list: smaller titles + tighter spacing */
+.blog-list-page article.margin-bottom--xl {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+/* Fallback: force any margin-bottom--xl on articles to 0 */
+article.margin-bottom--xl {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.blog-list-page article {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.blog-list-page article + article {
+  margin-top: 0 !important;
+}
+
+.blog-list-page article header h2[class*="title"] {
+  font-size: 1.6rem;
+  line-height: 1.25;
+  margin-top: 0.1rem;
+  margin-bottom: 0.35rem;
+}
+
+.blog-list-page article header {
+  margin-top: 0;
+  margin-bottom: 0.15rem;
+}
+
+.blog-list-page article header .margin-top--md {
+  margin-top: 0.15rem;
+}
+
+.blog-list-page article header .margin-bottom--sm {
+  margin-bottom: 0.15rem;
+}
+
+/* Override Infima spacing utilities in list view (they use !important) */
+.blog-list-page .margin-vert--md,
+.blog-list-page .margin-vert--lg,
+.blog-list-page .margin-vert--xl {
+  margin-top: 0.1rem !important;
+  margin-bottom: 0.1rem !important;
+}
+
+.blog-list-page .margin-bottom--xl,
+.blog-list-page .margin-bottom--lg,
+.blog-list-page .margin-bottom--md {
+  margin-bottom: 0.1rem !important;
+}
+
+.blog-list-page .margin-top--lg,
+.blog-list-page .margin-top--md {
+  margin-top: 0.1rem !important;
+}
+
+.blog-list-page article .markdown p {
+  margin-top: 0.15rem;
+  margin-bottom: 0.15rem;
+}
+
+.blog-list-page article .markdown {
+  margin-bottom: 0;
+}
+
+/* Hide tags + read more in list view to save space */
+.blog-list-page footer.row.docusaurus-mt-lg {
+  display: none;
+}
+
+/* Hide authors row in list view (keep inside post page) */
+.blog-list-page article header .row {
+  display: none;
+}
+
+/* Hide date + reading time in list view */
+.blog-list-page article header .margin-vert--md {
+  display: none;
+}
+
+/* Aggressive spacing reset for blog list cards */
+.blog-list-page article {
+  margin: 0 !important;
+  padding: 0 !important;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.blog-list-page article + article {
+  margin-top: 0.1rem !important;
+}
+
+.blog-list-page article header {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.blog-list-page article header h2[class*="title"] {
+  margin: 0.1rem 0 0.1rem 0 !important;
+  line-height: 1.2;
+}
+
+/* Single post title size (match list view sizing) */
+.blog-post-page article header h1[class*="title"] {
+  font-size: 1.6rem;
+  line-height: 1.25;
+  margin-bottom: 0.35rem;
+}
+
+@media (max-width: 576px) {
+  .blog-post-page article header h1[class*="title"] {
+    font-size: 1.4rem;
+  }
+}
+
+.blog-list-page article .markdown {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.blog-list-page article .markdown > p {
+  margin: 0.1rem 0 0 0 !important;
+}
+
+.blog-list-page article .markdown > p:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* Hover + click affordance for blog list cards */
+.blog-list-page .blog-card {
+  cursor: pointer;
+  transition: background-color 180ms ease, transform 180ms ease;
+  border-radius: 8px;
+  padding: 0.35rem 0.25rem !important;
+}
+
+.blog-list-page .blog-card:hover {
+  background-color: rgba(11, 94, 215, 0.06);
+  transform: translateY(-1px);
+}
+
+.blog-list-page .blog-card:focus-visible {
+  outline: 2px solid rgba(11, 94, 215, 0.45);
+  outline-offset: 2px;
+}

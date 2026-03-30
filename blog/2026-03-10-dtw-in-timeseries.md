@@ -7,13 +7,15 @@ tags: [computer-science]
 image: /img/baner.png
 ---
 
-### Bẻ Cong Thời Gian: Vượt Qua Sự Cứng Nhắc Của Khoảng Cách Euclidean Trong Dữ Liệu Chuỗi (Time Series)
-
-
-
-
 DTW không chỉ đơn thuần là một thuật toán; đó là lời giải cho bài toán về sự không hoàn hảo của thế giới thực. Thay vì ép buộc dữ liệu phải khớp vào những khung thời gian cứng nhắc, DTW "bẻ cong" không gian để tìm thấy sự đồng điệu trong những tín hiệu tưởng chừng lạc quẻ. Từ những nhịp tim bất ổn trên bản đồ điện tâm đồ đến những biến động khó lường của thị trường tài chính, DTW vẫn đứng vững như một cầu nối giữa toán học cổ điển và sức mạnh của AI hiện đại. Hiểu về DTW là hiểu cách máy tính bắt đầu học cách "cảm nhận" hình thái thay vì chỉ đếm những con số vô hồn.
 <!-- truncate -->
+
+<!-- ### Bẻ Cong Thời Gian: Vượt Qua Sự Cứng Nhắc Của Khoảng Cách Euclidean Trong Dữ Liệu Chuỗi (Time Series) -->
+
+
+
+
+
 
 #### 1. Dẫn nhập: "Nỗi Đau" Của Sự Đồng Bộ
 
