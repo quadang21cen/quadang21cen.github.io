@@ -3,6 +3,7 @@ slug: simple-exp-tnse
 title: Simple Explanation - Phương pháp trực quan hóa dữ liệu nhiều chiều t-SNE visualization 
 authors: [quachdang]
 tags: [computer-science]
+date: 2025-06-22
 ---
 
 Khi thực hiện các dự án Data Science, Visualized dữ liệu là một phần quan trọng để hiểu rõ hơn về dữ liệu và tìm ra các xu hướng, mối quan hệ giữa các biến, tuy nhiên việc visualized dữ liệu nhiều chiều là một thách thức lớn hơn nữa 99% dữ liệu chúng ta là dữ liệu nhiều chiều, khi con người bị giới hạn bởi không gian 3 chiều, việc visualized dữ liệu cao hơn 3 chiều là một thách thức lớn hơn nữa, và đây là nơi t-SNE ra đời.
