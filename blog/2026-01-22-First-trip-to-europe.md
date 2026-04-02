@@ -1,6 +1,6 @@
 ---
 slug: first-trip-to-europe
-title: First trip to Europe
+title: Chuyến đi đến lục địa già ở tuổi 25
 description: chuyến đi dầu tiên đến châu âu của tôi
 authors: [quachdang]
 tags: [motivation]
@@ -38,28 +38,37 @@ Dù là khoảnh khắc đi qua những đường hầm tối om kéo dài xuyê
 
 Ngược lại, nó cho mình thấy một sự thật: thế giới này vô cùng rộng lớn, nhưng ý chí của con người cũng vĩ đại không kém. Bình thường, công việc của chúng ta xoay quanh những dòng code, trước màn hình máy tính. Nhưng khi bước ra thế giới thực, nhìn cách con người từ hàng trăm năm trước đục xuyên qua cả một dãy núi đá lạnh lẽo để làm đường sắt, hay việc dựng lên khối thép khổng lồ giữa lòng Paris, ta mới thấy khả năng của con người là không có giới hạn.
 
+<!-- https://www.climbing-kilimanjaro.com/wp-content/uploads/2024/02/Mont-Blanc-Highest-Mountain-in-the-alps-1536x1152.jpg -->
+
+![Mont Blanc Highest Mountain in the alps](https://www.climbing-kilimanjaro.com/wp-content/uploads/2024/02/Mont-Blanc-Highest-Mountain-in-the-alps-1536x1152.jpg)
+
+
+
 Chính sự choáng ngợp trước thiên nhiên và niềm khâm phục trước sức mạnh lao động của con người đã khiến những áp lực "cơm áo gạo tiền" hay cái tôi cá nhân bỗng trở nên thật tầm thường. Trải nghiệm này dạy mình rằng: chúng ta tuy chỉ là một phần nhỏ bé của thế giới, nhưng mỗi cá nhân đều mang trong mình sức mạnh để hướng đến những điều vĩ đại cho riêng mình, dù trong bất kỳ lĩnh vực nào.
 
 ## 3. Du lịch là "khắc tinh" của định kiến
 
-> *"Du lịch là kẻ thù của định kiến, mù quáng và thiển cận." – Mark Twain*
-> 
+Chúng ta thường vô tình đóng khung thế giới qua lăng kính của mạng xã hội, qua những luồng thông tin được chọn lọc sẵn. Ở nhà, thật dễ dàng để phán xét một nền văn hóa hay một lối sống nào đó. Nhưng khi bạn thực sự xách balo lên, bước đi trên những con phố xa lạ, hít thở chung một bầu không khí và nhìn cách người bản địa vận hành cuộc sống, mọi rào cản vô hình hay sự phán xét chủ quan bỗng chốc vỡ vụn.
 
-Khi ngồi ở nhà và nhìn thế giới qua lăng kính của truyền thông hay mạng xã hội, chúng ta rất dễ phán xét mọi thứ. Nhưng khi bạn thực sự đặt chân đến một vùng đất mới, đi bộ trên những con phố của họ, quan sát cách người bản địa sinh hoạt, mọi rào cản vô hình sẽ tan biến.
+Mark Twain từng nói: "Du lịch là kẻ thù của định kiến". Mình chỉ thực sự thấm thía điều này khi đứng giữa cái lạnh thấu xương của Tromsø. Thú thật, mang theo tâm thế của một người sinh ra ở xứ nhiệt đới, mình đã từng mang góc nhìn chật hẹp của bản thân để đặt ra vô số câu hỏi: Tại sao con người lại chọn sống ở một nơi thời tiết khắc nghiệt đến thế? Tại sao tổ tiên của họ không di cư về phương Nam ấm áp để cuộc sống dễ dàng hơn, mà lại kiên cường bám trụ lại vùng đất băng giá này? Nhưng khi quan sát cách họ sinh tồn, cách họ xây dựng những cộng đồng gắn kết và tìm thấy niềm vui rạng rỡ ngay trong những ngày đông khắc nghiệt, mình nhận ra: Hạnh phúc không có một công thức hay chuẩn mực chung nào cả. Việc chứng kiến người khác sống trọn vẹn theo một cách hoàn toàn trái ngược với mình đã dạy cho mình bài học sâu sắc nhất về sự thấu cảm và tôn trọng sự khác biệt.
 
-Bạn sẽ nhận ra không có một chuẩn mực sống nào là duy nhất. Ở Tromsø, giữa thời tiết khắc nghiệt đến mức thấu xương, mình cứ tự hỏi: *Tại sao con người lại chọn sống và lập nghiệp ở đây? Tại sao tổ tiên của những dân tộc này không di cư về phương Nam ấm áp hơn mà lại kiên cường bám trụ lại vùng đất này?* Chứng kiến cách họ sinh tồn, xây dựng cộng đồng và hạnh phúc theo cách hoàn toàn khác mình khiến trái tim mình trở nên cởi mở và bao dung hơn. Đó là bài học về sự thấu cảm sắc bén nhất.
-
-Và khi tầm nhìn được mở rộng, bạn sẽ thấy những biến động lớn như cuộc chiến ở Ukraine hay Trung Đông mới thực sự là những vấn đề cốt lõi mà nhân loại đang phải đối mặt và giải quyết, chứ không phải những drama vụn vặt hàng ngày trên mạng.
+Và quan trọng hơn, du lịch giúp bạn "zoom out" (mở rộng) bức tranh cuộc sống. Khi tâm trí bạn đã chứa đựng được sự bao la của những rặng núi, những đại dương và những nền văn minh khác nhau, bạn sẽ thấy thế giới ngoài kia đang chuyển động với những vấn đề thực sự lớn lao — như sự sinh tồn, khí hậu, hay những biến động lịch sử đang diễn ra ở Ukraine hay Trung Đông. Đứng trước những điều đó, bỗng dưng những cuộc cãi vã vô thưởng vô phạt hay những drama vụn vặt hàng ngày trên mạng xã hội trở nên thật bé nhỏ và không còn đáng để ta bận tâm.
 
 ## 4. Trưởng thành bắt đầu ở nơi "Vùng an toàn" kết thúc
 
-Ở nhà, bạn biết rõ quán cà phê nào ngon, đoạn đường nào hay tắc, gặp khó khăn thì gọi cho ai. Mọi thứ được lập trình sẵn và cực kỳ an toàn. Nhưng xách balo lên đi du lịch một mình là tự ném mình vào những điều vô định:
+Ở môi trường quen thuộc, cuộc sống dường như luôn vận hành theo một trật tự được lập trình sẵn. Bạn biết rõ rẽ ở ngã tư nào thì tránh được tắc đường, góc quán quen nào có ly cà phê đúng vị, và khi sự cố xảy ra, bạn luôn biết mình có thể gọi cho ai. Một vòng lặp an toàn, dễ chịu và hoàn hảo. Nhưng khi xách balo lên đi độc hành đến nửa vòng trái đất, đồng nghĩa với việc bạn tự tay phá vỡ vòng lặp đó để gieo mình vào những biến số vô định.
 
-- Là khi bạn lạc đường ở ngõ hẻm Rome giữa lúc điện thoại sập nguồn, mất hết định vị.
-- Là khi phải vận dụng hết mọi loại ngôn ngữ cơ thể, khoa chân múa tay để gọi món vì người bán không hiểu tiếng Anh.
-- Là khi chuyến bay bị delay, lịch trình đảo lộn và bạn phải co ro ngủ tạm ở hàng ghế sân bay lạnh lẽo.
+Đó là những khoảnh khắc sự an toàn bị tước đoạt hoàn toàn:
 
-Quả thật, đó là những lúc "lên bờ xuống ruộng", nhưng lại là lúc mình học được nhiều nhất. Chính trong những khoảnh khắc buộc phải tự xoay sở ấy, bản lĩnh được hình thành. Bạn sẽ ngạc nhiên khi nhận ra kỹ năng sinh tồn và sự tháo vát của mình mạnh mẽ hơn bản thân tưởng tượng rất nhiều. Giống như câu nói: *"Con thuyền neo đậu ở bến cảng thì rất an toàn, nhưng đó không phải là mục đích người ta đóng thuyền."*
+Là cảm giác hoang mang tột độ khi lạc giữa mê cung những ngõ hẻm lát đá rêu phong ở Rome, và chiếc điện thoại—chiếc phao cứu sinh duy nhất—đột ngột sập nguồn. Không bản đồ, không định vị, không Google dịch.
+
+Là khoảnh khắc phải vứt bỏ sự e ngại, lúng túng vận dụng đủ mọi điệu bộ, khoa chân múa tay chỉ để mua được một phần ăn từ người bán hàng không hiểu một từ tiếng Anh nào.
+
+Là sự mệt mỏi rã rời khi toàn bộ lịch trình được tính toán kỹ lưỡng bị đảo lộn vì chuyến bay delay, buộc bạn phải cuộn mình co ro trên dãy ghế kim loại lạnh lẽo của sân bay giữa đêm khuya.
+
+Quả thật, đó là những chuỗi ngày "lên bờ xuống ruộng", những lúc mọi kế hoạch đều đổ bể. Nhưng nghịch lý thay, đó lại là lúc mình học được nhiều nhất. Khi không còn bất kỳ công cụ hỗ trợ hay điểm tựa quen thuộc nào, bản năng sinh tồn và năng lực giải quyết vấn đề của bạn buộc phải kích hoạt ở mức cao nhất. Chính từ những lần tự mình nhẫn nại gỡ rối từng vấn đề ấy, bản lĩnh mới thực sự được hình thành. Trải qua rồi, bạn sẽ ngạc nhiên nhận ra sự tháo vát và sức chịu đựng của mình mạnh mẽ hơn bản thân vẫn tưởng rất nhiều.
+
+Giống như câu nói kinh điển của John A. Shedd: "Con thuyền neo đậu ở bến cảng thì rất an toàn, nhưng đó không phải là lý do người ta đóng thuyền."
 
 
 ## 5. Đi thật xa để trân trọng nơi trở về
