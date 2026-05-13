@@ -1,6 +1,6 @@
 ---
-slug: about-religion
-title: Luận về tôn giáo
+slug: ton-giao-la-gi
+title: Tôn giáo là gì
 description: bài viết dựa trên ý kiến của mình về tôn giáo
 authors: [quachdang]
 tags: [motivation]

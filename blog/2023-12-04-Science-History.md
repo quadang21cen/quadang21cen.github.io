@@ -1,8 +1,8 @@
 ---
-slug: long-blog-post
-title: Long Blog Post
+slug: lich-su-phat-trien-khoa-hoc-cua-con-nguoi
+title: Lịch sử phát triển khoa học của con người
 authors: [quachdang]
-tags: [computer-science]
+tags: [science]
 ---
 
 Khoa học là một lĩnh vực rộng lớn, đóng góp quan trọng vào quá trình phát triển của xã hội và con người. Trên chặng đường lịch sử, khoa học đã trải qua nhiều giai đoạn tiến hóa, từ những đóng góp ban đầu của các nền văn minh cổ đại đến những đổi mới mang tính cách mạng trong thời đại công nghệ hiện nay.
