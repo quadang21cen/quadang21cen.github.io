@@ -5,6 +5,7 @@ description: bài viết dựa trên ý kiến của mình về tôn giáo
 authors: [quachdang]
 tags: [motivation]
 image: /img/baner.png
+draft: true
 ---
 
 # Luận về tôn giáo

@@ -3,6 +3,7 @@ slug: fukuzawa-yukichi
 title: Fukuzawa Yukichi và suy nghĩ về việc Học của người Nhật
 authors: [quachdang]
 tags: [computer-science]
+draft: true
 ---
 
 # Fukuzawa Yukichi và suy nghĩ về việc Học của người Nhật
