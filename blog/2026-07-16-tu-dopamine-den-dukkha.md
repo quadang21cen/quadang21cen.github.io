@@ -4,7 +4,7 @@ title: Từ Dopamine đến Dukkha - Vì sao ta không bao giờ thấy đủ?
 description: Bài viết về tỉnh thức
 authors: [quachdang]
 tags: [mindfulness]
-image: /img/2026-07-16 20.00.30.jpg
+image: /img/phatgiao.jpg
 ---
 
 Khoảng hai nghìn năm trăm năm trước, **Siddhartha Gautama** sinh ra là một hoàng tử thuộc dòng tộc Shakya (Thích Ca) tại vùng đất nay thuộc Nepal, vào khoảng thế kỷ thứ 6 đến thế kỷ thứ 4 trước Công nguyên. Sau khi từ bỏ cuộc sống vương giả để tìm kiếm con đường giải thoát khỏi nỗi khổ của nhân sinh (sinh, lão, bệnh, tử), ông trải qua nhiều năm tu tập và cuối cùng đạt được sự giác ngộ dưới gốc cây bồ đề. Kể từ đó, ông được gọi là "Phật" (Buddha — người tỉnh thức). Sau khi giác ngộ, Đức Phật dành hơn 40 năm đi khắp lưu vực sông Hằng truyền bá giáo pháp (Dharma) cho mọi tầng lớp xã hội, không phân biệt giai cấp. Sau khi ông nhập niết bàn, các đệ tử và những thế hệ đi sau đã ghi chép, hệ thống hóa lại lời dạy của ông, tạo nên nền tảng của Phật giáo như chúng ta biết ngày nay. Theo cách nhìn của truyền thống Phật giáo, những lời dạy này không phải là một "phát minh" triết học cá nhân, mà là sự mô tả lại những quy luật vận hành của tâm mà Đức Phật đã trực tiếp quan sát được.
@@ -14,7 +14,7 @@ Khoảng hai nghìn năm trăm năm trước, **Siddhartha Gautama** sinh ra là
 ![Buddha ](./figure/Gemini_Generated_Image_p1zhd0p1zhd0p1zh.png)
 <p class="img-caption">Ảnh 1: Phật giáo và khoa học</p>
 
-Một lưu ý trung thực về nguồn: các khái niệm gốc (chánh niệm, ngũ uẩn, vô thường, vô ngã, duyên khởi, tứ diệu đế) đến từ Phật giáo nguyên thủy, mà văn bản nền tảng là kinh tạng Pali — đặc biệt là **Kinh Tứ Niệm Xứ (Satipatthana Sutta)**, cội nguồn của toàn bộ phong trào mindfulness hiện đại. Tuy nhiên, cách diễn giải trong bài có mượn thêm lăng kính của các tác giả hiện đại thuộc nhiều truyền thống khác nhau: Robert Wright (tâm lý học tiến hóa), Thích Nhất Hạnh (Thiền tông), Eckhart Tolle, Jiddu Krishnamurti, và cả Lão Tử (Đạo giáo). Họ không cùng một "trường phái", nhưng cùng chỉ về một trải nghiệm: bớt bị tâm trí kéo lê đi và tận hưởng trọn vẹn cuộc sống.
+Một lưu ý trung thực về nguồn: các khái niệm gốc (chánh niệm, ngũ uẩn, vô thường, vô ngã, duyên khởi, tứ diệu đế) đến từ Phật giáo nguyên thủy, mà văn bản nền tảng là kinh tạng Pali — đặc biệt là **Kinh Tứ Niệm Xứ (Satipatthana Sutta)**, cội nguồn của toàn bộ phong trào mindfulness hiện đại. Tuby nhiên, cách diễn giải trong bài có mượn thêm lăng kính của các tác giả hiện đại thuộc nhiều truyền thống khác nhau: Robert Wright (tâm lý học tiến hóa), Thích Nhất Hạnh (Thiền tông), Eckhart Tolle, Jiddu Krishnamurti, và cả Lão Tử (Đạo giáo). Họ không cùng một "trường phái", nhưng cùng chỉ về một trải nghiệm: bớt bị tâm trí kéo lê đi và tận hưởng trọn vẹn cuộc sống.
 
 
 
