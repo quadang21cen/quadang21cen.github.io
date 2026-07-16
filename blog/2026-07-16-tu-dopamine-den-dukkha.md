@@ -12,7 +12,7 @@ Khoảng hai nghìn năm trăm năm trước, **Siddhartha Gautama** sinh ra là
 **Vài lời trước khi bắt đầu.** Bài viết này dành cho những người trẻ đang mệt mỏi vì stress, công việc và những âu lo thường trực. Nó không truyền đạo, không giáo điều. Mục tiêu duy nhất: giải thích một số khái niệm cốt lõi của tỉnh thức bằng ngôn ngữ đời thường và mượn những hình ảnh từ máy tính, công nghệ để ẩn dụ cho dễ hiểu (não bộ như một cỗ máy, suy nghĩ như những dòng dữ liệu) — vì đó là cách người viết thấy dễ hình dung nhất.
 
 ![Buddha ](./figure/Gemini_Generated_Image_p1zhd0p1zhd0p1zh.png)
-<p class="img-caption">Ảnh 1: Đức Phật Thích Ca Mâu Ni</p>
+<p class="img-caption">Ảnh 1: Phật giáo và khoa học</p>
 
 Một lưu ý trung thực về nguồn: các khái niệm gốc (chánh niệm, ngũ uẩn, vô thường, vô ngã, duyên khởi, tứ diệu đế) đến từ Phật giáo nguyên thủy, mà văn bản nền tảng là kinh tạng Pali — đặc biệt là **Kinh Tứ Niệm Xứ (Satipatthana Sutta)**, cội nguồn của toàn bộ phong trào mindfulness hiện đại. Tuy nhiên, cách diễn giải trong bài có mượn thêm lăng kính của các tác giả hiện đại thuộc nhiều truyền thống khác nhau: Robert Wright (tâm lý học tiến hóa), Thích Nhất Hạnh (Thiền tông), Eckhart Tolle, Jiddu Krishnamurti, và cả Lão Tử (Đạo giáo). Họ không cùng một "trường phái", nhưng cùng chỉ về một trải nghiệm: bớt bị tâm trí kéo lê đi và tận hưởng trọn vẹn cuộc sống.
 
