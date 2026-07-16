@@ -4,7 +4,7 @@ title: Từ Dopamine đến Dukkha - Vì sao ta không bao giờ thấy đủ?
 description: bài viết dựa trên ý kiến của mình về Phật giáo
 authors: [quachdang]
 tags: [mindfulness]
-image: /img/baner.png
+image: ./figure/Gemini_Generated_Image_ha9dfnha9dfnha9d.png
 ---
 # Từ Dopamine đến Dukkha: Vì sao ta không bao giờ thấy đủ?
 
